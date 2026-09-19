@@ -1,0 +1,2001 @@
+product_id,product_name,category,subcategory,unit_price,unit_cost,launch_date
+1,Cleaning Product 1,Appliances,Cleaning,398.53,198.02,2023-09-18
+2,Accessories Product 2,Electronics,Accessories,47.3,25.21,2022-09-18
+3,Storage Product 3,Home & Office,Storage,550.98,357.28,2022-03-29
+4,Monitors Product 4,Electronics,Monitors,965.55,484.48,2022-09-23
+5,Strength Product 5,Fitness,Strength,952.07,682.51,2023-09-26
+6,Phones Product 6,Electronics,Phones,1368.77,967.13,2023-08-25
+7,Cleaning Product 7,Appliances,Cleaning,1104.39,733.91,2022-02-09
+8,Chairs Product 8,Home & Office,Chairs,264.62,127.84,2023-07-29
+9,Small Appliances Product 9,Appliances,Small Appliances,874.93,438.39,2021-08-30
+10,Desks Product 10,Home & Office,Desks,749.52,401.73,2022-09-03
+11,Kitchen Product 11,Appliances,Kitchen,696.99,533.71,2022-08-02
+12,Cleaning Product 12,Appliances,Cleaning,171.21,120.12,2021-05-19
+13,Laptops Product 13,Electronics,Laptops,1453.52,1094.53,2021-10-27
+14,Climate Product 14,Appliances,Climate,656.53,510.35,2023-04-30
+15,Phones Product 15,Electronics,Phones,555.41,341.23,2022-10-05
+16,Monitors Product 16,Electronics,Monitors,904.06,546.55,2021-05-10
+17,Recovery Product 17,Fitness,Recovery,247.86,147.82,2022-11-14
+18,Climate Product 18,Appliances,Climate,481.38,291.54,2023-11-19
+19,Laptops Product 19,Electronics,Laptops,452.4,276.11,2022-05-08
+20,Phones Product 20,Electronics,Phones,514.43,269.4,2021-06-07
+21,Cardio Product 21,Fitness,Cardio,226.02,140.19,2021-10-02
+22,Small Appliances Product 22,Appliances,Small Appliances,552.7,361.71,2021-11-21
+23,Chairs Product 23,Home & Office,Chairs,228.28,112.24,2022-09-12
+24,Strength Product 24,Fitness,Strength,965.83,610.97,2021-06-17
+25,Monitors Product 25,Electronics,Monitors,1205.58,913.88,2021-05-28
+26,Laptops Product 26,Electronics,Laptops,204.56,105.61,2023-01-14
+27,Accessories Product 27,Fitness,Accessories,694.96,453.61,2021-11-03
+28,Storage Product 28,Home & Office,Storage,670.41,491.82,2021-09-03
+29,Strength Product 29,Fitness,Strength,626.72,442.88,2023-10-15
+30,Cleaning Product 30,Appliances,Cleaning,1071.34,820.22,2022-11-23
+31,Cleaning Product 31,Appliances,Cleaning,452.34,237.17,2021-09-13
+32,Climate Product 32,Appliances,Climate,234.99,161.75,2022-09-25
+33,Desks Product 33,Home & Office,Desks,223.85,162.43,2022-09-23
+34,Accessories Product 34,Electronics,Accessories,1221.97,822.25,2023-08-16
+35,Lighting Product 35,Home & Office,Lighting,784.34,397.51,2023-04-11
+36,Strength Product 36,Fitness,Strength,326.15,205.5,2022-06-07
+37,Laptops Product 37,Electronics,Laptops,403.08,227.63,2021-10-27
+38,Chairs Product 38,Home & Office,Chairs,225.85,155.69,2022-10-27
+39,Desks Product 39,Home & Office,Desks,69.32,51.15,2021-12-25
+40,Accessories Product 40,Electronics,Accessories,480.96,368.08,2023-10-25
+41,Climate Product 41,Appliances,Climate,858.44,504.57,2021-05-12
+42,Cardio Product 42,Fitness,Cardio,917.05,625.64,2022-04-17
+43,Cleaning Product 43,Appliances,Cleaning,291.75,143.31,2022-02-25
+44,Accessories Product 44,Fitness,Accessories,959.95,748.27,2022-03-11
+45,Monitors Product 45,Electronics,Monitors,1418.85,892.47,2023-10-01
+46,Monitors Product 46,Electronics,Monitors,450.58,282.11,2022-01-24
+47,Cardio Product 47,Fitness,Cardio,1012.59,729.23,2021-08-22
+48,Phones Product 48,Electronics,Phones,795.44,564.58,2022-03-25
+49,Phones Product 49,Electronics,Phones,564.77,310.17,2022-11-12
+50,Lighting Product 50,Home & Office,Lighting,507.96,323.68,2021-09-05
+51,Cardio Product 51,Fitness,Cardio,1066.97,728.73,2021-08-03
+52,Cardio Product 52,Fitness,Cardio,952.98,517.78,2022-11-09
+53,Recovery Product 53,Fitness,Recovery,148.83,114.48,2022-10-18
+54,Accessories Product 54,Electronics,Accessories,1291.66,989.34,2022-01-20
+55,Monitors Product 55,Electronics,Monitors,933.59,458.18,2021-10-30
+56,Kitchen Product 56,Appliances,Kitchen,163.84,122.31,2022-02-03
+57,Small Appliances Product 57,Appliances,Small Appliances,522.2,287.37,2021-09-26
+58,Accessories Product 58,Fitness,Accessories,705.41,395.68,2022-11-16
+59,Recovery Product 59,Fitness,Recovery,187.55,139.7,2023-02-01
+60,Small Appliances Product 60,Appliances,Small Appliances,478.41,364.99,2021-05-26
+61,Laptops Product 61,Electronics,Laptops,1088.16,680.76,2022-02-12
+62,Storage Product 62,Home & Office,Storage,745.55,518.42,2022-06-03
+63,Cardio Product 63,Fitness,Cardio,999.58,659.82,2023-10-08
+64,Chairs Product 64,Home & Office,Chairs,597.51,318.82,2021-07-14
+65,Accessories Product 65,Electronics,Accessories,1291.88,903.3,2023-04-25
+66,Monitors Product 66,Electronics,Monitors,489.49,255.09,2022-07-03
+67,Monitors Product 67,Electronics,Monitors,958.09,516.32,2022-05-04
+68,Kitchen Product 68,Appliances,Kitchen,907.21,594.16,2022-08-22
+69,Kitchen Product 69,Appliances,Kitchen,1002.73,560.07,2022-06-11
+70,Storage Product 70,Home & Office,Storage,322.48,251.28,2021-07-22
+71,Accessories Product 71,Fitness,Accessories,898.9,607.64,2023-10-02
+72,Accessories Product 72,Fitness,Accessories,846.12,584.32,2022-03-13
+73,Phones Product 73,Electronics,Phones,403.34,204.1,2022-09-03
+74,Cleaning Product 74,Appliances,Cleaning,618.41,473.79,2023-08-14
+75,Monitors Product 75,Electronics,Monitors,880.97,645.25,2022-11-02
+76,Monitors Product 76,Electronics,Monitors,645.01,464.29,2021-05-15
+77,Kitchen Product 77,Appliances,Kitchen,1126.09,822.41,2022-10-26
+78,Chairs Product 78,Home & Office,Chairs,439.24,321.52,2023-04-06
+79,Laptops Product 79,Electronics,Laptops,1195.09,574.2,2023-06-27
+80,Chairs Product 80,Home & Office,Chairs,710.0,393.27,2023-12-01
+81,Cleaning Product 81,Appliances,Cleaning,1083.44,537.14,2021-07-13
+82,Cleaning Product 82,Appliances,Cleaning,962.11,519.69,2021-07-10
+83,Climate Product 83,Appliances,Climate,626.99,436.43,2022-02-13
+84,Laptops Product 84,Electronics,Laptops,1187.41,582.5,2021-09-29
+85,Kitchen Product 85,Appliances,Kitchen,1142.19,858.46,2022-05-21
+86,Cardio Product 86,Fitness,Cardio,723.97,450.1,2023-06-17
+87,Climate Product 87,Appliances,Climate,1009.81,648.87,2021-11-11
+88,Strength Product 88,Fitness,Strength,444.98,233.01,2022-04-08
+89,Kitchen Product 89,Appliances,Kitchen,984.72,589.89,2021-10-03
+90,Laptops Product 90,Electronics,Laptops,1284.39,710.93,2022-03-03
+91,Chairs Product 91,Home & Office,Chairs,643.33,389.56,2022-02-20
+92,Climate Product 92,Appliances,Climate,65.06,40.92,2021-11-04
+93,Cleaning Product 93,Appliances,Cleaning,232.88,121.99,2021-05-12
+94,Kitchen Product 94,Appliances,Kitchen,1097.85,753.41,2022-10-14
+95,Chairs Product 95,Home & Office,Chairs,270.74,137.01,2023-11-24
+96,Cleaning Product 96,Appliances,Cleaning,995.52,715.16,2021-05-22
+97,Laptops Product 97,Electronics,Laptops,967.42,552.78,2021-07-31
+98,Recovery Product 98,Fitness,Recovery,250.69,185.37,2021-10-25
+99,Small Appliances Product 99,Appliances,Small Appliances,633.46,379.95,2021-06-11
+100,Phones Product 100,Electronics,Phones,1289.29,621.58,2023-01-01
+101,Storage Product 101,Home & Office,Storage,265.89,169.68,2022-10-25
+102,Phones Product 102,Electronics,Phones,1389.06,985.13,2022-03-18
+103,Monitors Product 103,Electronics,Monitors,795.49,614.33,2022-02-08
+104,Chairs Product 104,Home & Office,Chairs,862.63,463.31,2023-07-31
+105,Kitchen Product 105,Appliances,Kitchen,211.52,128.9,2023-01-15
+106,Monitors Product 106,Electronics,Monitors,625.99,328.99,2021-12-12
+107,Lighting Product 107,Home & Office,Lighting,747.81,520.54,2021-05-13
+108,Monitors Product 108,Electronics,Monitors,1263.73,953.15,2021-06-09
+109,Accessories Product 109,Electronics,Accessories,1402.9,983.95,2023-06-10
+110,Phones Product 110,Electronics,Phones,119.19,85.3,2023-04-16
+111,Accessories Product 111,Electronics,Accessories,460.09,263.38,2023-05-05
+112,Strength Product 112,Fitness,Strength,249.01,153.61,2021-09-11
+113,Accessories Product 113,Electronics,Accessories,662.71,385.21,2023-02-04
+114,Laptops Product 114,Electronics,Laptops,221.52,112.87,2022-04-19
+115,Lighting Product 115,Home & Office,Lighting,329.28,162.3,2023-07-08
+116,Desks Product 116,Home & Office,Desks,431.41,268.55,2023-01-25
+117,Kitchen Product 117,Appliances,Kitchen,81.43,62.02,2021-11-22
+118,Recovery Product 118,Fitness,Recovery,868.01,674.75,2022-06-18
+119,Laptops Product 119,Electronics,Laptops,254.22,158.41,2023-12-01
+120,Strength Product 120,Fitness,Strength,666.51,498.4,2021-10-16
+121,Monitors Product 121,Electronics,Monitors,437.25,247.71,2022-01-16
+122,Recovery Product 122,Fitness,Recovery,450.9,331.95,2022-07-04
+123,Strength Product 123,Fitness,Strength,332.25,245.82,2022-02-09
+124,Cardio Product 124,Fitness,Cardio,190.66,136.3,2023-11-05
+125,Accessories Product 125,Fitness,Accessories,1083.39,783.71,2022-07-27
+126,Laptops Product 126,Electronics,Laptops,622.29,396.2,2021-07-31
+127,Laptops Product 127,Electronics,Laptops,717.46,348.44,2021-09-08
+128,Accessories Product 128,Electronics,Accessories,450.79,298.79,2023-01-08
+129,Cleaning Product 129,Appliances,Cleaning,48.55,31.61,2022-09-20
+130,Accessories Product 130,Fitness,Accessories,467.62,331.48,2022-03-10
+131,Desks Product 131,Home & Office,Desks,736.05,401.96,2023-11-26
+132,Cardio Product 132,Fitness,Cardio,610.56,304.38,2022-02-16
+133,Kitchen Product 133,Appliances,Kitchen,667.56,370.63,2023-05-14
+134,Lighting Product 134,Home & Office,Lighting,590.42,439.62,2023-01-13
+135,Strength Product 135,Fitness,Strength,184.92,140.27,2023-11-13
+136,Strength Product 136,Fitness,Strength,490.84,317.9,2021-10-12
+137,Laptops Product 137,Electronics,Laptops,965.01,572.9,2021-07-15
+138,Phones Product 138,Electronics,Phones,463.05,292.64,2021-07-31
+139,Recovery Product 139,Fitness,Recovery,881.59,563.43,2022-09-19
+140,Chairs Product 140,Home & Office,Chairs,525.85,401.4,2023-02-01
+141,Accessories Product 141,Fitness,Accessories,133.87,69.21,2022-10-15
+142,Accessories Product 142,Fitness,Accessories,723.47,433.24,2023-04-17
+143,Laptops Product 143,Electronics,Laptops,1232.2,876.88,2021-04-15
+144,Climate Product 144,Appliances,Climate,954.85,564.56,2021-09-26
+145,Desks Product 145,Home & Office,Desks,135.35,75.3,2021-10-18
+146,Chairs Product 146,Home & Office,Chairs,85.16,62.93,2021-11-24
+147,Monitors Product 147,Electronics,Monitors,1008.27,764.9,2022-12-08
+148,Cleaning Product 148,Appliances,Cleaning,433.62,260.09,2022-11-03
+149,Chairs Product 149,Home & Office,Chairs,343.94,173.39,2022-11-09
+150,Monitors Product 150,Electronics,Monitors,930.0,723.14,2023-07-05
+151,Storage Product 151,Home & Office,Storage,685.71,533.17,2021-05-07
+152,Small Appliances Product 152,Appliances,Small Appliances,255.44,159.62,2023-10-06
+153,Accessories Product 153,Electronics,Accessories,91.97,60.05,2023-01-04
+154,Lighting Product 154,Home & Office,Lighting,271.9,196.86,2023-07-15
+155,Kitchen Product 155,Appliances,Kitchen,1056.13,686.22,2023-09-11
+156,Lighting Product 156,Home & Office,Lighting,544.72,423.2,2021-11-26
+157,Strength Product 157,Fitness,Strength,533.65,376.65,2023-06-27
+158,Climate Product 158,Appliances,Climate,82.61,52.09,2022-12-15
+159,Laptops Product 159,Electronics,Laptops,1357.53,1034.46,2023-06-11
+160,Climate Product 160,Appliances,Climate,532.6,343.18,2023-10-18
+161,Storage Product 161,Home & Office,Storage,342.52,219.27,2021-12-02
+162,Small Appliances Product 162,Appliances,Small Appliances,1117.67,650.09,2023-08-14
+163,Accessories Product 163,Electronics,Accessories,939.87,626.92,2023-02-28
+164,Cleaning Product 164,Appliances,Cleaning,162.53,79.2,2023-01-22
+165,Lighting Product 165,Home & Office,Lighting,418.29,240.38,2021-04-23
+166,Accessories Product 166,Fitness,Accessories,397.71,206.15,2022-10-22
+167,Accessories Product 167,Fitness,Accessories,496.08,264.75,2021-12-03
+168,Strength Product 168,Fitness,Strength,261.42,195.04,2023-08-30
+169,Desks Product 169,Home & Office,Desks,445.2,285.79,2022-10-06
+170,Accessories Product 170,Fitness,Accessories,334.89,167.81,2022-03-12
+171,Accessories Product 171,Electronics,Accessories,1281.26,698.24,2023-04-22
+172,Lighting Product 172,Home & Office,Lighting,319.2,155.49,2021-12-08
+173,Phones Product 173,Electronics,Phones,805.11,571.89,2022-05-04
+174,Small Appliances Product 174,Appliances,Small Appliances,704.09,480.5,2022-05-09
+175,Monitors Product 175,Electronics,Monitors,387.8,204.82,2023-05-06
+176,Kitchen Product 176,Appliances,Kitchen,1042.34,700.25,2023-05-22
+177,Small Appliances Product 177,Appliances,Small Appliances,918.87,683.35,2023-11-09
+178,Small Appliances Product 178,Appliances,Small Appliances,862.37,670.63,2022-03-26
+179,Cardio Product 179,Fitness,Cardio,527.64,403.83,2023-06-01
+180,Phones Product 180,Electronics,Phones,319.41,199.57,2021-07-25
+181,Phones Product 181,Electronics,Phones,345.23,179.7,2021-10-21
+182,Strength Product 182,Fitness,Strength,383.15,198.59,2023-07-03
+183,Desks Product 183,Home & Office,Desks,449.75,234.84,2023-08-08
+184,Accessories Product 184,Electronics,Accessories,280.31,189.42,2023-08-10
+185,Monitors Product 185,Electronics,Monitors,795.86,582.22,2021-05-09
+186,Phones Product 186,Electronics,Phones,809.35,602.97,2021-07-27
+187,Lighting Product 187,Home & Office,Lighting,524.11,308.04,2022-09-11
+188,Accessories Product 188,Fitness,Accessories,1039.73,571.62,2021-11-10
+189,Small Appliances Product 189,Appliances,Small Appliances,91.93,44.42,2023-03-01
+190,Accessories Product 190,Fitness,Accessories,320.41,248.56,2023-03-17
+191,Storage Product 191,Home & Office,Storage,277.72,136.46,2021-05-15
+192,Desks Product 192,Home & Office,Desks,770.17,401.46,2022-02-24
+193,Small Appliances Product 193,Appliances,Small Appliances,1121.71,580.11,2023-05-23
+194,Lighting Product 194,Home & Office,Lighting,598.23,399.94,2023-07-02
+195,Chairs Product 195,Home & Office,Chairs,840.69,600.68,2022-03-20
+196,Kitchen Product 196,Appliances,Kitchen,84.77,44.38,2022-02-03
+197,Lighting Product 197,Home & Office,Lighting,278.37,139.86,2022-11-02
+198,Cardio Product 198,Fitness,Cardio,318.03,229.43,2022-01-27
+199,Lighting Product 199,Home & Office,Lighting,370.25,212.89,2021-06-14
+200,Laptops Product 200,Electronics,Laptops,1449.04,778.37,2021-08-10
+201,Phones Product 201,Electronics,Phones,1124.67,782.55,2022-08-18
+202,Cleaning Product 202,Appliances,Cleaning,389.34,302.4,2023-06-27
+203,Strength Product 203,Fitness,Strength,108.09,71.8,2021-10-27
+204,Cardio Product 204,Fitness,Cardio,753.69,426.51,2021-08-22
+205,Kitchen Product 205,Appliances,Kitchen,256.44,177.12,2021-05-27
+206,Monitors Product 206,Electronics,Monitors,395.17,243.05,2023-08-15
+207,Lighting Product 207,Home & Office,Lighting,261.73,198.47,2023-11-09
+208,Chairs Product 208,Home & Office,Chairs,870.23,524.07,2023-08-20
+209,Laptops Product 209,Electronics,Laptops,734.71,382.99,2021-10-13
+210,Phones Product 210,Electronics,Phones,307.73,187.03,2021-06-06
+211,Recovery Product 211,Fitness,Recovery,416.15,312.41,2023-11-13
+212,Small Appliances Product 212,Appliances,Small Appliances,305.95,212.17,2022-11-19
+213,Accessories Product 213,Electronics,Accessories,542.36,277.15,2022-06-14
+214,Chairs Product 214,Home & Office,Chairs,880.12,621.31,2023-03-12
+215,Cleaning Product 215,Appliances,Cleaning,1166.95,738.57,2022-04-07
+216,Chairs Product 216,Home & Office,Chairs,206.16,146.6,2023-09-08
+217,Phones Product 217,Electronics,Phones,593.68,412.83,2021-10-09
+218,Accessories Product 218,Electronics,Accessories,631.79,390.72,2022-06-22
+219,Storage Product 219,Home & Office,Storage,302.88,226.52,2021-08-17
+220,Strength Product 220,Fitness,Strength,596.17,394.8,2021-07-25
+221,Climate Product 221,Appliances,Climate,218.43,132.64,2021-06-18
+222,Chairs Product 222,Home & Office,Chairs,802.9,603.07,2021-11-06
+223,Desks Product 223,Home & Office,Desks,315.68,190.22,2022-09-24
+224,Lighting Product 224,Home & Office,Lighting,559.76,420.87,2022-11-14
+225,Desks Product 225,Home & Office,Desks,837.87,487.79,2023-11-13
+226,Recovery Product 226,Fitness,Recovery,950.4,562.11,2022-02-21
+227,Lighting Product 227,Home & Office,Lighting,583.77,322.45,2022-10-12
+228,Storage Product 228,Home & Office,Storage,854.19,591.02,2021-11-10
+229,Desks Product 229,Home & Office,Desks,379.04,202.71,2022-02-08
+230,Climate Product 230,Appliances,Climate,33.59,19.98,2023-04-14
+231,Strength Product 231,Fitness,Strength,557.07,329.76,2022-09-12
+232,Monitors Product 232,Electronics,Monitors,476.02,318.91,2022-06-11
+233,Accessories Product 233,Electronics,Accessories,292.47,198.66,2022-05-19
+234,Strength Product 234,Fitness,Strength,120.0,67.79,2021-08-14
+235,Chairs Product 235,Home & Office,Chairs,721.39,559.4,2021-05-31
+236,Climate Product 236,Appliances,Climate,183.71,88.37,2022-08-01
+237,Chairs Product 237,Home & Office,Chairs,634.34,394.04,2021-07-05
+238,Desks Product 238,Home & Office,Desks,362.38,275.0,2023-05-02
+239,Cardio Product 239,Fitness,Cardio,287.13,177.75,2021-08-25
+240,Accessories Product 240,Electronics,Accessories,587.94,359.29,2021-05-13
+241,Cardio Product 241,Fitness,Cardio,419.27,235.89,2022-03-02
+242,Recovery Product 242,Fitness,Recovery,363.97,208.94,2023-08-13
+243,Monitors Product 243,Electronics,Monitors,854.29,581.07,2023-05-28
+244,Lighting Product 244,Home & Office,Lighting,654.06,398.89,2022-12-09
+245,Cleaning Product 245,Appliances,Cleaning,1030.06,693.52,2022-09-07
+246,Monitors Product 246,Electronics,Monitors,153.77,84.96,2023-05-25
+247,Climate Product 247,Appliances,Climate,421.22,214.77,2023-04-12
+248,Chairs Product 248,Home & Office,Chairs,120.03,77.9,2021-05-30
+249,Accessories Product 249,Electronics,Accessories,1397.21,720.35,2021-04-23
+250,Strength Product 250,Fitness,Strength,29.37,17.68,2021-12-25
+251,Cleaning Product 251,Appliances,Cleaning,157.63,90.02,2021-12-20
+252,Climate Product 252,Appliances,Climate,1192.89,692.37,2022-07-17
+253,Desks Product 253,Home & Office,Desks,242.15,123.71,2023-05-16
+254,Cleaning Product 254,Appliances,Cleaning,1120.37,634.93,2021-11-21
+255,Desks Product 255,Home & Office,Desks,210.25,153.93,2022-04-11
+256,Desks Product 256,Home & Office,Desks,503.38,298.84,2022-04-24
+257,Storage Product 257,Home & Office,Storage,79.77,53.66,2023-02-19
+258,Recovery Product 258,Fitness,Recovery,552.92,300.87,2022-07-12
+259,Cardio Product 259,Fitness,Cardio,376.77,264.62,2023-02-20
+260,Laptops Product 260,Electronics,Laptops,857.45,516.72,2023-09-25
+261,Phones Product 261,Electronics,Phones,380.82,202.76,2021-11-29
+262,Kitchen Product 262,Appliances,Kitchen,123.56,72.09,2023-07-11
+263,Monitors Product 263,Electronics,Monitors,945.29,474.12,2023-08-09
+264,Climate Product 264,Appliances,Climate,1182.72,864.56,2023-04-30
+265,Storage Product 265,Home & Office,Storage,66.22,35.42,2023-11-18
+266,Cleaning Product 266,Appliances,Cleaning,314.9,211.77,2022-01-21
+267,Cardio Product 267,Fitness,Cardio,969.93,536.86,2022-11-18
+268,Cleaning Product 268,Appliances,Cleaning,1024.23,500.03,2023-09-19
+269,Monitors Product 269,Electronics,Monitors,348.0,180.74,2022-02-08
+270,Climate Product 270,Appliances,Climate,116.16,70.78,2023-05-27
+271,Climate Product 271,Appliances,Climate,75.11,54.24,2021-08-25
+272,Kitchen Product 272,Appliances,Kitchen,1008.01,492.7,2022-07-14
+273,Desks Product 273,Home & Office,Desks,804.58,502.75,2023-08-15
+274,Monitors Product 274,Electronics,Monitors,574.47,356.08,2022-11-14
+275,Lighting Product 275,Home & Office,Lighting,667.5,489.84,2022-12-08
+276,Small Appliances Product 276,Appliances,Small Appliances,590.37,359.23,2023-02-26
+277,Kitchen Product 277,Appliances,Kitchen,348.66,197.99,2022-08-21
+278,Storage Product 278,Home & Office,Storage,645.49,430.04,2022-02-19
+279,Cleaning Product 279,Appliances,Cleaning,724.66,465.56,2021-12-23
+280,Lighting Product 280,Home & Office,Lighting,787.64,430.01,2021-08-14
+281,Small Appliances Product 281,Appliances,Small Appliances,661.47,378.68,2021-11-24
+282,Lighting Product 282,Home & Office,Lighting,477.53,340.33,2022-03-30
+283,Strength Product 283,Fitness,Strength,1014.1,719.2,2023-05-23
+284,Accessories Product 284,Fitness,Accessories,314.64,242.69,2021-04-09
+285,Cleaning Product 285,Appliances,Cleaning,938.4,643.42,2022-07-17
+286,Small Appliances Product 286,Appliances,Small Appliances,995.52,539.25,2022-07-26
+287,Phones Product 287,Electronics,Phones,1103.81,825.31,2023-11-09
+288,Cardio Product 288,Fitness,Cardio,647.44,320.25,2022-08-27
+289,Strength Product 289,Fitness,Strength,627.91,342.51,2021-09-15
+290,Phones Product 290,Electronics,Phones,580.79,294.74,2021-07-10
+291,Accessories Product 291,Fitness,Accessories,697.28,393.99,2022-07-10
+292,Recovery Product 292,Fitness,Recovery,977.14,660.29,2023-01-09
+293,Storage Product 293,Home & Office,Storage,344.18,177.75,2023-03-22
+294,Chairs Product 294,Home & Office,Chairs,768.18,503.77,2023-05-31
+295,Recovery Product 295,Fitness,Recovery,567.68,354.33,2022-09-14
+296,Phones Product 296,Electronics,Phones,787.16,455.02,2022-12-09
+297,Laptops Product 297,Electronics,Laptops,1447.19,1031.38,2021-12-11
+298,Lighting Product 298,Home & Office,Lighting,740.26,470.79,2023-03-23
+299,Small Appliances Product 299,Appliances,Small Appliances,802.01,451.4,2022-03-27
+300,Strength Product 300,Fitness,Strength,832.49,423.28,2022-07-03
+301,Accessories Product 301,Electronics,Accessories,1082.47,797.26,2022-03-09
+302,Laptops Product 302,Electronics,Laptops,306.47,211.07,2022-01-18
+303,Desks Product 303,Home & Office,Desks,778.47,446.11,2022-07-05
+304,Strength Product 304,Fitness,Strength,712.94,461.43,2023-04-07
+305,Storage Product 305,Home & Office,Storage,467.22,238.46,2021-11-08
+306,Strength Product 306,Fitness,Strength,243.45,182.81,2023-02-16
+307,Lighting Product 307,Home & Office,Lighting,720.79,400.83,2021-08-11
+308,Accessories Product 308,Electronics,Accessories,1101.65,796.01,2022-09-26
+309,Cleaning Product 309,Appliances,Cleaning,593.58,397.29,2022-06-21
+310,Desks Product 310,Home & Office,Desks,711.07,522.17,2021-08-11
+311,Desks Product 311,Home & Office,Desks,680.53,392.31,2022-12-18
+312,Phones Product 312,Electronics,Phones,113.94,76.09,2022-08-23
+313,Lighting Product 313,Home & Office,Lighting,736.1,464.25,2022-01-06
+314,Chairs Product 314,Home & Office,Chairs,355.37,256.6,2023-06-27
+315,Laptops Product 315,Electronics,Laptops,358.72,250.68,2022-09-11
+316,Storage Product 316,Home & Office,Storage,192.2,141.18,2022-10-21
+317,Cardio Product 317,Fitness,Cardio,108.37,65.21,2022-04-04
+318,Kitchen Product 318,Appliances,Kitchen,890.79,566.07,2021-08-20
+319,Strength Product 319,Fitness,Strength,57.92,28.3,2023-08-21
+320,Desks Product 320,Home & Office,Desks,242.0,159.99,2022-05-15
+321,Kitchen Product 321,Appliances,Kitchen,568.5,377.44,2022-05-28
+322,Strength Product 322,Fitness,Strength,1093.5,562.56,2022-01-24
+323,Lighting Product 323,Home & Office,Lighting,410.56,306.67,2021-11-15
+324,Strength Product 324,Fitness,Strength,189.2,128.22,2022-11-13
+325,Storage Product 325,Home & Office,Storage,690.16,480.17,2021-05-03
+326,Cardio Product 326,Fitness,Cardio,854.13,500.04,2021-05-24
+327,Small Appliances Product 327,Appliances,Small Appliances,545.37,341.54,2022-08-02
+328,Strength Product 328,Fitness,Strength,368.51,184.24,2022-06-08
+329,Kitchen Product 329,Appliances,Kitchen,410.32,286.2,2022-03-03
+330,Strength Product 330,Fitness,Strength,802.3,588.57,2021-05-24
+331,Small Appliances Product 331,Appliances,Small Appliances,378.57,189.08,2021-10-22
+332,Cleaning Product 332,Appliances,Cleaning,1096.19,689.01,2023-06-07
+333,Phones Product 333,Electronics,Phones,709.07,504.08,2023-06-24
+334,Accessories Product 334,Electronics,Accessories,299.02,175.76,2023-02-17
+335,Lighting Product 335,Home & Office,Lighting,104.59,56.45,2022-08-25
+336,Strength Product 336,Fitness,Strength,600.67,300.32,2022-08-15
+337,Climate Product 337,Appliances,Climate,103.7,65.24,2023-08-12
+338,Strength Product 338,Fitness,Strength,498.28,381.71,2021-05-22
+339,Laptops Product 339,Electronics,Laptops,137.73,70.6,2022-05-05
+340,Small Appliances Product 340,Appliances,Small Appliances,749.74,480.15,2021-06-29
+341,Cardio Product 341,Fitness,Cardio,882.24,678.55,2021-06-20
+342,Accessories Product 342,Fitness,Accessories,508.83,267.04,2022-10-30
+343,Climate Product 343,Appliances,Climate,306.36,219.01,2021-07-17
+344,Phones Product 344,Electronics,Phones,1098.27,797.09,2023-10-26
+345,Cardio Product 345,Fitness,Cardio,375.01,266.9,2023-05-29
+346,Chairs Product 346,Home & Office,Chairs,100.79,70.64,2021-09-15
+347,Climate Product 347,Appliances,Climate,1104.17,574.98,2022-02-24
+348,Small Appliances Product 348,Appliances,Small Appliances,1173.98,861.89,2023-04-15
+349,Lighting Product 349,Home & Office,Lighting,481.79,255.43,2021-06-24
+350,Accessories Product 350,Fitness,Accessories,233.19,170.21,2022-02-14
+351,Climate Product 351,Appliances,Climate,175.45,127.72,2022-12-30
+352,Accessories Product 352,Electronics,Accessories,1492.92,1118.76,2022-02-03
+353,Phones Product 353,Electronics,Phones,1058.16,573.23,2023-10-06
+354,Accessories Product 354,Fitness,Accessories,1053.37,594.12,2022-05-20
+355,Storage Product 355,Home & Office,Storage,423.82,265.78,2023-04-27
+356,Laptops Product 356,Electronics,Laptops,257.22,184.79,2023-10-27
+357,Desks Product 357,Home & Office,Desks,243.71,127.65,2021-05-29
+358,Accessories Product 358,Fitness,Accessories,1097.97,729.42,2023-08-11
+359,Climate Product 359,Appliances,Climate,91.0,64.37,2021-09-10
+360,Accessories Product 360,Fitness,Accessories,1042.81,546.19,2022-08-27
+361,Phones Product 361,Electronics,Phones,1124.8,639.44,2021-05-22
+362,Lighting Product 362,Home & Office,Lighting,554.78,304.12,2021-07-03
+363,Accessories Product 363,Electronics,Accessories,242.43,175.44,2022-12-25
+364,Recovery Product 364,Fitness,Recovery,100.49,49.53,2022-12-19
+365,Accessories Product 365,Fitness,Accessories,323.73,183.64,2023-02-16
+366,Desks Product 366,Home & Office,Desks,673.0,485.02,2022-08-19
+367,Small Appliances Product 367,Appliances,Small Appliances,702.59,382.85,2023-03-03
+368,Phones Product 368,Electronics,Phones,580.9,399.69,2022-07-24
+369,Cardio Product 369,Fitness,Cardio,610.98,423.42,2023-08-18
+370,Laptops Product 370,Electronics,Laptops,97.0,63.08,2023-05-26
+371,Cleaning Product 371,Appliances,Cleaning,1183.17,687.21,2023-10-23
+372,Climate Product 372,Appliances,Climate,640.19,307.6,2022-02-11
+373,Phones Product 373,Electronics,Phones,489.2,340.75,2023-02-20
+374,Recovery Product 374,Fitness,Recovery,197.42,124.43,2022-08-29
+375,Small Appliances Product 375,Appliances,Small Appliances,402.19,304.31,2021-05-17
+376,Cleaning Product 376,Appliances,Cleaning,613.68,404.6,2023-02-21
+377,Small Appliances Product 377,Appliances,Small Appliances,79.85,55.3,2022-09-19
+378,Phones Product 378,Electronics,Phones,442.6,272.27,2022-07-03
+379,Accessories Product 379,Fitness,Accessories,541.25,352.61,2023-08-24
+380,Lighting Product 380,Home & Office,Lighting,590.51,319.97,2023-11-15
+381,Kitchen Product 381,Appliances,Kitchen,629.37,324.03,2023-09-29
+382,Accessories Product 382,Electronics,Accessories,156.05,95.98,2023-09-15
+383,Recovery Product 383,Fitness,Recovery,721.96,442.38,2023-03-01
+384,Chairs Product 384,Home & Office,Chairs,48.7,37.11,2021-12-18
+385,Phones Product 385,Electronics,Phones,683.43,372.56,2022-10-18
+386,Chairs Product 386,Home & Office,Chairs,310.98,208.82,2022-05-06
+387,Desks Product 387,Home & Office,Desks,843.22,450.84,2023-04-15
+388,Phones Product 388,Electronics,Phones,418.93,307.57,2022-05-27
+389,Accessories Product 389,Electronics,Accessories,323.49,218.69,2023-08-12
+390,Chairs Product 390,Home & Office,Chairs,235.99,113.9,2022-01-30
+391,Desks Product 391,Home & Office,Desks,679.36,514.46,2021-06-12
+392,Small Appliances Product 392,Appliances,Small Appliances,606.0,455.49,2022-04-22
+393,Desks Product 393,Home & Office,Desks,334.53,247.17,2023-04-15
+394,Kitchen Product 394,Appliances,Kitchen,960.5,714.43,2021-06-20
+395,Phones Product 395,Electronics,Phones,1470.41,920.49,2022-09-14
+396,Accessories Product 396,Fitness,Accessories,56.01,29.73,2021-05-15
+397,Desks Product 397,Home & Office,Desks,633.44,433.72,2023-05-01
+398,Monitors Product 398,Electronics,Monitors,1451.71,813.11,2023-11-18
+399,Kitchen Product 399,Appliances,Kitchen,227.5,155.57,2021-09-11
+400,Monitors Product 400,Electronics,Monitors,62.19,29.92,2023-04-09
+401,Storage Product 401,Home & Office,Storage,471.59,318.36,2022-09-29
+402,Chairs Product 402,Home & Office,Chairs,791.59,541.93,2022-04-14
+403,Climate Product 403,Appliances,Climate,631.2,321.26,2023-05-17
+404,Accessories Product 404,Fitness,Accessories,395.55,203.26,2022-08-04
+405,Storage Product 405,Home & Office,Storage,208.55,119.58,2023-06-19
+406,Lighting Product 406,Home & Office,Lighting,341.29,215.63,2022-01-07
+407,Kitchen Product 407,Appliances,Kitchen,1056.65,593.66,2021-09-14
+408,Cleaning Product 408,Appliances,Cleaning,363.18,211.3,2022-05-10
+409,Phones Product 409,Electronics,Phones,583.72,325.77,2021-11-02
+410,Chairs Product 410,Home & Office,Chairs,159.46,104.12,2021-12-17
+411,Storage Product 411,Home & Office,Storage,239.67,173.83,2021-12-01
+412,Desks Product 412,Home & Office,Desks,455.03,240.26,2021-07-03
+413,Accessories Product 413,Electronics,Accessories,494.13,287.02,2022-01-03
+414,Laptops Product 414,Electronics,Laptops,695.17,356.18,2022-09-14
+415,Cleaning Product 415,Appliances,Cleaning,89.98,58.29,2023-05-15
+416,Accessories Product 416,Fitness,Accessories,233.22,138.57,2021-08-27
+417,Accessories Product 417,Fitness,Accessories,704.31,492.48,2022-12-06
+418,Chairs Product 418,Home & Office,Chairs,313.63,204.62,2022-01-23
+419,Kitchen Product 419,Appliances,Kitchen,851.15,553.44,2022-07-21
+420,Strength Product 420,Fitness,Strength,725.83,422.42,2023-06-20
+421,Small Appliances Product 421,Appliances,Small Appliances,586.4,367.11,2023-01-13
+422,Chairs Product 422,Home & Office,Chairs,894.27,678.48,2023-06-01
+423,Accessories Product 423,Fitness,Accessories,342.77,228.43,2023-09-11
+424,Cleaning Product 424,Appliances,Cleaning,666.6,461.35,2021-07-10
+425,Recovery Product 425,Fitness,Recovery,161.56,107.43,2023-01-04
+426,Kitchen Product 426,Appliances,Kitchen,565.55,365.77,2022-02-28
+427,Climate Product 427,Appliances,Climate,808.75,419.14,2023-07-11
+428,Storage Product 428,Home & Office,Storage,30.71,20.6,2022-04-04
+429,Small Appliances Product 429,Appliances,Small Appliances,254.84,151.0,2022-01-27
+430,Cardio Product 430,Fitness,Cardio,105.51,71.07,2021-09-03
+431,Laptops Product 431,Electronics,Laptops,922.11,684.25,2022-04-23
+432,Lighting Product 432,Home & Office,Lighting,138.05,101.55,2022-04-30
+433,Storage Product 433,Home & Office,Storage,546.24,267.97,2023-08-28
+434,Lighting Product 434,Home & Office,Lighting,831.12,484.86,2023-02-23
+435,Strength Product 435,Fitness,Strength,508.83,299.63,2021-05-23
+436,Accessories Product 436,Electronics,Accessories,41.62,25.45,2021-12-25
+437,Lighting Product 437,Home & Office,Lighting,528.03,256.51,2023-01-24
+438,Storage Product 438,Home & Office,Storage,776.84,522.7,2023-11-20
+439,Kitchen Product 439,Appliances,Kitchen,795.18,527.29,2022-09-09
+440,Accessories Product 440,Fitness,Accessories,902.19,649.01,2022-03-02
+441,Monitors Product 441,Electronics,Monitors,190.31,99.83,2023-04-17
+442,Accessories Product 442,Electronics,Accessories,434.92,227.98,2021-10-13
+443,Phones Product 443,Electronics,Phones,1032.45,656.39,2021-06-11
+444,Phones Product 444,Electronics,Phones,1183.7,606.52,2023-04-01
+445,Storage Product 445,Home & Office,Storage,657.07,404.2,2021-05-10
+446,Lighting Product 446,Home & Office,Lighting,789.38,459.35,2023-09-02
+447,Accessories Product 447,Fitness,Accessories,1029.04,628.98,2023-09-08
+448,Recovery Product 448,Fitness,Recovery,214.3,102.96,2023-03-18
+449,Monitors Product 449,Electronics,Monitors,270.07,141.9,2022-11-09
+450,Climate Product 450,Appliances,Climate,596.88,352.57,2023-10-21
+451,Lighting Product 451,Home & Office,Lighting,419.83,265.01,2023-02-23
+452,Accessories Product 452,Electronics,Accessories,1257.64,712.86,2021-09-20
+453,Accessories Product 453,Electronics,Accessories,284.43,198.82,2022-11-02
+454,Chairs Product 454,Home & Office,Chairs,878.23,452.69,2022-07-01
+455,Kitchen Product 455,Appliances,Kitchen,93.52,60.94,2022-01-21
+456,Climate Product 456,Appliances,Climate,1185.58,625.87,2022-08-05
+457,Monitors Product 457,Electronics,Monitors,45.54,32.68,2021-10-21
+458,Small Appliances Product 458,Appliances,Small Appliances,67.07,52.05,2022-05-13
+459,Monitors Product 459,Electronics,Monitors,576.58,405.72,2022-08-10
+460,Recovery Product 460,Fitness,Recovery,1007.04,516.08,2022-12-03
+461,Accessories Product 461,Fitness,Accessories,775.95,515.49,2023-01-10
+462,Chairs Product 462,Home & Office,Chairs,461.85,292.18,2021-06-01
+463,Recovery Product 463,Fitness,Recovery,688.09,345.81,2021-06-07
+464,Climate Product 464,Appliances,Climate,169.4,88.43,2023-08-17
+465,Accessories Product 465,Electronics,Accessories,180.96,126.18,2022-05-10
+466,Storage Product 466,Home & Office,Storage,824.66,530.98,2022-07-01
+467,Recovery Product 467,Fitness,Recovery,519.14,287.4,2022-07-22
+468,Strength Product 468,Fitness,Strength,493.3,354.8,2022-05-05
+469,Small Appliances Product 469,Appliances,Small Appliances,648.29,364.63,2022-08-07
+470,Climate Product 470,Appliances,Climate,609.87,366.45,2022-01-30
+471,Desks Product 471,Home & Office,Desks,831.13,615.81,2023-03-12
+472,Desks Product 472,Home & Office,Desks,441.14,290.17,2021-09-19
+473,Desks Product 473,Home & Office,Desks,506.86,372.56,2021-07-24
+474,Cleaning Product 474,Appliances,Cleaning,922.7,566.12,2023-09-29
+475,Phones Product 475,Electronics,Phones,1148.56,826.79,2021-08-07
+476,Lighting Product 476,Home & Office,Lighting,127.13,71.84,2023-04-04
+477,Phones Product 477,Electronics,Phones,610.89,440.4,2022-04-10
+478,Strength Product 478,Fitness,Strength,244.42,150.96,2023-10-22
+479,Cardio Product 479,Fitness,Cardio,921.57,475.97,2022-05-14
+480,Chairs Product 480,Home & Office,Chairs,147.32,112.15,2022-03-19
+481,Chairs Product 481,Home & Office,Chairs,677.98,390.98,2021-06-04
+482,Phones Product 482,Electronics,Phones,786.46,478.28,2022-09-13
+483,Cardio Product 483,Fitness,Cardio,24.67,13.56,2023-07-28
+484,Recovery Product 484,Fitness,Recovery,1022.97,703.16,2022-10-28
+485,Lighting Product 485,Home & Office,Lighting,805.91,394.69,2022-02-23
+486,Kitchen Product 486,Appliances,Kitchen,1122.51,752.16,2021-06-17
+487,Laptops Product 487,Electronics,Laptops,811.46,516.05,2021-05-27
+488,Chairs Product 488,Home & Office,Chairs,651.09,464.1,2022-01-25
+489,Laptops Product 489,Electronics,Laptops,1409.8,682.45,2023-02-20
+490,Recovery Product 490,Fitness,Recovery,416.87,297.35,2022-07-11
+491,Small Appliances Product 491,Appliances,Small Appliances,1099.14,587.07,2021-12-13
+492,Accessories Product 492,Fitness,Accessories,338.53,190.69,2021-11-28
+493,Climate Product 493,Appliances,Climate,39.33,29.15,2023-08-16
+494,Strength Product 494,Fitness,Strength,605.79,365.14,2022-09-03
+495,Climate Product 495,Appliances,Climate,769.61,398.82,2023-11-13
+496,Phones Product 496,Electronics,Phones,87.66,54.04,2023-10-19
+497,Accessories Product 497,Electronics,Accessories,641.36,392.1,2022-06-30
+498,Small Appliances Product 498,Appliances,Small Appliances,732.09,449.98,2022-11-14
+499,Climate Product 499,Appliances,Climate,899.69,583.8,2023-09-30
+500,Recovery Product 500,Fitness,Recovery,857.96,629.39,2021-04-13
+501,Desks Product 501,Home & Office,Desks,606.71,391.34,2022-04-09
+502,Kitchen Product 502,Appliances,Kitchen,116.12,66.32,2023-01-26
+503,Monitors Product 503,Electronics,Monitors,139.8,86.73,2021-09-13
+504,Lighting Product 504,Home & Office,Lighting,442.64,345.08,2021-06-11
+505,Phones Product 505,Electronics,Phones,1344.98,756.25,2022-09-14
+506,Climate Product 506,Appliances,Climate,470.72,307.97,2023-05-05
+507,Desks Product 507,Home & Office,Desks,744.38,488.09,2023-04-30
+508,Chairs Product 508,Home & Office,Chairs,138.3,84.67,2021-08-01
+509,Kitchen Product 509,Appliances,Kitchen,1146.68,814.78,2021-07-15
+510,Recovery Product 510,Fitness,Recovery,903.58,434.51,2022-11-15
+511,Desks Product 511,Home & Office,Desks,730.93,489.45,2023-02-17
+512,Climate Product 512,Appliances,Climate,182.56,127.55,2023-07-10
+513,Desks Product 513,Home & Office,Desks,850.66,538.29,2023-07-21
+514,Monitors Product 514,Electronics,Monitors,507.32,354.06,2023-09-02
+515,Small Appliances Product 515,Appliances,Small Appliances,967.76,718.53,2021-11-29
+516,Phones Product 516,Electronics,Phones,617.38,460.7,2022-06-26
+517,Small Appliances Product 517,Appliances,Small Appliances,556.93,276.34,2023-02-13
+518,Kitchen Product 518,Appliances,Kitchen,836.52,424.42,2021-12-27
+519,Phones Product 519,Electronics,Phones,770.51,501.72,2023-10-09
+520,Kitchen Product 520,Appliances,Kitchen,676.28,326.1,2021-08-01
+521,Small Appliances Product 521,Appliances,Small Appliances,870.37,464.29,2023-07-15
+522,Accessories Product 522,Fitness,Accessories,917.48,500.69,2023-05-01
+523,Kitchen Product 523,Appliances,Kitchen,663.62,475.52,2023-07-19
+524,Storage Product 524,Home & Office,Storage,540.45,274.33,2022-07-11
+525,Laptops Product 525,Electronics,Laptops,423.97,239.24,2021-06-03
+526,Chairs Product 526,Home & Office,Chairs,599.41,454.54,2022-12-04
+527,Small Appliances Product 527,Appliances,Small Appliances,306.04,228.83,2022-12-20
+528,Storage Product 528,Home & Office,Storage,387.68,236.3,2021-12-23
+529,Cardio Product 529,Fitness,Cardio,526.16,335.85,2023-05-12
+530,Strength Product 530,Fitness,Strength,818.96,497.31,2021-04-16
+531,Lighting Product 531,Home & Office,Lighting,195.71,119.0,2022-06-25
+532,Recovery Product 532,Fitness,Recovery,792.04,482.12,2023-05-01
+533,Cleaning Product 533,Appliances,Cleaning,440.82,248.13,2021-09-24
+534,Cleaning Product 534,Appliances,Cleaning,163.16,102.15,2023-10-31
+535,Desks Product 535,Home & Office,Desks,126.42,63.08,2022-05-15
+536,Phones Product 536,Electronics,Phones,1350.64,843.71,2022-05-22
+537,Phones Product 537,Electronics,Phones,281.72,147.47,2021-07-03
+538,Small Appliances Product 538,Appliances,Small Appliances,120.19,61.91,2022-12-14
+539,Small Appliances Product 539,Appliances,Small Appliances,658.16,328.52,2021-04-09
+540,Cardio Product 540,Fitness,Cardio,373.19,179.73,2023-09-12
+541,Storage Product 541,Home & Office,Storage,63.44,44.18,2023-05-27
+542,Recovery Product 542,Fitness,Recovery,430.53,234.05,2023-10-12
+543,Chairs Product 543,Home & Office,Chairs,461.39,305.38,2021-08-29
+544,Small Appliances Product 544,Appliances,Small Appliances,980.44,610.22,2022-06-01
+545,Phones Product 545,Electronics,Phones,353.35,210.19,2022-11-10
+546,Storage Product 546,Home & Office,Storage,759.67,408.46,2023-10-17
+547,Lighting Product 547,Home & Office,Lighting,478.62,319.71,2022-03-31
+548,Desks Product 548,Home & Office,Desks,343.34,182.21,2021-09-18
+549,Lighting Product 549,Home & Office,Lighting,581.71,404.93,2022-06-19
+550,Climate Product 550,Appliances,Climate,1185.59,891.24,2023-02-18
+551,Cardio Product 551,Fitness,Cardio,538.59,352.34,2021-04-20
+552,Strength Product 552,Fitness,Strength,162.34,82.21,2021-12-08
+553,Lighting Product 553,Home & Office,Lighting,227.99,109.5,2022-03-26
+554,Chairs Product 554,Home & Office,Chairs,853.01,588.24,2022-11-24
+555,Lighting Product 555,Home & Office,Lighting,314.01,218.77,2023-07-24
+556,Lighting Product 556,Home & Office,Lighting,474.48,260.45,2021-09-24
+557,Lighting Product 557,Home & Office,Lighting,795.22,470.93,2022-06-24
+558,Small Appliances Product 558,Appliances,Small Appliances,1117.57,707.45,2022-02-10
+559,Strength Product 559,Fitness,Strength,519.02,392.05,2021-05-09
+560,Accessories Product 560,Electronics,Accessories,497.7,255.25,2022-03-13
+561,Cleaning Product 561,Appliances,Cleaning,995.09,480.3,2022-03-14
+562,Small Appliances Product 562,Appliances,Small Appliances,53.97,28.13,2023-04-11
+563,Desks Product 563,Home & Office,Desks,670.55,511.01,2022-01-11
+564,Accessories Product 564,Fitness,Accessories,759.66,462.64,2023-05-31
+565,Monitors Product 565,Electronics,Monitors,454.84,280.84,2023-11-14
+566,Strength Product 566,Fitness,Strength,1071.57,589.21,2021-04-15
+567,Strength Product 567,Fitness,Strength,824.64,601.55,2023-01-26
+568,Phones Product 568,Electronics,Phones,236.66,124.36,2021-07-23
+569,Cardio Product 569,Fitness,Cardio,134.46,78.29,2022-08-22
+570,Laptops Product 570,Electronics,Laptops,1272.01,758.96,2021-05-28
+571,Cleaning Product 571,Appliances,Cleaning,656.74,424.47,2021-09-17
+572,Phones Product 572,Electronics,Phones,698.75,506.64,2023-04-12
+573,Chairs Product 573,Home & Office,Chairs,430.9,328.25,2023-03-31
+574,Lighting Product 574,Home & Office,Lighting,141.7,106.93,2021-11-21
+575,Accessories Product 575,Fitness,Accessories,58.21,40.85,2021-10-27
+576,Cardio Product 576,Fitness,Cardio,1064.99,795.69,2021-07-27
+577,Cardio Product 577,Fitness,Cardio,670.6,358.87,2022-02-23
+578,Desks Product 578,Home & Office,Desks,57.76,39.02,2021-10-17
+579,Desks Product 579,Home & Office,Desks,480.6,332.3,2023-09-03
+580,Cleaning Product 580,Appliances,Cleaning,760.85,472.64,2021-08-25
+581,Climate Product 581,Appliances,Climate,175.48,111.93,2023-09-27
+582,Strength Product 582,Fitness,Strength,1030.18,750.92,2022-08-28
+583,Phones Product 583,Electronics,Phones,1404.04,955.81,2021-10-05
+584,Monitors Product 584,Electronics,Monitors,1185.99,792.64,2023-03-24
+585,Cardio Product 585,Fitness,Cardio,921.06,563.14,2022-10-05
+586,Cleaning Product 586,Appliances,Cleaning,1010.72,562.26,2022-07-29
+587,Phones Product 587,Electronics,Phones,200.47,111.95,2023-03-28
+588,Chairs Product 588,Home & Office,Chairs,163.34,108.65,2022-06-25
+589,Accessories Product 589,Fitness,Accessories,788.01,539.22,2021-08-02
+590,Climate Product 590,Appliances,Climate,221.27,109.94,2022-12-02
+591,Accessories Product 591,Electronics,Accessories,1313.91,746.9,2023-09-22
+592,Cardio Product 592,Fitness,Cardio,186.19,105.61,2021-06-01
+593,Chairs Product 593,Home & Office,Chairs,122.4,66.73,2021-07-25
+594,Recovery Product 594,Fitness,Recovery,594.58,462.01,2023-06-13
+595,Desks Product 595,Home & Office,Desks,522.37,329.42,2022-05-11
+596,Cleaning Product 596,Appliances,Cleaning,524.01,254.93,2022-08-07
+597,Chairs Product 597,Home & Office,Chairs,858.66,495.95,2021-09-20
+598,Small Appliances Product 598,Appliances,Small Appliances,664.35,457.79,2022-04-03
+599,Monitors Product 599,Electronics,Monitors,779.34,444.68,2022-07-17
+600,Strength Product 600,Fitness,Strength,387.66,228.48,2021-08-19
+601,Small Appliances Product 601,Appliances,Small Appliances,254.71,193.03,2022-08-19
+602,Accessories Product 602,Electronics,Accessories,821.42,543.96,2021-04-11
+603,Laptops Product 603,Electronics,Laptops,524.99,257.18,2023-05-19
+604,Chairs Product 604,Home & Office,Chairs,71.03,52.84,2021-09-20
+605,Accessories Product 605,Fitness,Accessories,959.65,529.01,2022-12-23
+606,Recovery Product 606,Fitness,Recovery,754.39,468.97,2021-12-16
+607,Storage Product 607,Home & Office,Storage,388.95,208.94,2023-07-27
+608,Laptops Product 608,Electronics,Laptops,862.56,549.18,2021-05-23
+609,Accessories Product 609,Fitness,Accessories,964.45,632.03,2023-05-16
+610,Phones Product 610,Electronics,Phones,1116.14,830.54,2022-11-30
+611,Desks Product 611,Home & Office,Desks,788.65,533.73,2022-11-09
+612,Laptops Product 612,Electronics,Laptops,308.14,210.1,2022-01-01
+613,Small Appliances Product 613,Appliances,Small Appliances,140.63,99.26,2021-08-14
+614,Small Appliances Product 614,Appliances,Small Appliances,110.69,83.13,2022-11-06
+615,Recovery Product 615,Fitness,Recovery,344.55,174.67,2022-12-13
+616,Accessories Product 616,Fitness,Accessories,454.91,278.84,2021-05-23
+617,Cardio Product 617,Fitness,Cardio,1016.4,723.83,2022-06-13
+618,Accessories Product 618,Fitness,Accessories,541.26,328.29,2023-05-30
+619,Laptops Product 619,Electronics,Laptops,777.95,438.79,2023-07-17
+620,Accessories Product 620,Fitness,Accessories,825.84,641.31,2023-11-27
+621,Small Appliances Product 621,Appliances,Small Appliances,853.09,458.91,2023-02-06
+622,Accessories Product 622,Electronics,Accessories,741.13,518.5,2021-10-26
+623,Monitors Product 623,Electronics,Monitors,73.25,51.45,2023-08-15
+624,Storage Product 624,Home & Office,Storage,395.16,251.93,2022-06-09
+625,Accessories Product 625,Electronics,Accessories,1151.6,669.74,2023-02-17
+626,Small Appliances Product 626,Appliances,Small Appliances,791.63,437.21,2022-08-19
+627,Chairs Product 627,Home & Office,Chairs,601.32,357.1,2022-09-10
+628,Small Appliances Product 628,Appliances,Small Appliances,172.77,121.3,2022-11-02
+629,Cardio Product 629,Fitness,Cardio,1006.06,673.47,2021-07-10
+630,Phones Product 630,Electronics,Phones,1444.82,695.71,2023-02-09
+631,Small Appliances Product 631,Appliances,Small Appliances,985.04,768.3,2023-08-28
+632,Phones Product 632,Electronics,Phones,542.26,278.96,2022-09-17
+633,Kitchen Product 633,Appliances,Kitchen,641.77,419.98,2021-06-12
+634,Cleaning Product 634,Appliances,Cleaning,472.96,367.22,2023-10-24
+635,Storage Product 635,Home & Office,Storage,554.08,319.54,2023-03-31
+636,Phones Product 636,Electronics,Phones,475.15,272.23,2023-03-31
+637,Monitors Product 637,Electronics,Monitors,709.66,456.85,2023-04-26
+638,Kitchen Product 638,Appliances,Kitchen,1046.15,547.06,2022-11-02
+639,Accessories Product 639,Fitness,Accessories,249.89,152.63,2023-02-23
+640,Phones Product 640,Electronics,Phones,228.95,164.55,2021-06-12
+641,Chairs Product 641,Home & Office,Chairs,707.68,429.7,2022-04-21
+642,Cardio Product 642,Fitness,Cardio,144.62,109.51,2023-06-13
+643,Kitchen Product 643,Appliances,Kitchen,610.32,462.65,2021-06-14
+644,Chairs Product 644,Home & Office,Chairs,526.93,362.31,2021-10-22
+645,Laptops Product 645,Electronics,Laptops,729.18,498.56,2023-06-12
+646,Phones Product 646,Electronics,Phones,98.43,69.32,2023-06-28
+647,Cardio Product 647,Fitness,Cardio,472.11,297.26,2021-12-20
+648,Cleaning Product 648,Appliances,Cleaning,988.46,753.89,2022-03-11
+649,Chairs Product 649,Home & Office,Chairs,731.5,381.59,2021-04-22
+650,Laptops Product 650,Electronics,Laptops,263.84,153.83,2023-09-26
+651,Climate Product 651,Appliances,Climate,702.13,501.46,2023-05-14
+652,Accessories Product 652,Fitness,Accessories,401.64,213.08,2021-09-25
+653,Strength Product 653,Fitness,Strength,215.11,131.14,2022-03-25
+654,Storage Product 654,Home & Office,Storage,525.27,358.75,2021-11-08
+655,Kitchen Product 655,Appliances,Kitchen,201.44,112.72,2022-08-01
+656,Cleaning Product 656,Appliances,Cleaning,990.44,491.65,2021-06-07
+657,Desks Product 657,Home & Office,Desks,83.42,47.66,2023-10-03
+658,Laptops Product 658,Electronics,Laptops,884.95,661.84,2022-04-12
+659,Climate Product 659,Appliances,Climate,1192.66,600.86,2021-10-31
+660,Lighting Product 660,Home & Office,Lighting,249.76,148.49,2022-04-29
+661,Desks Product 661,Home & Office,Desks,834.45,537.96,2023-01-12
+662,Accessories Product 662,Fitness,Accessories,838.27,415.19,2021-07-17
+663,Climate Product 663,Appliances,Climate,336.7,166.86,2022-04-04
+664,Recovery Product 664,Fitness,Recovery,1048.42,730.11,2023-01-13
+665,Monitors Product 665,Electronics,Monitors,891.06,529.7,2022-08-09
+666,Climate Product 666,Appliances,Climate,276.66,198.59,2023-11-29
+667,Desks Product 667,Home & Office,Desks,400.58,226.07,2021-10-01
+668,Lighting Product 668,Home & Office,Lighting,69.38,39.97,2022-02-16
+669,Desks Product 669,Home & Office,Desks,892.65,463.69,2022-02-15
+670,Chairs Product 670,Home & Office,Chairs,236.02,158.49,2022-04-05
+671,Small Appliances Product 671,Appliances,Small Appliances,203.42,142.38,2022-07-04
+672,Cleaning Product 672,Appliances,Cleaning,60.27,39.87,2022-07-09
+673,Lighting Product 673,Home & Office,Lighting,787.37,537.37,2023-03-03
+674,Lighting Product 674,Home & Office,Lighting,420.69,231.57,2021-05-07
+675,Storage Product 675,Home & Office,Storage,739.35,455.8,2022-10-12
+676,Strength Product 676,Fitness,Strength,55.22,30.41,2022-10-19
+677,Small Appliances Product 677,Appliances,Small Appliances,126.55,89.88,2022-03-21
+678,Recovery Product 678,Fitness,Recovery,989.99,582.05,2023-02-15
+679,Laptops Product 679,Electronics,Laptops,1259.91,673.09,2022-12-15
+680,Chairs Product 680,Home & Office,Chairs,658.79,317.59,2023-02-28
+681,Accessories Product 681,Fitness,Accessories,1074.76,643.1,2022-03-20
+682,Accessories Product 682,Fitness,Accessories,136.16,101.18,2023-09-02
+683,Cleaning Product 683,Appliances,Cleaning,163.34,97.89,2022-01-30
+684,Storage Product 684,Home & Office,Storage,153.76,117.36,2023-06-17
+685,Climate Product 685,Appliances,Climate,540.18,298.06,2022-10-21
+686,Chairs Product 686,Home & Office,Chairs,481.75,342.55,2021-10-01
+687,Kitchen Product 687,Appliances,Kitchen,1015.22,767.4,2022-01-12
+688,Kitchen Product 688,Appliances,Kitchen,50.97,29.13,2021-07-26
+689,Monitors Product 689,Electronics,Monitors,655.11,329.79,2021-07-18
+690,Accessories Product 690,Electronics,Accessories,550.73,399.4,2021-09-08
+691,Cardio Product 691,Fitness,Cardio,636.68,435.98,2023-02-19
+692,Storage Product 692,Home & Office,Storage,636.12,495.52,2023-01-19
+693,Cardio Product 693,Fitness,Cardio,531.2,371.86,2023-02-23
+694,Phones Product 694,Electronics,Phones,1026.28,636.2,2021-08-05
+695,Kitchen Product 695,Appliances,Kitchen,1184.57,922.71,2021-09-22
+696,Strength Product 696,Fitness,Strength,722.29,352.25,2021-11-14
+697,Lighting Product 697,Home & Office,Lighting,486.14,314.18,2023-05-29
+698,Cleaning Product 698,Appliances,Cleaning,970.88,474.34,2023-07-02
+699,Storage Product 699,Home & Office,Storage,356.85,192.25,2023-08-01
+700,Cleaning Product 700,Appliances,Cleaning,1054.75,516.11,2022-12-28
+701,Storage Product 701,Home & Office,Storage,418.89,319.71,2021-10-16
+702,Cleaning Product 702,Appliances,Cleaning,864.89,586.35,2023-09-17
+703,Recovery Product 703,Fitness,Recovery,526.76,335.45,2023-04-19
+704,Small Appliances Product 704,Appliances,Small Appliances,1109.56,780.08,2021-10-14
+705,Cardio Product 705,Fitness,Cardio,1056.32,696.75,2023-10-02
+706,Accessories Product 706,Electronics,Accessories,1339.89,671.56,2022-02-03
+707,Cardio Product 707,Fitness,Cardio,1018.84,595.91,2022-07-28
+708,Cardio Product 708,Fitness,Cardio,520.14,378.01,2021-05-25
+709,Strength Product 709,Fitness,Strength,911.41,704.56,2022-03-13
+710,Recovery Product 710,Fitness,Recovery,270.82,192.4,2022-08-09
+711,Phones Product 711,Electronics,Phones,983.07,505.28,2022-10-12
+712,Kitchen Product 712,Appliances,Kitchen,691.37,476.46,2023-10-31
+713,Cardio Product 713,Fitness,Cardio,910.05,666.0,2022-01-17
+714,Climate Product 714,Appliances,Climate,626.98,481.28,2021-12-11
+715,Desks Product 715,Home & Office,Desks,167.17,114.56,2022-05-24
+716,Kitchen Product 716,Appliances,Kitchen,867.16,483.59,2021-12-20
+717,Recovery Product 717,Fitness,Recovery,713.25,426.89,2021-12-14
+718,Accessories Product 718,Fitness,Accessories,853.84,502.0,2022-06-06
+719,Laptops Product 719,Electronics,Laptops,301.47,178.18,2023-01-18
+720,Accessories Product 720,Fitness,Accessories,80.57,41.47,2022-03-11
+721,Chairs Product 721,Home & Office,Chairs,217.31,121.05,2021-04-30
+722,Laptops Product 722,Electronics,Laptops,1163.88,776.86,2022-04-15
+723,Storage Product 723,Home & Office,Storage,144.65,110.17,2023-04-22
+724,Kitchen Product 724,Appliances,Kitchen,474.65,265.18,2023-01-08
+725,Monitors Product 725,Electronics,Monitors,1091.22,681.3,2022-09-26
+726,Phones Product 726,Electronics,Phones,1308.61,773.87,2023-05-14
+727,Lighting Product 727,Home & Office,Lighting,717.14,557.28,2022-04-11
+728,Desks Product 728,Home & Office,Desks,356.51,254.32,2023-09-13
+729,Strength Product 729,Fitness,Strength,393.64,215.81,2023-11-01
+730,Strength Product 730,Fitness,Strength,1047.94,639.65,2021-12-29
+731,Accessories Product 731,Fitness,Accessories,313.6,216.02,2021-08-26
+732,Chairs Product 732,Home & Office,Chairs,842.79,572.77,2023-09-06
+733,Climate Product 733,Appliances,Climate,717.01,531.01,2021-04-16
+734,Chairs Product 734,Home & Office,Chairs,378.69,282.34,2022-11-01
+735,Phones Product 735,Electronics,Phones,215.42,161.0,2021-07-19
+736,Storage Product 736,Home & Office,Storage,168.35,120.11,2023-10-19
+737,Strength Product 737,Fitness,Strength,1066.9,606.06,2021-11-12
+738,Accessories Product 738,Electronics,Accessories,1227.53,868.0,2021-07-24
+739,Accessories Product 739,Electronics,Accessories,1197.48,855.33,2023-02-17
+740,Lighting Product 740,Home & Office,Lighting,655.39,414.13,2022-05-28
+741,Small Appliances Product 741,Appliances,Small Appliances,920.27,489.56,2022-10-04
+742,Small Appliances Product 742,Appliances,Small Appliances,529.27,406.85,2022-09-19
+743,Monitors Product 743,Electronics,Monitors,1395.55,1075.91,2023-09-27
+744,Cardio Product 744,Fitness,Cardio,888.37,551.39,2022-11-15
+745,Storage Product 745,Home & Office,Storage,178.65,106.39,2022-10-25
+746,Climate Product 746,Appliances,Climate,878.57,594.11,2023-08-04
+747,Small Appliances Product 747,Appliances,Small Appliances,420.55,313.19,2021-12-31
+748,Small Appliances Product 748,Appliances,Small Appliances,776.12,534.98,2021-10-12
+749,Desks Product 749,Home & Office,Desks,310.05,227.89,2022-10-28
+750,Cleaning Product 750,Appliances,Cleaning,248.79,132.28,2023-11-08
+751,Recovery Product 751,Fitness,Recovery,136.63,97.34,2022-01-26
+752,Lighting Product 752,Home & Office,Lighting,82.06,61.54,2023-05-23
+753,Lighting Product 753,Home & Office,Lighting,264.8,199.66,2022-04-28
+754,Cleaning Product 754,Appliances,Cleaning,803.75,584.57,2022-10-11
+755,Phones Product 755,Electronics,Phones,173.81,91.26,2022-05-23
+756,Phones Product 756,Electronics,Phones,607.37,399.14,2022-01-24
+757,Climate Product 757,Appliances,Climate,1047.41,732.16,2021-12-27
+758,Kitchen Product 758,Appliances,Kitchen,960.85,666.72,2021-06-08
+759,Accessories Product 759,Electronics,Accessories,859.56,518.05,2022-08-29
+760,Laptops Product 760,Electronics,Laptops,1398.95,1088.25,2021-12-31
+761,Accessories Product 761,Electronics,Accessories,1399.08,721.88,2023-01-09
+762,Accessories Product 762,Fitness,Accessories,975.71,682.45,2023-01-08
+763,Laptops Product 763,Electronics,Laptops,243.79,184.05,2021-05-26
+764,Monitors Product 764,Electronics,Monitors,1452.56,780.64,2022-02-03
+765,Strength Product 765,Fitness,Strength,887.48,668.01,2022-07-22
+766,Kitchen Product 766,Appliances,Kitchen,765.24,394.19,2022-04-03
+767,Accessories Product 767,Fitness,Accessories,396.45,208.42,2021-07-26
+768,Accessories Product 768,Fitness,Accessories,745.38,518.44,2021-08-22
+769,Strength Product 769,Fitness,Strength,372.86,198.19,2021-12-16
+770,Cleaning Product 770,Appliances,Cleaning,636.39,359.64,2023-09-25
+771,Storage Product 771,Home & Office,Storage,231.98,155.73,2022-04-19
+772,Phones Product 772,Electronics,Phones,57.62,44.65,2023-05-28
+773,Cleaning Product 773,Appliances,Cleaning,911.34,702.33,2023-01-26
+774,Monitors Product 774,Electronics,Monitors,1084.05,620.55,2022-12-14
+775,Cleaning Product 775,Appliances,Cleaning,666.09,506.67,2023-07-20
+776,Laptops Product 776,Electronics,Laptops,932.94,486.83,2022-10-08
+777,Desks Product 777,Home & Office,Desks,108.04,83.1,2023-07-20
+778,Desks Product 778,Home & Office,Desks,698.28,538.45,2021-06-07
+779,Recovery Product 779,Fitness,Recovery,1089.06,724.83,2023-11-19
+780,Cleaning Product 780,Appliances,Cleaning,789.16,435.37,2023-03-25
+781,Lighting Product 781,Home & Office,Lighting,799.82,458.14,2022-06-16
+782,Lighting Product 782,Home & Office,Lighting,425.47,225.39,2022-08-13
+783,Chairs Product 783,Home & Office,Chairs,681.93,395.17,2023-03-22
+784,Small Appliances Product 784,Appliances,Small Appliances,1103.96,597.23,2022-09-04
+785,Climate Product 785,Appliances,Climate,982.76,619.78,2022-03-12
+786,Lighting Product 786,Home & Office,Lighting,339.79,234.41,2022-12-21
+787,Monitors Product 787,Electronics,Monitors,582.69,352.0,2023-05-28
+788,Small Appliances Product 788,Appliances,Small Appliances,458.32,346.93,2021-12-07
+789,Accessories Product 789,Fitness,Accessories,812.63,464.91,2023-11-09
+790,Cleaning Product 790,Appliances,Cleaning,165.64,126.63,2022-05-22
+791,Kitchen Product 791,Appliances,Kitchen,1039.63,754.88,2022-03-21
+792,Cleaning Product 792,Appliances,Cleaning,394.4,212.25,2021-05-04
+793,Desks Product 793,Home & Office,Desks,331.03,209.64,2023-11-15
+794,Kitchen Product 794,Appliances,Kitchen,660.18,380.56,2023-11-13
+795,Laptops Product 795,Electronics,Laptops,193.88,97.52,2023-09-08
+796,Storage Product 796,Home & Office,Storage,760.56,506.94,2023-07-27
+797,Kitchen Product 797,Appliances,Kitchen,1148.28,878.62,2021-07-01
+798,Phones Product 798,Electronics,Phones,327.16,168.27,2022-01-20
+799,Kitchen Product 799,Appliances,Kitchen,890.11,434.83,2022-05-05
+800,Small Appliances Product 800,Appliances,Small Appliances,470.45,302.02,2021-10-12
+801,Monitors Product 801,Electronics,Monitors,441.66,235.0,2023-03-13
+802,Monitors Product 802,Electronics,Monitors,894.9,570.19,2023-08-20
+803,Laptops Product 803,Electronics,Laptops,1158.56,877.7,2021-05-21
+804,Storage Product 804,Home & Office,Storage,865.38,547.86,2021-09-01
+805,Lighting Product 805,Home & Office,Lighting,742.22,439.09,2022-12-08
+806,Desks Product 806,Home & Office,Desks,295.08,200.5,2021-08-25
+807,Accessories Product 807,Electronics,Accessories,397.9,308.5,2022-03-26
+808,Kitchen Product 808,Appliances,Kitchen,547.58,380.76,2023-07-29
+809,Monitors Product 809,Electronics,Monitors,1268.01,700.21,2022-12-02
+810,Lighting Product 810,Home & Office,Lighting,257.44,185.11,2021-06-10
+811,Recovery Product 811,Fitness,Recovery,721.88,453.02,2021-07-09
+812,Laptops Product 812,Electronics,Laptops,1013.19,725.0,2023-11-06
+813,Cleaning Product 813,Appliances,Cleaning,700.47,527.63,2023-09-03
+814,Phones Product 814,Electronics,Phones,52.2,27.43,2023-10-02
+815,Small Appliances Product 815,Appliances,Small Appliances,926.49,489.04,2023-01-30
+816,Accessories Product 816,Electronics,Accessories,728.63,459.84,2021-06-21
+817,Cleaning Product 817,Appliances,Cleaning,616.77,408.96,2022-02-04
+818,Lighting Product 818,Home & Office,Lighting,711.51,512.69,2021-07-23
+819,Monitors Product 819,Electronics,Monitors,323.85,171.42,2022-12-11
+820,Cleaning Product 820,Appliances,Cleaning,657.54,410.03,2023-10-07
+821,Accessories Product 821,Fitness,Accessories,807.29,568.33,2022-07-15
+822,Laptops Product 822,Electronics,Laptops,357.65,259.43,2021-07-20
+823,Monitors Product 823,Electronics,Monitors,1189.02,665.77,2021-08-16
+824,Chairs Product 824,Home & Office,Chairs,657.87,349.18,2023-01-26
+825,Cardio Product 825,Fitness,Cardio,327.97,200.82,2022-06-24
+826,Cleaning Product 826,Appliances,Cleaning,972.45,567.2,2023-11-21
+827,Monitors Product 827,Electronics,Monitors,185.61,142.58,2023-09-22
+828,Recovery Product 828,Fitness,Recovery,35.33,23.96,2023-01-06
+829,Cleaning Product 829,Appliances,Cleaning,778.07,564.39,2021-11-08
+830,Laptops Product 830,Electronics,Laptops,1027.2,771.06,2021-07-01
+831,Storage Product 831,Home & Office,Storage,677.69,385.8,2022-11-30
+832,Accessories Product 832,Electronics,Accessories,1094.45,767.62,2021-10-03
+833,Laptops Product 833,Electronics,Laptops,1283.3,663.79,2021-09-02
+834,Storage Product 834,Home & Office,Storage,304.4,150.6,2022-08-03
+835,Cleaning Product 835,Appliances,Cleaning,1145.53,693.49,2023-05-12
+836,Phones Product 836,Electronics,Phones,857.39,606.31,2023-06-09
+837,Desks Product 837,Home & Office,Desks,589.89,445.93,2021-05-22
+838,Desks Product 838,Home & Office,Desks,717.61,369.07,2022-06-13
+839,Small Appliances Product 839,Appliances,Small Appliances,1023.22,615.14,2021-12-18
+840,Accessories Product 840,Fitness,Accessories,210.0,156.54,2023-04-08
+841,Desks Product 841,Home & Office,Desks,47.52,36.38,2023-01-05
+842,Climate Product 842,Appliances,Climate,558.03,398.0,2023-01-24
+843,Monitors Product 843,Electronics,Monitors,175.59,132.01,2022-12-02
+844,Strength Product 844,Fitness,Strength,492.59,381.85,2023-09-19
+845,Kitchen Product 845,Appliances,Kitchen,794.45,417.3,2022-10-07
+846,Small Appliances Product 846,Appliances,Small Appliances,168.01,106.16,2022-05-29
+847,Lighting Product 847,Home & Office,Lighting,539.36,360.44,2022-09-01
+848,Climate Product 848,Appliances,Climate,1036.2,763.66,2021-09-11
+849,Monitors Product 849,Electronics,Monitors,1471.91,832.05,2022-11-05
+850,Chairs Product 850,Home & Office,Chairs,729.94,480.44,2023-10-01
+851,Accessories Product 851,Electronics,Accessories,1371.03,794.54,2022-07-06
+852,Storage Product 852,Home & Office,Storage,217.49,132.67,2023-11-24
+853,Lighting Product 853,Home & Office,Lighting,211.75,118.82,2023-02-15
+854,Cleaning Product 854,Appliances,Cleaning,373.14,224.18,2022-09-29
+855,Cardio Product 855,Fitness,Cardio,236.58,184.03,2022-03-16
+856,Storage Product 856,Home & Office,Storage,548.58,304.92,2021-12-05
+857,Laptops Product 857,Electronics,Laptops,1112.89,680.99,2023-06-26
+858,Lighting Product 858,Home & Office,Lighting,649.7,365.83,2023-01-01
+859,Climate Product 859,Appliances,Climate,704.89,454.81,2022-12-09
+860,Recovery Product 860,Fitness,Recovery,759.2,418.19,2022-01-04
+861,Kitchen Product 861,Appliances,Kitchen,1012.36,606.27,2023-10-02
+862,Monitors Product 862,Electronics,Monitors,1290.21,776.47,2023-10-15
+863,Laptops Product 863,Electronics,Laptops,562.33,282.01,2021-08-21
+864,Small Appliances Product 864,Appliances,Small Appliances,412.44,281.46,2021-05-09
+865,Accessories Product 865,Fitness,Accessories,634.72,452.06,2021-06-24
+866,Accessories Product 866,Fitness,Accessories,151.48,107.88,2022-11-10
+867,Cardio Product 867,Fitness,Cardio,297.83,162.27,2023-05-16
+868,Lighting Product 868,Home & Office,Lighting,835.66,514.71,2023-11-01
+869,Desks Product 869,Home & Office,Desks,573.43,407.27,2021-04-20
+870,Storage Product 870,Home & Office,Storage,380.07,190.78,2022-02-27
+871,Lighting Product 871,Home & Office,Lighting,377.79,275.66,2023-01-27
+872,Accessories Product 872,Electronics,Accessories,971.84,697.81,2022-05-04
+873,Desks Product 873,Home & Office,Desks,712.77,366.07,2021-08-25
+874,Strength Product 874,Fitness,Strength,101.19,56.45,2022-11-17
+875,Chairs Product 875,Home & Office,Chairs,775.39,420.66,2022-05-30
+876,Cardio Product 876,Fitness,Cardio,688.04,372.23,2021-12-16
+877,Desks Product 877,Home & Office,Desks,688.16,464.35,2021-08-31
+878,Chairs Product 878,Home & Office,Chairs,242.46,152.0,2022-11-02
+879,Cardio Product 879,Fitness,Cardio,219.53,147.69,2022-07-11
+880,Cleaning Product 880,Appliances,Cleaning,58.73,32.6,2021-09-01
+881,Chairs Product 881,Home & Office,Chairs,594.88,352.26,2022-11-02
+882,Kitchen Product 882,Appliances,Kitchen,1035.59,680.84,2023-06-13
+883,Accessories Product 883,Fitness,Accessories,839.73,571.88,2023-05-03
+884,Monitors Product 884,Electronics,Monitors,661.0,357.72,2023-04-17
+885,Desks Product 885,Home & Office,Desks,808.44,390.04,2021-12-05
+886,Desks Product 886,Home & Office,Desks,753.27,361.82,2022-06-21
+887,Laptops Product 887,Electronics,Laptops,976.5,483.53,2021-05-28
+888,Storage Product 888,Home & Office,Storage,428.76,215.58,2021-09-23
+889,Phones Product 889,Electronics,Phones,658.29,426.71,2022-08-12
+890,Accessories Product 890,Electronics,Accessories,351.78,176.09,2023-08-18
+891,Lighting Product 891,Home & Office,Lighting,507.52,248.4,2022-05-31
+892,Climate Product 892,Appliances,Climate,292.25,155.0,2022-12-11
+893,Accessories Product 893,Fitness,Accessories,208.87,152.9,2021-04-24
+894,Laptops Product 894,Electronics,Laptops,56.16,43.63,2023-03-01
+895,Cleaning Product 895,Appliances,Cleaning,320.08,201.44,2021-10-04
+896,Small Appliances Product 896,Appliances,Small Appliances,322.46,239.93,2023-02-05
+897,Small Appliances Product 897,Appliances,Small Appliances,1151.89,830.02,2023-02-04
+898,Kitchen Product 898,Appliances,Kitchen,1028.86,790.58,2023-09-11
+899,Lighting Product 899,Home & Office,Lighting,661.55,466.89,2022-02-26
+900,Monitors Product 900,Electronics,Monitors,1171.05,744.1,2023-09-13
+901,Cardio Product 901,Fitness,Cardio,489.46,269.02,2022-09-13
+902,Cardio Product 902,Fitness,Cardio,268.81,190.45,2023-01-03
+903,Cleaning Product 903,Appliances,Cleaning,529.36,272.61,2021-08-21
+904,Accessories Product 904,Fitness,Accessories,865.61,530.03,2022-09-30
+905,Strength Product 905,Fitness,Strength,146.49,110.11,2022-09-28
+906,Desks Product 906,Home & Office,Desks,284.7,141.5,2021-11-09
+907,Storage Product 907,Home & Office,Storage,563.51,286.45,2022-08-25
+908,Phones Product 908,Electronics,Phones,1323.6,678.69,2021-11-13
+909,Strength Product 909,Fitness,Strength,697.76,541.92,2021-07-12
+910,Kitchen Product 910,Appliances,Kitchen,841.54,634.35,2023-01-30
+911,Small Appliances Product 911,Appliances,Small Appliances,836.26,437.62,2023-01-26
+912,Accessories Product 912,Fitness,Accessories,273.45,212.2,2022-02-16
+913,Monitors Product 913,Electronics,Monitors,573.75,332.65,2021-07-05
+914,Cardio Product 914,Fitness,Cardio,580.26,439.27,2023-01-12
+915,Accessories Product 915,Electronics,Accessories,1292.68,801.97,2023-01-15
+916,Storage Product 916,Home & Office,Storage,127.27,91.75,2022-04-17
+917,Laptops Product 917,Electronics,Laptops,1213.9,766.46,2023-05-18
+918,Kitchen Product 918,Appliances,Kitchen,462.22,247.98,2022-12-26
+919,Climate Product 919,Appliances,Climate,1140.77,814.27,2023-06-23
+920,Phones Product 920,Electronics,Phones,649.46,421.28,2022-05-14
+921,Climate Product 921,Appliances,Climate,1031.26,730.41,2022-05-08
+922,Desks Product 922,Home & Office,Desks,139.15,101.51,2023-05-17
+923,Kitchen Product 923,Appliances,Kitchen,129.94,77.36,2021-09-07
+924,Cardio Product 924,Fitness,Cardio,229.8,124.73,2021-10-29
+925,Phones Product 925,Electronics,Phones,617.1,308.09,2023-02-23
+926,Laptops Product 926,Electronics,Laptops,1418.68,854.94,2021-12-31
+927,Strength Product 927,Fitness,Strength,792.35,395.54,2023-05-14
+928,Recovery Product 928,Fitness,Recovery,264.65,132.67,2021-11-05
+929,Storage Product 929,Home & Office,Storage,117.12,76.3,2022-07-29
+930,Phones Product 930,Electronics,Phones,492.6,264.62,2023-07-06
+931,Cleaning Product 931,Appliances,Cleaning,635.34,380.5,2023-03-01
+932,Climate Product 932,Appliances,Climate,203.19,101.7,2023-03-27
+933,Kitchen Product 933,Appliances,Kitchen,808.8,458.2,2023-07-18
+934,Phones Product 934,Electronics,Phones,588.79,438.09,2022-05-06
+935,Cardio Product 935,Fitness,Cardio,290.17,184.01,2022-03-27
+936,Phones Product 936,Electronics,Phones,1494.95,1085.03,2023-02-05
+937,Desks Product 937,Home & Office,Desks,741.35,445.31,2022-03-03
+938,Laptops Product 938,Electronics,Laptops,731.85,498.34,2023-06-26
+939,Accessories Product 939,Fitness,Accessories,733.13,442.63,2022-11-27
+940,Small Appliances Product 940,Appliances,Small Appliances,743.08,478.1,2023-05-27
+941,Kitchen Product 941,Appliances,Kitchen,835.86,557.02,2022-04-27
+942,Chairs Product 942,Home & Office,Chairs,157.64,107.04,2023-03-13
+943,Desks Product 943,Home & Office,Desks,32.51,20.69,2023-07-23
+944,Accessories Product 944,Fitness,Accessories,943.06,505.62,2021-05-04
+945,Recovery Product 945,Fitness,Recovery,670.87,471.93,2023-07-10
+946,Accessories Product 946,Fitness,Accessories,823.84,418.51,2023-06-08
+947,Small Appliances Product 947,Appliances,Small Appliances,932.51,535.75,2022-09-04
+948,Storage Product 948,Home & Office,Storage,31.8,23.84,2021-12-26
+949,Laptops Product 949,Electronics,Laptops,923.26,480.4,2021-06-02
+950,Climate Product 950,Appliances,Climate,848.54,443.05,2021-12-02
+951,Strength Product 951,Fitness,Strength,531.76,309.43,2023-01-08
+952,Small Appliances Product 952,Appliances,Small Appliances,851.91,597.35,2022-08-21
+953,Desks Product 953,Home & Office,Desks,833.24,418.24,2023-10-17
+954,Strength Product 954,Fitness,Strength,780.13,588.46,2021-09-17
+955,Laptops Product 955,Electronics,Laptops,1396.31,853.47,2022-09-20
+956,Strength Product 956,Fitness,Strength,902.53,591.43,2021-08-02
+957,Storage Product 957,Home & Office,Storage,573.63,428.47,2023-06-16
+958,Chairs Product 958,Home & Office,Chairs,534.38,350.38,2022-05-25
+959,Phones Product 959,Electronics,Phones,1472.0,755.1,2021-09-30
+960,Accessories Product 960,Fitness,Accessories,286.44,208.24,2021-10-16
+961,Lighting Product 961,Home & Office,Lighting,759.8,460.71,2023-03-28
+962,Kitchen Product 962,Appliances,Kitchen,601.36,369.4,2022-10-09
+963,Strength Product 963,Fitness,Strength,1045.31,782.19,2023-05-26
+964,Storage Product 964,Home & Office,Storage,637.95,403.81,2022-01-04
+965,Laptops Product 965,Electronics,Laptops,386.46,197.24,2022-08-24
+966,Cleaning Product 966,Appliances,Cleaning,159.08,82.06,2021-09-14
+967,Accessories Product 967,Fitness,Accessories,395.23,239.56,2022-04-09
+968,Monitors Product 968,Electronics,Monitors,141.53,80.3,2021-08-16
+969,Cardio Product 969,Fitness,Cardio,266.65,188.38,2022-08-23
+970,Laptops Product 970,Electronics,Laptops,400.32,237.87,2022-05-01
+971,Kitchen Product 971,Appliances,Kitchen,830.1,594.33,2023-03-12
+972,Storage Product 972,Home & Office,Storage,724.85,552.24,2021-12-03
+973,Desks Product 973,Home & Office,Desks,601.71,369.27,2021-06-08
+974,Cleaning Product 974,Appliances,Cleaning,135.91,80.1,2023-03-01
+975,Storage Product 975,Home & Office,Storage,708.21,353.95,2023-01-22
+976,Climate Product 976,Appliances,Climate,728.83,454.62,2022-11-27
+977,Chairs Product 977,Home & Office,Chairs,564.25,301.65,2022-03-17
+978,Small Appliances Product 978,Appliances,Small Appliances,578.39,394.2,2022-10-07
+979,Storage Product 979,Home & Office,Storage,715.93,385.44,2023-10-08
+980,Laptops Product 980,Electronics,Laptops,1174.86,725.5,2022-08-14
+981,Strength Product 981,Fitness,Strength,177.09,109.9,2023-04-27
+982,Accessories Product 982,Fitness,Accessories,485.62,285.47,2023-08-01
+983,Accessories Product 983,Electronics,Accessories,1211.49,907.48,2021-08-08
+984,Kitchen Product 984,Appliances,Kitchen,1145.59,749.61,2022-02-22
+985,Monitors Product 985,Electronics,Monitors,634.16,326.09,2021-06-19
+986,Climate Product 986,Appliances,Climate,782.7,403.41,2023-10-06
+987,Recovery Product 987,Fitness,Recovery,171.53,94.18,2022-05-27
+988,Cardio Product 988,Fitness,Cardio,608.89,348.93,2023-07-11
+989,Cardio Product 989,Fitness,Cardio,777.65,528.01,2022-12-12
+990,Monitors Product 990,Electronics,Monitors,655.73,417.93,2022-12-24
+991,Phones Product 991,Electronics,Phones,1433.93,1031.55,2021-12-26
+992,Laptops Product 992,Electronics,Laptops,1053.8,590.77,2021-08-20
+993,Monitors Product 993,Electronics,Monitors,799.64,530.97,2023-06-19
+994,Phones Product 994,Electronics,Phones,218.54,125.25,2023-06-03
+995,Desks Product 995,Home & Office,Desks,174.84,100.1,2021-04-17
+996,Accessories Product 996,Fitness,Accessories,645.31,449.96,2021-09-14
+997,Storage Product 997,Home & Office,Storage,187.79,104.13,2021-12-15
+998,Small Appliances Product 998,Appliances,Small Appliances,577.31,333.55,2021-10-27
+999,Accessories Product 999,Fitness,Accessories,958.96,525.95,2023-01-16
+1000,Phones Product 1000,Electronics,Phones,195.0,95.32,2022-01-11
+1001,Strength Product 1001,Fitness,Strength,903.61,558.73,2023-11-02
+1002,Lighting Product 1002,Home & Office,Lighting,622.28,479.67,2021-07-06
+1003,Phones Product 1003,Electronics,Phones,1292.14,721.82,2022-01-28
+1004,Recovery Product 1004,Fitness,Recovery,237.9,138.42,2022-11-05
+1005,Small Appliances Product 1005,Appliances,Small Appliances,688.69,474.92,2022-11-01
+1006,Small Appliances Product 1006,Appliances,Small Appliances,145.97,78.08,2023-03-19
+1007,Cardio Product 1007,Fitness,Cardio,922.18,656.23,2022-12-19
+1008,Accessories Product 1008,Fitness,Accessories,388.67,284.65,2022-09-03
+1009,Laptops Product 1009,Electronics,Laptops,1484.86,874.62,2023-04-15
+1010,Laptops Product 1010,Electronics,Laptops,527.13,389.1,2021-07-27
+1011,Cleaning Product 1011,Appliances,Cleaning,801.7,468.39,2023-07-04
+1012,Cardio Product 1012,Fitness,Cardio,175.32,91.77,2021-06-06
+1013,Desks Product 1013,Home & Office,Desks,777.9,574.44,2023-07-03
+1014,Kitchen Product 1014,Appliances,Kitchen,796.71,498.75,2021-05-12
+1015,Phones Product 1015,Electronics,Phones,966.44,512.46,2023-10-29
+1016,Laptops Product 1016,Electronics,Laptops,376.14,215.04,2023-02-16
+1017,Phones Product 1017,Electronics,Phones,1127.32,748.59,2022-01-25
+1018,Cleaning Product 1018,Appliances,Cleaning,548.85,387.61,2023-04-15
+1019,Storage Product 1019,Home & Office,Storage,787.0,569.96,2021-04-18
+1020,Accessories Product 1020,Fitness,Accessories,745.91,447.22,2023-11-23
+1021,Recovery Product 1021,Fitness,Recovery,433.12,298.3,2022-09-05
+1022,Phones Product 1022,Electronics,Phones,1434.22,1057.73,2023-01-20
+1023,Recovery Product 1023,Fitness,Recovery,284.66,187.68,2023-04-04
+1024,Storage Product 1024,Home & Office,Storage,659.44,394.49,2021-06-07
+1025,Cardio Product 1025,Fitness,Cardio,370.65,263.44,2022-02-11
+1026,Storage Product 1026,Home & Office,Storage,669.54,511.85,2023-10-29
+1027,Desks Product 1027,Home & Office,Desks,688.89,340.56,2023-10-23
+1028,Chairs Product 1028,Home & Office,Chairs,140.26,100.59,2021-06-17
+1029,Accessories Product 1029,Electronics,Accessories,868.19,475.74,2022-09-03
+1030,Storage Product 1030,Home & Office,Storage,538.26,272.74,2022-02-22
+1031,Accessories Product 1031,Electronics,Accessories,530.97,380.92,2022-02-08
+1032,Kitchen Product 1032,Appliances,Kitchen,682.95,397.16,2022-05-07
+1033,Accessories Product 1033,Fitness,Accessories,505.89,253.73,2022-07-31
+1034,Chairs Product 1034,Home & Office,Chairs,118.07,61.86,2023-04-04
+1035,Cleaning Product 1035,Appliances,Cleaning,69.44,45.7,2023-10-30
+1036,Small Appliances Product 1036,Appliances,Small Appliances,599.17,339.29,2023-09-21
+1037,Monitors Product 1037,Electronics,Monitors,1066.84,657.52,2021-09-26
+1038,Recovery Product 1038,Fitness,Recovery,575.0,380.19,2023-03-10
+1039,Strength Product 1039,Fitness,Strength,351.22,222.8,2023-11-07
+1040,Monitors Product 1040,Electronics,Monitors,668.39,376.18,2022-04-27
+1041,Phones Product 1041,Electronics,Phones,1353.79,915.99,2023-06-05
+1042,Storage Product 1042,Home & Office,Storage,329.04,171.45,2023-01-14
+1043,Desks Product 1043,Home & Office,Desks,714.61,550.17,2021-05-03
+1044,Small Appliances Product 1044,Appliances,Small Appliances,1166.94,718.43,2021-08-19
+1045,Cleaning Product 1045,Appliances,Cleaning,373.46,282.05,2021-06-27
+1046,Phones Product 1046,Electronics,Phones,431.15,259.52,2022-04-13
+1047,Chairs Product 1047,Home & Office,Chairs,51.78,34.13,2022-03-06
+1048,Lighting Product 1048,Home & Office,Lighting,715.24,370.91,2023-04-05
+1049,Cardio Product 1049,Fitness,Cardio,559.31,282.71,2021-09-27
+1050,Climate Product 1050,Appliances,Climate,810.43,583.21,2021-08-02
+1051,Desks Product 1051,Home & Office,Desks,188.91,144.15,2021-07-04
+1052,Lighting Product 1052,Home & Office,Lighting,581.4,396.7,2023-04-29
+1053,Recovery Product 1053,Fitness,Recovery,835.94,449.63,2022-06-27
+1054,Lighting Product 1054,Home & Office,Lighting,119.32,90.11,2023-08-29
+1055,Laptops Product 1055,Electronics,Laptops,569.39,340.68,2022-11-17
+1056,Accessories Product 1056,Electronics,Accessories,319.81,163.92,2023-07-10
+1057,Strength Product 1057,Fitness,Strength,802.7,392.1,2021-12-05
+1058,Accessories Product 1058,Fitness,Accessories,617.59,466.49,2022-03-13
+1059,Phones Product 1059,Electronics,Phones,191.78,117.21,2023-04-21
+1060,Lighting Product 1060,Home & Office,Lighting,836.07,601.58,2022-03-13
+1061,Kitchen Product 1061,Appliances,Kitchen,1014.31,710.57,2022-10-18
+1062,Lighting Product 1062,Home & Office,Lighting,663.54,473.17,2021-04-27
+1063,Chairs Product 1063,Home & Office,Chairs,844.21,440.26,2023-04-07
+1064,Laptops Product 1064,Electronics,Laptops,1028.94,532.17,2021-12-05
+1065,Monitors Product 1065,Electronics,Monitors,987.91,542.95,2022-09-08
+1066,Chairs Product 1066,Home & Office,Chairs,231.6,114.31,2021-09-27
+1067,Lighting Product 1067,Home & Office,Lighting,786.9,470.16,2023-07-25
+1068,Strength Product 1068,Fitness,Strength,965.8,721.45,2023-11-29
+1069,Kitchen Product 1069,Appliances,Kitchen,664.25,323.04,2023-08-05
+1070,Accessories Product 1070,Electronics,Accessories,522.07,319.97,2022-11-22
+1071,Monitors Product 1071,Electronics,Monitors,40.22,28.23,2021-12-05
+1072,Cardio Product 1072,Fitness,Cardio,995.12,743.14,2023-06-15
+1073,Storage Product 1073,Home & Office,Storage,735.73,530.54,2021-11-05
+1074,Cleaning Product 1074,Appliances,Cleaning,672.65,348.87,2022-11-02
+1075,Laptops Product 1075,Electronics,Laptops,431.69,321.14,2022-12-11
+1076,Kitchen Product 1076,Appliances,Kitchen,206.38,138.31,2022-10-08
+1077,Climate Product 1077,Appliances,Climate,853.17,442.68,2021-07-03
+1078,Monitors Product 1078,Electronics,Monitors,884.32,484.26,2022-06-03
+1079,Lighting Product 1079,Home & Office,Lighting,34.45,16.56,2021-08-15
+1080,Accessories Product 1080,Electronics,Accessories,811.58,466.94,2022-08-23
+1081,Storage Product 1081,Home & Office,Storage,441.13,248.76,2021-06-29
+1082,Storage Product 1082,Home & Office,Storage,288.64,217.1,2021-12-25
+1083,Strength Product 1083,Fitness,Strength,915.92,450.22,2023-07-26
+1084,Accessories Product 1084,Fitness,Accessories,185.44,141.35,2022-12-10
+1085,Small Appliances Product 1085,Appliances,Small Appliances,533.16,382.8,2023-10-10
+1086,Chairs Product 1086,Home & Office,Chairs,706.58,362.18,2022-06-22
+1087,Climate Product 1087,Appliances,Climate,137.27,97.37,2021-12-20
+1088,Phones Product 1088,Electronics,Phones,416.18,314.57,2022-09-05
+1089,Laptops Product 1089,Electronics,Laptops,895.03,493.4,2021-10-28
+1090,Laptops Product 1090,Electronics,Laptops,832.42,439.12,2021-08-04
+1091,Cleaning Product 1091,Appliances,Cleaning,567.09,303.44,2022-11-29
+1092,Laptops Product 1092,Electronics,Laptops,284.58,202.54,2021-05-16
+1093,Small Appliances Product 1093,Appliances,Small Appliances,827.02,609.91,2021-10-14
+1094,Chairs Product 1094,Home & Office,Chairs,813.92,458.2,2023-10-23
+1095,Small Appliances Product 1095,Appliances,Small Appliances,1048.06,685.63,2023-06-06
+1096,Accessories Product 1096,Fitness,Accessories,474.96,316.86,2022-05-30
+1097,Phones Product 1097,Electronics,Phones,325.48,209.72,2021-11-28
+1098,Accessories Product 1098,Fitness,Accessories,887.05,486.48,2023-05-28
+1099,Cardio Product 1099,Fitness,Cardio,346.26,200.96,2021-06-26
+1100,Strength Product 1100,Fitness,Strength,944.86,521.52,2023-08-08
+1101,Climate Product 1101,Appliances,Climate,860.17,574.5,2022-01-19
+1102,Accessories Product 1102,Fitness,Accessories,1003.27,668.53,2022-12-11
+1103,Accessories Product 1103,Electronics,Accessories,369.19,185.02,2023-08-03
+1104,Laptops Product 1104,Electronics,Laptops,916.2,592.45,2021-12-26
+1105,Recovery Product 1105,Fitness,Recovery,923.14,635.79,2023-08-03
+1106,Small Appliances Product 1106,Appliances,Small Appliances,414.23,242.63,2022-01-05
+1107,Desks Product 1107,Home & Office,Desks,757.48,419.63,2023-07-26
+1108,Laptops Product 1108,Electronics,Laptops,286.57,156.56,2022-07-05
+1109,Phones Product 1109,Electronics,Phones,529.83,319.09,2021-11-19
+1110,Kitchen Product 1110,Appliances,Kitchen,607.7,379.47,2023-10-24
+1111,Cleaning Product 1111,Appliances,Cleaning,999.3,489.78,2021-12-30
+1112,Climate Product 1112,Appliances,Climate,468.4,357.64,2022-11-17
+1113,Accessories Product 1113,Electronics,Accessories,1418.45,1042.24,2023-03-30
+1114,Cardio Product 1114,Fitness,Cardio,959.45,602.36,2022-08-31
+1115,Kitchen Product 1115,Appliances,Kitchen,1097.36,572.73,2022-01-09
+1116,Accessories Product 1116,Fitness,Accessories,1062.56,604.82,2023-02-05
+1117,Recovery Product 1117,Fitness,Recovery,862.04,487.59,2023-01-19
+1118,Accessories Product 1118,Fitness,Accessories,597.37,413.03,2021-05-17
+1119,Recovery Product 1119,Fitness,Recovery,708.94,350.39,2022-04-30
+1120,Cardio Product 1120,Fitness,Cardio,266.89,161.71,2022-08-22
+1121,Climate Product 1121,Appliances,Climate,297.9,175.58,2022-07-01
+1122,Cardio Product 1122,Fitness,Cardio,503.12,294.35,2023-12-01
+1123,Desks Product 1123,Home & Office,Desks,646.92,317.34,2023-07-04
+1124,Recovery Product 1124,Fitness,Recovery,1076.45,770.98,2023-08-06
+1125,Chairs Product 1125,Home & Office,Chairs,833.07,549.53,2023-05-27
+1126,Kitchen Product 1126,Appliances,Kitchen,717.98,458.38,2023-11-10
+1127,Strength Product 1127,Fitness,Strength,357.73,243.15,2023-08-14
+1128,Chairs Product 1128,Home & Office,Chairs,802.36,481.43,2021-11-10
+1129,Desks Product 1129,Home & Office,Desks,370.41,269.38,2023-11-16
+1130,Accessories Product 1130,Fitness,Accessories,730.9,407.06,2021-10-10
+1131,Monitors Product 1131,Electronics,Monitors,1333.38,926.46,2023-06-02
+1132,Desks Product 1132,Home & Office,Desks,303.12,201.09,2023-02-01
+1133,Chairs Product 1133,Home & Office,Chairs,424.46,314.82,2022-11-10
+1134,Climate Product 1134,Appliances,Climate,147.54,90.91,2023-08-15
+1135,Phones Product 1135,Electronics,Phones,1435.89,1087.47,2021-08-29
+1136,Accessories Product 1136,Fitness,Accessories,678.17,349.05,2023-02-25
+1137,Phones Product 1137,Electronics,Phones,484.54,326.79,2023-06-28
+1138,Lighting Product 1138,Home & Office,Lighting,510.15,318.68,2022-03-23
+1139,Climate Product 1139,Appliances,Climate,1106.8,735.79,2023-10-08
+1140,Accessories Product 1140,Fitness,Accessories,307.71,158.78,2022-11-25
+1141,Laptops Product 1141,Electronics,Laptops,208.35,155.78,2023-06-14
+1142,Laptops Product 1142,Electronics,Laptops,1067.57,796.33,2021-06-23
+1143,Cleaning Product 1143,Appliances,Cleaning,204.13,155.62,2022-01-12
+1144,Strength Product 1144,Fitness,Strength,917.75,604.59,2021-11-03
+1145,Laptops Product 1145,Electronics,Laptops,529.32,355.82,2023-09-22
+1146,Strength Product 1146,Fitness,Strength,881.02,645.51,2022-02-17
+1147,Storage Product 1147,Home & Office,Storage,812.32,627.0,2023-07-29
+1148,Laptops Product 1148,Electronics,Laptops,835.55,586.83,2023-07-13
+1149,Recovery Product 1149,Fitness,Recovery,854.61,571.53,2023-04-10
+1150,Chairs Product 1150,Home & Office,Chairs,161.86,81.93,2022-04-16
+1151,Desks Product 1151,Home & Office,Desks,427.45,209.76,2022-08-14
+1152,Accessories Product 1152,Fitness,Accessories,949.54,710.31,2023-01-20
+1153,Cardio Product 1153,Fitness,Cardio,588.5,347.74,2023-08-08
+1154,Cleaning Product 1154,Appliances,Cleaning,433.2,236.66,2022-06-29
+1155,Chairs Product 1155,Home & Office,Chairs,126.37,98.5,2023-06-24
+1156,Strength Product 1156,Fitness,Strength,443.91,288.49,2021-07-10
+1157,Accessories Product 1157,Fitness,Accessories,197.08,122.29,2022-07-23
+1158,Cleaning Product 1158,Appliances,Cleaning,467.31,287.27,2023-05-02
+1159,Small Appliances Product 1159,Appliances,Small Appliances,1108.55,578.16,2022-04-15
+1160,Accessories Product 1160,Fitness,Accessories,53.32,28.75,2023-07-15
+1161,Strength Product 1161,Fitness,Strength,432.53,253.05,2023-09-12
+1162,Chairs Product 1162,Home & Office,Chairs,488.7,283.34,2022-12-22
+1163,Desks Product 1163,Home & Office,Desks,257.81,176.38,2022-02-11
+1164,Chairs Product 1164,Home & Office,Chairs,367.57,186.52,2021-07-15
+1165,Chairs Product 1165,Home & Office,Chairs,70.15,45.85,2023-05-23
+1166,Kitchen Product 1166,Appliances,Kitchen,929.89,534.99,2022-08-21
+1167,Cleaning Product 1167,Appliances,Cleaning,1006.57,765.58,2023-03-05
+1168,Desks Product 1168,Home & Office,Desks,720.81,404.17,2023-04-14
+1169,Storage Product 1169,Home & Office,Storage,460.61,247.93,2022-10-03
+1170,Cardio Product 1170,Fitness,Cardio,936.44,672.8,2023-02-16
+1171,Monitors Product 1171,Electronics,Monitors,1075.63,838.94,2023-04-06
+1172,Storage Product 1172,Home & Office,Storage,95.51,59.16,2022-03-23
+1173,Phones Product 1173,Electronics,Phones,68.73,50.13,2023-09-02
+1174,Desks Product 1174,Home & Office,Desks,837.43,497.33,2022-06-19
+1175,Climate Product 1175,Appliances,Climate,1015.2,559.61,2021-07-28
+1176,Chairs Product 1176,Home & Office,Chairs,837.6,572.93,2023-07-24
+1177,Monitors Product 1177,Electronics,Monitors,685.66,387.49,2022-02-20
+1178,Desks Product 1178,Home & Office,Desks,688.05,535.44,2022-01-28
+1179,Storage Product 1179,Home & Office,Storage,718.63,347.43,2022-04-26
+1180,Climate Product 1180,Appliances,Climate,243.53,164.94,2023-04-19
+1181,Strength Product 1181,Fitness,Strength,400.37,232.91,2023-12-01
+1182,Climate Product 1182,Appliances,Climate,394.88,192.18,2023-03-03
+1183,Cardio Product 1183,Fitness,Cardio,253.8,161.47,2023-02-06
+1184,Accessories Product 1184,Electronics,Accessories,878.45,613.84,2022-11-13
+1185,Climate Product 1185,Appliances,Climate,579.77,411.27,2023-05-18
+1186,Cardio Product 1186,Fitness,Cardio,745.84,407.92,2021-12-19
+1187,Strength Product 1187,Fitness,Strength,231.6,154.95,2021-09-26
+1188,Climate Product 1188,Appliances,Climate,941.81,615.16,2021-12-01
+1189,Accessories Product 1189,Fitness,Accessories,984.9,504.26,2023-08-24
+1190,Climate Product 1190,Appliances,Climate,237.44,138.34,2023-10-17
+1191,Small Appliances Product 1191,Appliances,Small Appliances,992.73,724.23,2022-12-24
+1192,Climate Product 1192,Appliances,Climate,553.79,406.81,2022-11-27
+1193,Chairs Product 1193,Home & Office,Chairs,56.88,33.83,2021-12-26
+1194,Recovery Product 1194,Fitness,Recovery,335.49,200.51,2022-09-01
+1195,Desks Product 1195,Home & Office,Desks,190.23,99.87,2023-07-19
+1196,Strength Product 1196,Fitness,Strength,499.17,374.76,2022-03-10
+1197,Storage Product 1197,Home & Office,Storage,347.82,242.7,2022-04-13
+1198,Storage Product 1198,Home & Office,Storage,294.32,143.68,2021-11-22
+1199,Climate Product 1199,Appliances,Climate,894.39,653.18,2023-05-18
+1200,Climate Product 1200,Appliances,Climate,967.8,500.24,2023-04-19
+1201,Cleaning Product 1201,Appliances,Cleaning,433.75,228.75,2021-06-28
+1202,Chairs Product 1202,Home & Office,Chairs,579.19,406.26,2021-04-07
+1203,Lighting Product 1203,Home & Office,Lighting,675.59,350.83,2022-03-19
+1204,Small Appliances Product 1204,Appliances,Small Appliances,1139.94,587.71,2023-09-01
+1205,Accessories Product 1205,Electronics,Accessories,543.91,364.23,2021-10-21
+1206,Storage Product 1206,Home & Office,Storage,577.54,428.77,2022-08-08
+1207,Storage Product 1207,Home & Office,Storage,712.08,525.79,2021-10-16
+1208,Small Appliances Product 1208,Appliances,Small Appliances,905.38,552.47,2022-08-10
+1209,Chairs Product 1209,Home & Office,Chairs,285.46,197.9,2021-10-04
+1210,Chairs Product 1210,Home & Office,Chairs,148.66,115.42,2022-01-28
+1211,Strength Product 1211,Fitness,Strength,774.05,541.24,2023-09-02
+1212,Monitors Product 1212,Electronics,Monitors,1181.79,689.25,2021-04-25
+1213,Laptops Product 1213,Electronics,Laptops,158.01,82.65,2023-04-13
+1214,Desks Product 1214,Home & Office,Desks,765.64,527.98,2023-08-20
+1215,Cleaning Product 1215,Appliances,Cleaning,1141.8,822.14,2021-06-05
+1216,Lighting Product 1216,Home & Office,Lighting,192.28,108.27,2021-05-31
+1217,Kitchen Product 1217,Appliances,Kitchen,1025.98,794.39,2022-03-29
+1218,Cardio Product 1218,Fitness,Cardio,80.16,48.09,2021-10-26
+1219,Kitchen Product 1219,Appliances,Kitchen,126.98,68.95,2023-04-08
+1220,Kitchen Product 1220,Appliances,Kitchen,1108.88,619.18,2022-04-21
+1221,Cardio Product 1221,Fitness,Cardio,267.12,192.93,2022-10-19
+1222,Strength Product 1222,Fitness,Strength,263.65,150.08,2022-01-30
+1223,Strength Product 1223,Fitness,Strength,976.91,744.44,2022-12-24
+1224,Kitchen Product 1224,Appliances,Kitchen,799.69,432.87,2023-01-30
+1225,Small Appliances Product 1225,Appliances,Small Appliances,651.08,390.38,2023-04-19
+1226,Monitors Product 1226,Electronics,Monitors,1259.29,725.54,2021-08-29
+1227,Accessories Product 1227,Electronics,Accessories,866.8,513.09,2022-04-19
+1228,Lighting Product 1228,Home & Office,Lighting,58.09,37.1,2023-05-31
+1229,Climate Product 1229,Appliances,Climate,837.89,497.93,2022-09-01
+1230,Climate Product 1230,Appliances,Climate,48.27,31.65,2022-11-23
+1231,Accessories Product 1231,Electronics,Accessories,1009.42,705.76,2021-09-04
+1232,Monitors Product 1232,Electronics,Monitors,354.35,273.14,2023-05-26
+1233,Small Appliances Product 1233,Appliances,Small Appliances,1077.98,525.55,2021-10-28
+1234,Chairs Product 1234,Home & Office,Chairs,279.11,158.18,2021-12-05
+1235,Cardio Product 1235,Fitness,Cardio,952.88,542.45,2022-01-23
+1236,Phones Product 1236,Electronics,Phones,688.94,378.44,2023-05-19
+1237,Cardio Product 1237,Fitness,Cardio,601.26,320.1,2021-10-11
+1238,Chairs Product 1238,Home & Office,Chairs,531.67,343.75,2022-03-15
+1239,Recovery Product 1239,Fitness,Recovery,516.53,390.16,2021-04-10
+1240,Phones Product 1240,Electronics,Phones,1037.12,733.12,2023-04-17
+1241,Chairs Product 1241,Home & Office,Chairs,111.97,83.63,2023-08-18
+1242,Strength Product 1242,Fitness,Strength,772.76,512.6,2021-05-07
+1243,Kitchen Product 1243,Appliances,Kitchen,520.88,405.75,2023-08-06
+1244,Recovery Product 1244,Fitness,Recovery,619.1,439.83,2022-03-25
+1245,Desks Product 1245,Home & Office,Desks,167.12,90.3,2022-03-30
+1246,Accessories Product 1246,Fitness,Accessories,161.31,99.33,2022-11-02
+1247,Climate Product 1247,Appliances,Climate,434.42,224.93,2021-11-02
+1248,Recovery Product 1248,Fitness,Recovery,109.59,75.76,2023-07-17
+1249,Climate Product 1249,Appliances,Climate,1120.89,735.22,2022-02-11
+1250,Accessories Product 1250,Electronics,Accessories,76.35,40.53,2022-09-14
+1251,Monitors Product 1251,Electronics,Monitors,1410.34,739.12,2023-01-05
+1252,Monitors Product 1252,Electronics,Monitors,730.13,461.84,2023-02-13
+1253,Desks Product 1253,Home & Office,Desks,32.67,20.41,2022-08-15
+1254,Cleaning Product 1254,Appliances,Cleaning,252.76,164.76,2022-10-13
+1255,Lighting Product 1255,Home & Office,Lighting,752.45,547.34,2023-07-22
+1256,Kitchen Product 1256,Appliances,Kitchen,960.81,697.59,2021-04-08
+1257,Lighting Product 1257,Home & Office,Lighting,284.73,182.07,2023-07-18
+1258,Monitors Product 1258,Electronics,Monitors,1319.5,697.61,2023-08-11
+1259,Cleaning Product 1259,Appliances,Cleaning,413.96,259.69,2022-11-28
+1260,Laptops Product 1260,Electronics,Laptops,1355.49,783.28,2021-06-23
+1261,Laptops Product 1261,Electronics,Laptops,604.86,468.87,2023-07-10
+1262,Phones Product 1262,Electronics,Phones,592.14,300.95,2021-08-16
+1263,Climate Product 1263,Appliances,Climate,413.27,277.68,2021-07-30
+1264,Cardio Product 1264,Fitness,Cardio,1010.27,676.17,2023-11-25
+1265,Cardio Product 1265,Fitness,Cardio,616.17,390.33,2021-11-08
+1266,Cleaning Product 1266,Appliances,Cleaning,812.15,491.65,2022-03-31
+1267,Cleaning Product 1267,Appliances,Cleaning,977.6,534.12,2023-06-01
+1268,Laptops Product 1268,Electronics,Laptops,1357.71,705.79,2022-11-24
+1269,Strength Product 1269,Fitness,Strength,1060.17,691.08,2022-06-09
+1270,Accessories Product 1270,Fitness,Accessories,292.68,153.51,2021-05-15
+1271,Accessories Product 1271,Fitness,Accessories,630.07,429.75,2022-07-29
+1272,Lighting Product 1272,Home & Office,Lighting,588.17,389.85,2022-03-16
+1273,Climate Product 1273,Appliances,Climate,47.96,33.96,2022-12-07
+1274,Desks Product 1274,Home & Office,Desks,50.49,38.64,2022-11-13
+1275,Kitchen Product 1275,Appliances,Kitchen,181.66,133.89,2023-04-29
+1276,Strength Product 1276,Fitness,Strength,658.21,413.36,2022-01-28
+1277,Phones Product 1277,Electronics,Phones,1419.07,1004.0,2022-10-14
+1278,Small Appliances Product 1278,Appliances,Small Appliances,1117.8,622.92,2023-08-19
+1279,Accessories Product 1279,Fitness,Accessories,962.89,627.65,2023-10-08
+1280,Monitors Product 1280,Electronics,Monitors,912.49,507.54,2023-02-14
+1281,Recovery Product 1281,Fitness,Recovery,61.85,44.93,2022-06-18
+1282,Monitors Product 1282,Electronics,Monitors,1389.15,917.43,2021-09-06
+1283,Cardio Product 1283,Fitness,Cardio,105.13,56.99,2021-10-24
+1284,Cardio Product 1284,Fitness,Cardio,796.09,601.02,2022-10-05
+1285,Small Appliances Product 1285,Appliances,Small Appliances,916.99,623.98,2021-12-23
+1286,Strength Product 1286,Fitness,Strength,219.5,129.54,2023-06-12
+1287,Lighting Product 1287,Home & Office,Lighting,251.84,141.9,2023-09-18
+1288,Laptops Product 1288,Electronics,Laptops,969.63,742.92,2022-10-28
+1289,Recovery Product 1289,Fitness,Recovery,974.05,613.09,2021-09-06
+1290,Chairs Product 1290,Home & Office,Chairs,639.35,481.93,2023-09-12
+1291,Small Appliances Product 1291,Appliances,Small Appliances,423.11,211.61,2023-07-04
+1292,Recovery Product 1292,Fitness,Recovery,214.69,139.11,2022-12-25
+1293,Phones Product 1293,Electronics,Phones,901.39,438.6,2021-09-29
+1294,Recovery Product 1294,Fitness,Recovery,873.14,484.06,2022-03-22
+1295,Monitors Product 1295,Electronics,Monitors,600.14,362.95,2022-07-30
+1296,Small Appliances Product 1296,Appliances,Small Appliances,979.01,697.77,2022-12-11
+1297,Accessories Product 1297,Electronics,Accessories,668.7,508.77,2022-03-28
+1298,Cleaning Product 1298,Appliances,Cleaning,337.99,200.4,2022-11-28
+1299,Cleaning Product 1299,Appliances,Cleaning,266.3,130.66,2023-08-27
+1300,Monitors Product 1300,Electronics,Monitors,47.75,28.9,2023-04-21
+1301,Strength Product 1301,Fitness,Strength,1048.27,514.32,2022-07-06
+1302,Accessories Product 1302,Fitness,Accessories,995.47,479.78,2021-09-15
+1303,Lighting Product 1303,Home & Office,Lighting,795.68,475.38,2022-07-19
+1304,Cardio Product 1304,Fitness,Cardio,470.97,352.33,2022-10-20
+1305,Lighting Product 1305,Home & Office,Lighting,54.21,40.61,2022-12-18
+1306,Small Appliances Product 1306,Appliances,Small Appliances,501.39,390.81,2023-06-09
+1307,Chairs Product 1307,Home & Office,Chairs,766.17,567.26,2023-02-19
+1308,Storage Product 1308,Home & Office,Storage,332.43,188.78,2021-10-22
+1309,Accessories Product 1309,Electronics,Accessories,246.36,140.78,2021-08-05
+1310,Laptops Product 1310,Electronics,Laptops,756.64,461.4,2023-09-21
+1311,Phones Product 1311,Electronics,Phones,158.35,94.9,2023-06-18
+1312,Phones Product 1312,Electronics,Phones,517.66,391.66,2021-12-15
+1313,Cleaning Product 1313,Appliances,Cleaning,353.79,249.19,2021-12-09
+1314,Recovery Product 1314,Fitness,Recovery,795.5,494.32,2023-01-06
+1315,Storage Product 1315,Home & Office,Storage,278.73,203.87,2023-07-09
+1316,Small Appliances Product 1316,Appliances,Small Appliances,650.03,391.96,2023-07-09
+1317,Climate Product 1317,Appliances,Climate,768.47,415.3,2022-01-14
+1318,Strength Product 1318,Fitness,Strength,139.99,94.69,2023-05-15
+1319,Cleaning Product 1319,Appliances,Cleaning,839.58,469.21,2023-06-28
+1320,Desks Product 1320,Home & Office,Desks,296.08,147.86,2021-04-09
+1321,Cardio Product 1321,Fitness,Cardio,848.14,532.99,2023-08-15
+1322,Kitchen Product 1322,Appliances,Kitchen,1062.05,724.03,2022-10-05
+1323,Small Appliances Product 1323,Appliances,Small Appliances,230.96,178.7,2023-04-01
+1324,Accessories Product 1324,Electronics,Accessories,623.75,437.74,2023-02-13
+1325,Storage Product 1325,Home & Office,Storage,161.42,88.26,2023-09-17
+1326,Small Appliances Product 1326,Appliances,Small Appliances,635.15,328.33,2022-01-09
+1327,Chairs Product 1327,Home & Office,Chairs,475.09,232.92,2022-04-29
+1328,Accessories Product 1328,Fitness,Accessories,676.42,462.58,2022-01-29
+1329,Kitchen Product 1329,Appliances,Kitchen,187.78,131.29,2022-09-06
+1330,Storage Product 1330,Home & Office,Storage,831.29,564.79,2022-10-07
+1331,Chairs Product 1331,Home & Office,Chairs,129.05,74.96,2021-10-27
+1332,Cardio Product 1332,Fitness,Cardio,49.65,26.0,2021-11-21
+1333,Phones Product 1333,Electronics,Phones,642.68,380.48,2021-10-13
+1334,Recovery Product 1334,Fitness,Recovery,1075.18,695.93,2023-01-08
+1335,Small Appliances Product 1335,Appliances,Small Appliances,858.29,476.93,2023-03-04
+1336,Recovery Product 1336,Fitness,Recovery,100.87,67.59,2022-04-25
+1337,Desks Product 1337,Home & Office,Desks,400.44,289.29,2022-03-02
+1338,Storage Product 1338,Home & Office,Storage,61.82,43.12,2022-02-28
+1339,Kitchen Product 1339,Appliances,Kitchen,801.17,596.44,2023-04-18
+1340,Lighting Product 1340,Home & Office,Lighting,597.05,434.19,2022-08-26
+1341,Accessories Product 1341,Fitness,Accessories,1056.37,636.74,2022-10-11
+1342,Accessories Product 1342,Fitness,Accessories,443.37,248.2,2022-02-18
+1343,Recovery Product 1343,Fitness,Recovery,134.34,87.55,2021-06-13
+1344,Desks Product 1344,Home & Office,Desks,111.9,83.21,2022-11-16
+1345,Phones Product 1345,Electronics,Phones,756.64,434.46,2022-08-02
+1346,Chairs Product 1346,Home & Office,Chairs,245.42,176.77,2023-01-20
+1347,Phones Product 1347,Electronics,Phones,549.55,313.74,2021-06-11
+1348,Chairs Product 1348,Home & Office,Chairs,492.75,281.47,2022-10-13
+1349,Chairs Product 1349,Home & Office,Chairs,454.53,224.35,2021-07-27
+1350,Kitchen Product 1350,Appliances,Kitchen,673.7,359.99,2022-11-30
+1351,Laptops Product 1351,Electronics,Laptops,1143.04,880.68,2022-09-18
+1352,Climate Product 1352,Appliances,Climate,451.74,308.85,2021-04-22
+1353,Phones Product 1353,Electronics,Phones,644.11,439.69,2022-05-14
+1354,Accessories Product 1354,Electronics,Accessories,701.04,509.64,2022-11-02
+1355,Monitors Product 1355,Electronics,Monitors,755.0,441.8,2023-03-03
+1356,Desks Product 1356,Home & Office,Desks,576.43,295.36,2023-06-03
+1357,Lighting Product 1357,Home & Office,Lighting,615.9,322.6,2021-12-14
+1358,Phones Product 1358,Electronics,Phones,1313.48,851.08,2023-01-24
+1359,Strength Product 1359,Fitness,Strength,1090.98,541.44,2023-04-30
+1360,Strength Product 1360,Fitness,Strength,243.45,187.09,2023-09-01
+1361,Monitors Product 1361,Electronics,Monitors,1385.65,702.45,2023-04-23
+1362,Monitors Product 1362,Electronics,Monitors,448.33,329.19,2022-12-06
+1363,Monitors Product 1363,Electronics,Monitors,613.62,408.09,2022-01-16
+1364,Strength Product 1364,Fitness,Strength,522.51,327.37,2023-07-20
+1365,Monitors Product 1365,Electronics,Monitors,1244.02,838.93,2022-07-07
+1366,Cardio Product 1366,Fitness,Cardio,540.2,275.63,2022-05-02
+1367,Chairs Product 1367,Home & Office,Chairs,887.96,450.07,2021-12-23
+1368,Strength Product 1368,Fitness,Strength,901.52,470.8,2021-11-15
+1369,Accessories Product 1369,Fitness,Accessories,914.27,670.17,2021-12-22
+1370,Monitors Product 1370,Electronics,Monitors,993.27,681.63,2023-09-10
+1371,Phones Product 1371,Electronics,Phones,140.97,109.59,2022-07-21
+1372,Recovery Product 1372,Fitness,Recovery,718.42,528.25,2022-02-01
+1373,Recovery Product 1373,Fitness,Recovery,601.75,344.67,2023-08-26
+1374,Desks Product 1374,Home & Office,Desks,334.74,200.06,2022-04-21
+1375,Kitchen Product 1375,Appliances,Kitchen,869.22,461.44,2021-11-11
+1376,Accessories Product 1376,Fitness,Accessories,984.04,659.2,2022-09-13
+1377,Laptops Product 1377,Electronics,Laptops,667.82,353.89,2023-06-21
+1378,Cleaning Product 1378,Appliances,Cleaning,739.63,539.67,2022-04-17
+1379,Climate Product 1379,Appliances,Climate,391.22,287.19,2022-10-09
+1380,Lighting Product 1380,Home & Office,Lighting,120.08,82.26,2022-04-23
+1381,Cardio Product 1381,Fitness,Cardio,282.66,219.7,2022-11-01
+1382,Accessories Product 1382,Electronics,Accessories,1234.09,671.39,2022-02-13
+1383,Chairs Product 1383,Home & Office,Chairs,41.41,25.66,2022-04-21
+1384,Accessories Product 1384,Electronics,Accessories,623.45,347.58,2021-06-20
+1385,Lighting Product 1385,Home & Office,Lighting,696.75,469.53,2021-11-15
+1386,Small Appliances Product 1386,Appliances,Small Appliances,843.83,557.47,2022-04-22
+1387,Cleaning Product 1387,Appliances,Cleaning,964.51,700.42,2023-11-08
+1388,Accessories Product 1388,Fitness,Accessories,293.82,228.03,2023-05-23
+1389,Accessories Product 1389,Electronics,Accessories,161.24,86.03,2021-08-16
+1390,Chairs Product 1390,Home & Office,Chairs,160.22,117.69,2021-12-18
+1391,Laptops Product 1391,Electronics,Laptops,103.74,50.79,2023-11-28
+1392,Accessories Product 1392,Fitness,Accessories,326.81,239.85,2022-10-23
+1393,Phones Product 1393,Electronics,Phones,404.79,272.31,2023-08-08
+1394,Cardio Product 1394,Fitness,Cardio,870.46,546.16,2022-02-19
+1395,Cardio Product 1395,Fitness,Cardio,513.13,253.02,2021-11-04
+1396,Small Appliances Product 1396,Appliances,Small Appliances,1149.03,586.99,2021-10-01
+1397,Small Appliances Product 1397,Appliances,Small Appliances,983.82,505.44,2022-04-17
+1398,Cardio Product 1398,Fitness,Cardio,670.58,325.79,2023-10-19
+1399,Cardio Product 1399,Fitness,Cardio,502.4,291.3,2021-09-22
+1400,Small Appliances Product 1400,Appliances,Small Appliances,1141.22,616.27,2022-01-20
+1401,Desks Product 1401,Home & Office,Desks,866.0,622.29,2022-02-19
+1402,Accessories Product 1402,Electronics,Accessories,1055.47,608.03,2021-09-16
+1403,Kitchen Product 1403,Appliances,Kitchen,1122.51,704.62,2022-02-15
+1404,Strength Product 1404,Fitness,Strength,997.43,505.76,2022-05-30
+1405,Storage Product 1405,Home & Office,Storage,346.16,248.62,2022-04-23
+1406,Accessories Product 1406,Fitness,Accessories,202.5,111.94,2021-06-08
+1407,Laptops Product 1407,Electronics,Laptops,706.44,427.25,2021-12-08
+1408,Storage Product 1408,Home & Office,Storage,607.66,316.82,2023-07-14
+1409,Strength Product 1409,Fitness,Strength,472.82,302.52,2023-05-28
+1410,Accessories Product 1410,Fitness,Accessories,267.38,198.64,2022-04-29
+1411,Laptops Product 1411,Electronics,Laptops,543.03,320.77,2022-12-12
+1412,Desks Product 1412,Home & Office,Desks,499.59,353.46,2022-02-01
+1413,Monitors Product 1413,Electronics,Monitors,979.67,506.21,2022-06-26
+1414,Small Appliances Product 1414,Appliances,Small Appliances,885.77,639.04,2021-07-04
+1415,Accessories Product 1415,Electronics,Accessories,819.52,434.2,2022-04-28
+1416,Cardio Product 1416,Fitness,Cardio,675.89,496.08,2022-08-21
+1417,Monitors Product 1417,Electronics,Monitors,710.6,455.97,2022-11-21
+1418,Phones Product 1418,Electronics,Phones,1466.08,972.36,2023-02-08
+1419,Accessories Product 1419,Fitness,Accessories,954.51,611.76,2022-06-16
+1420,Cleaning Product 1420,Appliances,Cleaning,875.69,625.12,2022-04-03
+1421,Small Appliances Product 1421,Appliances,Small Appliances,239.77,160.76,2021-08-03
+1422,Cleaning Product 1422,Appliances,Cleaning,120.35,66.57,2022-06-25
+1423,Storage Product 1423,Home & Office,Storage,750.68,545.0,2022-06-01
+1424,Laptops Product 1424,Electronics,Laptops,1148.85,626.4,2022-11-14
+1425,Monitors Product 1425,Electronics,Monitors,292.39,212.96,2023-03-19
+1426,Cleaning Product 1426,Appliances,Cleaning,126.29,79.26,2022-06-27
+1427,Desks Product 1427,Home & Office,Desks,123.81,73.26,2022-02-03
+1428,Climate Product 1428,Appliances,Climate,566.15,309.78,2022-11-22
+1429,Cleaning Product 1429,Appliances,Cleaning,1127.28,720.72,2022-07-21
+1430,Cardio Product 1430,Fitness,Cardio,369.35,217.18,2023-07-11
+1431,Accessories Product 1431,Fitness,Accessories,216.97,140.87,2022-12-18
+1432,Accessories Product 1432,Fitness,Accessories,889.8,618.58,2021-04-10
+1433,Kitchen Product 1433,Appliances,Kitchen,893.1,472.52,2022-12-21
+1434,Cardio Product 1434,Fitness,Cardio,1093.35,628.1,2023-10-12
+1435,Accessories Product 1435,Electronics,Accessories,1273.01,683.59,2022-08-30
+1436,Kitchen Product 1436,Appliances,Kitchen,107.99,73.44,2021-11-10
+1437,Cleaning Product 1437,Appliances,Cleaning,244.29,121.6,2023-02-21
+1438,Kitchen Product 1438,Appliances,Kitchen,600.95,436.06,2022-01-14
+1439,Recovery Product 1439,Fitness,Recovery,453.78,286.72,2023-12-01
+1440,Phones Product 1440,Electronics,Phones,781.48,476.77,2021-12-15
+1441,Small Appliances Product 1441,Appliances,Small Appliances,292.5,149.49,2023-10-19
+1442,Recovery Product 1442,Fitness,Recovery,231.07,126.75,2023-11-21
+1443,Cardio Product 1443,Fitness,Cardio,498.32,358.78,2021-09-30
+1444,Climate Product 1444,Appliances,Climate,605.38,392.36,2022-01-18
+1445,Laptops Product 1445,Electronics,Laptops,1182.58,646.6,2022-12-18
+1446,Monitors Product 1446,Electronics,Monitors,446.29,269.06,2022-11-24
+1447,Desks Product 1447,Home & Office,Desks,114.42,83.33,2023-04-29
+1448,Lighting Product 1448,Home & Office,Lighting,41.26,25.42,2023-08-09
+1449,Phones Product 1449,Electronics,Phones,1302.43,645.81,2021-10-17
+1450,Desks Product 1450,Home & Office,Desks,662.89,319.06,2022-02-19
+1451,Strength Product 1451,Fitness,Strength,885.58,505.4,2023-10-12
+1452,Monitors Product 1452,Electronics,Monitors,1054.3,629.05,2021-09-12
+1453,Accessories Product 1453,Fitness,Accessories,277.75,153.68,2022-10-19
+1454,Laptops Product 1454,Electronics,Laptops,1347.55,1018.5,2022-01-17
+1455,Cardio Product 1455,Fitness,Cardio,730.18,429.67,2022-05-27
+1456,Kitchen Product 1456,Appliances,Kitchen,411.15,218.41,2022-06-30
+1457,Monitors Product 1457,Electronics,Monitors,1131.65,692.48,2023-11-13
+1458,Small Appliances Product 1458,Appliances,Small Appliances,795.41,417.28,2022-04-29
+1459,Kitchen Product 1459,Appliances,Kitchen,1197.09,836.59,2023-03-30
+1460,Recovery Product 1460,Fitness,Recovery,341.02,265.72,2023-08-12
+1461,Laptops Product 1461,Electronics,Laptops,753.67,491.33,2023-08-02
+1462,Climate Product 1462,Appliances,Climate,42.64,21.57,2021-09-02
+1463,Phones Product 1463,Electronics,Phones,823.21,418.77,2022-07-28
+1464,Kitchen Product 1464,Appliances,Kitchen,257.48,199.18,2021-06-18
+1465,Monitors Product 1465,Electronics,Monitors,199.04,119.13,2022-10-12
+1466,Lighting Product 1466,Home & Office,Lighting,138.29,66.45,2023-04-25
+1467,Small Appliances Product 1467,Appliances,Small Appliances,778.33,593.92,2022-09-18
+1468,Phones Product 1468,Electronics,Phones,954.39,467.43,2022-07-21
+1469,Climate Product 1469,Appliances,Climate,938.02,699.9,2023-06-22
+1470,Cleaning Product 1470,Appliances,Cleaning,298.71,178.43,2022-07-24
+1471,Chairs Product 1471,Home & Office,Chairs,404.86,197.05,2023-11-02
+1472,Accessories Product 1472,Fitness,Accessories,603.98,327.57,2021-06-25
+1473,Laptops Product 1473,Electronics,Laptops,1019.72,504.15,2021-11-09
+1474,Accessories Product 1474,Electronics,Accessories,1465.69,933.94,2022-04-02
+1475,Laptops Product 1475,Electronics,Laptops,1248.37,716.4,2021-08-31
+1476,Phones Product 1476,Electronics,Phones,43.01,24.69,2022-10-07
+1477,Desks Product 1477,Home & Office,Desks,660.1,462.89,2021-10-31
+1478,Recovery Product 1478,Fitness,Recovery,947.5,478.02,2023-10-02
+1479,Cleaning Product 1479,Appliances,Cleaning,1088.0,641.87,2022-02-24
+1480,Cleaning Product 1480,Appliances,Cleaning,761.21,530.93,2023-09-25
+1481,Climate Product 1481,Appliances,Climate,447.23,294.42,2023-02-07
+1482,Accessories Product 1482,Electronics,Accessories,814.83,525.03,2022-12-14
+1483,Climate Product 1483,Appliances,Climate,1163.97,879.64,2021-07-23
+1484,Kitchen Product 1484,Appliances,Kitchen,840.79,538.54,2023-07-18
+1485,Strength Product 1485,Fitness,Strength,1085.38,752.33,2023-08-15
+1486,Cleaning Product 1486,Appliances,Cleaning,1179.16,851.28,2022-08-11
+1487,Cleaning Product 1487,Appliances,Cleaning,1034.31,504.11,2021-05-10
+1488,Recovery Product 1488,Fitness,Recovery,859.25,579.35,2023-01-16
+1489,Recovery Product 1489,Fitness,Recovery,699.62,534.61,2022-03-30
+1490,Accessories Product 1490,Fitness,Accessories,619.23,469.56,2022-10-05
+1491,Desks Product 1491,Home & Office,Desks,878.4,501.61,2023-01-02
+1492,Desks Product 1492,Home & Office,Desks,530.17,326.64,2021-06-25
+1493,Storage Product 1493,Home & Office,Storage,237.4,147.19,2021-10-09
+1494,Accessories Product 1494,Electronics,Accessories,1389.9,781.25,2021-07-23
+1495,Laptops Product 1495,Electronics,Laptops,885.39,498.21,2023-10-24
+1496,Accessories Product 1496,Electronics,Accessories,1356.45,939.43,2022-08-22
+1497,Chairs Product 1497,Home & Office,Chairs,652.87,412.04,2021-04-21
+1498,Lighting Product 1498,Home & Office,Lighting,49.79,33.15,2021-06-02
+1499,Cleaning Product 1499,Appliances,Cleaning,507.15,260.32,2023-11-29
+1500,Laptops Product 1500,Electronics,Laptops,1479.01,765.09,2021-09-07
+1501,Small Appliances Product 1501,Appliances,Small Appliances,809.04,562.66,2023-05-24
+1502,Desks Product 1502,Home & Office,Desks,256.19,138.6,2023-11-17
+1503,Recovery Product 1503,Fitness,Recovery,788.68,514.71,2023-07-14
+1504,Storage Product 1504,Home & Office,Storage,159.17,100.58,2022-01-01
+1505,Chairs Product 1505,Home & Office,Chairs,307.53,163.45,2022-11-18
+1506,Lighting Product 1506,Home & Office,Lighting,770.05,588.62,2022-06-09
+1507,Cardio Product 1507,Fitness,Cardio,553.89,392.35,2023-08-28
+1508,Desks Product 1508,Home & Office,Desks,408.69,299.44,2022-09-17
+1509,Strength Product 1509,Fitness,Strength,27.91,15.28,2023-09-07
+1510,Chairs Product 1510,Home & Office,Chairs,353.5,196.69,2023-01-04
+1511,Kitchen Product 1511,Appliances,Kitchen,1010.49,547.41,2023-05-09
+1512,Climate Product 1512,Appliances,Climate,412.91,271.56,2021-05-31
+1513,Storage Product 1513,Home & Office,Storage,402.83,309.75,2023-01-04
+1514,Cleaning Product 1514,Appliances,Cleaning,844.95,575.88,2023-10-25
+1515,Phones Product 1515,Electronics,Phones,1343.02,662.94,2021-06-18
+1516,Lighting Product 1516,Home & Office,Lighting,589.18,311.37,2022-12-15
+1517,Storage Product 1517,Home & Office,Storage,815.44,430.2,2021-07-13
+1518,Phones Product 1518,Electronics,Phones,297.69,192.07,2023-09-24
+1519,Monitors Product 1519,Electronics,Monitors,843.28,633.3,2023-05-28
+1520,Cardio Product 1520,Fitness,Cardio,985.0,531.09,2022-07-10
+1521,Storage Product 1521,Home & Office,Storage,732.5,363.69,2023-03-07
+1522,Cleaning Product 1522,Appliances,Cleaning,892.44,540.12,2022-03-17
+1523,Strength Product 1523,Fitness,Strength,102.77,51.05,2023-06-30
+1524,Accessories Product 1524,Electronics,Accessories,1092.04,575.82,2021-08-04
+1525,Chairs Product 1525,Home & Office,Chairs,186.18,135.35,2023-01-22
+1526,Monitors Product 1526,Electronics,Monitors,40.26,22.64,2021-09-11
+1527,Small Appliances Product 1527,Appliances,Small Appliances,450.33,277.92,2022-02-01
+1528,Accessories Product 1528,Electronics,Accessories,699.17,426.29,2023-11-27
+1529,Strength Product 1529,Fitness,Strength,387.5,226.47,2021-05-25
+1530,Desks Product 1530,Home & Office,Desks,425.52,267.16,2022-05-16
+1531,Laptops Product 1531,Electronics,Laptops,1195.26,857.39,2022-02-26
+1532,Strength Product 1532,Fitness,Strength,320.29,169.37,2021-09-16
+1533,Desks Product 1533,Home & Office,Desks,575.92,366.62,2023-10-08
+1534,Laptops Product 1534,Electronics,Laptops,255.07,134.59,2023-10-02
+1535,Small Appliances Product 1535,Appliances,Small Appliances,724.79,443.27,2021-09-19
+1536,Climate Product 1536,Appliances,Climate,859.75,629.68,2022-06-09
+1537,Climate Product 1537,Appliances,Climate,362.69,246.64,2021-09-13
+1538,Cardio Product 1538,Fitness,Cardio,601.11,362.61,2023-07-01
+1539,Cardio Product 1539,Fitness,Cardio,437.93,299.79,2023-08-16
+1540,Strength Product 1540,Fitness,Strength,45.54,29.12,2022-04-05
+1541,Storage Product 1541,Home & Office,Storage,286.35,162.53,2022-06-26
+1542,Lighting Product 1542,Home & Office,Lighting,77.03,57.52,2022-02-27
+1543,Chairs Product 1543,Home & Office,Chairs,325.16,218.41,2022-10-03
+1544,Storage Product 1544,Home & Office,Storage,778.78,400.83,2022-10-13
+1545,Recovery Product 1545,Fitness,Recovery,243.4,167.79,2021-11-21
+1546,Monitors Product 1546,Electronics,Monitors,246.81,169.65,2022-07-11
+1547,Strength Product 1547,Fitness,Strength,1024.95,711.72,2023-11-21
+1548,Recovery Product 1548,Fitness,Recovery,279.55,141.43,2021-05-03
+1549,Lighting Product 1549,Home & Office,Lighting,428.3,297.12,2021-07-31
+1550,Chairs Product 1550,Home & Office,Chairs,260.79,129.63,2023-01-31
+1551,Monitors Product 1551,Electronics,Monitors,716.89,416.82,2022-06-04
+1552,Storage Product 1552,Home & Office,Storage,742.4,430.35,2023-11-14
+1553,Accessories Product 1553,Electronics,Accessories,532.31,276.94,2022-10-28
+1554,Climate Product 1554,Appliances,Climate,907.59,701.84,2021-10-02
+1555,Monitors Product 1555,Electronics,Monitors,738.0,549.82,2023-01-12
+1556,Recovery Product 1556,Fitness,Recovery,265.82,178.19,2021-11-15
+1557,Cardio Product 1557,Fitness,Cardio,185.97,90.35,2023-01-15
+1558,Phones Product 1558,Electronics,Phones,634.88,487.18,2021-07-02
+1559,Cleaning Product 1559,Appliances,Cleaning,503.19,361.1,2021-11-05
+1560,Accessories Product 1560,Fitness,Accessories,562.8,286.77,2021-07-13
+1561,Monitors Product 1561,Electronics,Monitors,1206.02,665.71,2022-02-22
+1562,Monitors Product 1562,Electronics,Monitors,1045.5,645.29,2023-11-09
+1563,Monitors Product 1563,Electronics,Monitors,1371.17,914.02,2021-04-12
+1564,Accessories Product 1564,Electronics,Accessories,416.07,242.05,2023-04-26
+1565,Monitors Product 1565,Electronics,Monitors,1207.97,817.01,2022-07-13
+1566,Lighting Product 1566,Home & Office,Lighting,617.22,335.54,2022-07-24
+1567,Cleaning Product 1567,Appliances,Cleaning,289.83,198.38,2022-04-27
+1568,Cardio Product 1568,Fitness,Cardio,730.85,504.56,2021-09-05
+1569,Lighting Product 1569,Home & Office,Lighting,690.47,521.2,2022-09-20
+1570,Storage Product 1570,Home & Office,Storage,457.5,351.08,2021-07-25
+1571,Accessories Product 1571,Fitness,Accessories,241.24,178.77,2023-06-01
+1572,Storage Product 1572,Home & Office,Storage,502.25,358.87,2022-04-02
+1573,Laptops Product 1573,Electronics,Laptops,1044.54,620.36,2022-03-14
+1574,Accessories Product 1574,Fitness,Accessories,734.43,489.11,2023-01-27
+1575,Kitchen Product 1575,Appliances,Kitchen,177.87,115.49,2023-01-21
+1576,Desks Product 1576,Home & Office,Desks,341.49,208.19,2022-12-01
+1577,Phones Product 1577,Electronics,Phones,1325.16,882.39,2022-08-19
+1578,Storage Product 1578,Home & Office,Storage,714.86,546.52,2023-04-30
+1579,Small Appliances Product 1579,Appliances,Small Appliances,467.36,303.9,2021-12-02
+1580,Monitors Product 1580,Electronics,Monitors,1411.74,829.77,2022-12-19
+1581,Desks Product 1581,Home & Office,Desks,391.35,297.82,2021-10-31
+1582,Storage Product 1582,Home & Office,Storage,281.51,166.72,2022-09-17
+1583,Lighting Product 1583,Home & Office,Lighting,50.13,35.81,2022-06-18
+1584,Storage Product 1584,Home & Office,Storage,853.52,529.37,2022-11-15
+1585,Chairs Product 1585,Home & Office,Chairs,731.51,503.31,2021-08-17
+1586,Chairs Product 1586,Home & Office,Chairs,249.36,124.97,2021-04-12
+1587,Monitors Product 1587,Electronics,Monitors,1493.75,1005.54,2022-06-01
+1588,Phones Product 1588,Electronics,Phones,386.38,262.05,2022-06-27
+1589,Phones Product 1589,Electronics,Phones,154.7,114.28,2021-11-02
+1590,Cleaning Product 1590,Appliances,Cleaning,946.88,584.46,2022-11-16
+1591,Kitchen Product 1591,Appliances,Kitchen,388.4,243.3,2021-07-09
+1592,Phones Product 1592,Electronics,Phones,1190.89,862.01,2023-07-14
+1593,Laptops Product 1593,Electronics,Laptops,996.04,615.89,2022-01-29
+1594,Accessories Product 1594,Electronics,Accessories,1246.99,690.58,2022-08-18
+1595,Phones Product 1595,Electronics,Phones,812.8,394.95,2022-07-17
+1596,Monitors Product 1596,Electronics,Monitors,1491.74,780.73,2023-02-10
+1597,Lighting Product 1597,Home & Office,Lighting,195.29,140.7,2021-12-18
+1598,Phones Product 1598,Electronics,Phones,1010.0,593.82,2022-05-20
+1599,Cardio Product 1599,Fitness,Cardio,1060.86,600.41,2022-12-14
+1600,Recovery Product 1600,Fitness,Recovery,893.55,432.25,2022-04-23
+1601,Climate Product 1601,Appliances,Climate,941.9,524.34,2022-01-31
+1602,Storage Product 1602,Home & Office,Storage,147.88,97.24,2023-03-07
+1603,Kitchen Product 1603,Appliances,Kitchen,779.47,498.87,2022-01-30
+1604,Recovery Product 1604,Fitness,Recovery,574.08,320.77,2023-04-24
+1605,Phones Product 1605,Electronics,Phones,1069.35,818.61,2022-04-02
+1606,Desks Product 1606,Home & Office,Desks,769.06,375.43,2023-11-26
+1607,Climate Product 1607,Appliances,Climate,750.68,514.88,2023-04-15
+1608,Laptops Product 1608,Electronics,Laptops,445.41,227.24,2023-02-26
+1609,Chairs Product 1609,Home & Office,Chairs,695.22,375.99,2021-08-20
+1610,Cardio Product 1610,Fitness,Cardio,721.87,510.41,2021-06-20
+1611,Laptops Product 1611,Electronics,Laptops,1270.53,672.53,2023-05-22
+1612,Cardio Product 1612,Fitness,Cardio,335.35,192.43,2021-09-04
+1613,Climate Product 1613,Appliances,Climate,377.53,191.79,2021-11-29
+1614,Desks Product 1614,Home & Office,Desks,830.08,513.3,2021-07-07
+1615,Chairs Product 1615,Home & Office,Chairs,454.07,312.56,2021-07-14
+1616,Strength Product 1616,Fitness,Strength,321.06,159.8,2022-02-26
+1617,Phones Product 1617,Electronics,Phones,719.45,469.45,2022-04-17
+1618,Climate Product 1618,Appliances,Climate,120.5,62.48,2023-08-13
+1619,Accessories Product 1619,Fitness,Accessories,319.02,162.31,2022-03-28
+1620,Recovery Product 1620,Fitness,Recovery,1066.42,708.67,2022-04-17
+1621,Lighting Product 1621,Home & Office,Lighting,221.71,117.88,2023-07-16
+1622,Laptops Product 1622,Electronics,Laptops,646.01,411.29,2023-07-08
+1623,Lighting Product 1623,Home & Office,Lighting,464.61,271.51,2022-08-22
+1624,Phones Product 1624,Electronics,Phones,408.5,210.86,2023-03-12
+1625,Storage Product 1625,Home & Office,Storage,537.44,407.67,2022-05-06
+1626,Monitors Product 1626,Electronics,Monitors,44.84,28.31,2021-07-26
+1627,Climate Product 1627,Appliances,Climate,1027.99,697.21,2022-10-28
+1628,Accessories Product 1628,Electronics,Accessories,1287.95,810.11,2022-03-18
+1629,Climate Product 1629,Appliances,Climate,533.53,342.34,2021-06-15
+1630,Monitors Product 1630,Electronics,Monitors,649.22,391.02,2023-10-29
+1631,Accessories Product 1631,Fitness,Accessories,965.62,623.68,2022-07-21
+1632,Chairs Product 1632,Home & Office,Chairs,881.07,503.31,2021-12-29
+1633,Laptops Product 1633,Electronics,Laptops,49.4,34.12,2023-08-08
+1634,Phones Product 1634,Electronics,Phones,559.85,331.48,2022-11-03
+1635,Accessories Product 1635,Electronics,Accessories,1079.68,549.59,2023-10-28
+1636,Accessories Product 1636,Electronics,Accessories,69.04,40.21,2021-12-07
+1637,Monitors Product 1637,Electronics,Monitors,1403.33,1066.92,2022-08-16
+1638,Storage Product 1638,Home & Office,Storage,164.48,107.68,2021-11-09
+1639,Recovery Product 1639,Fitness,Recovery,159.63,77.16,2022-03-10
+1640,Phones Product 1640,Electronics,Phones,1440.59,863.09,2023-08-15
+1641,Chairs Product 1641,Home & Office,Chairs,560.1,333.9,2021-10-22
+1642,Cardio Product 1642,Fitness,Cardio,794.83,595.51,2023-08-11
+1643,Strength Product 1643,Fitness,Strength,512.04,326.73,2021-05-14
+1644,Chairs Product 1644,Home & Office,Chairs,867.53,426.03,2023-03-26
+1645,Monitors Product 1645,Electronics,Monitors,349.56,205.86,2021-05-24
+1646,Phones Product 1646,Electronics,Phones,1461.8,771.49,2023-08-02
+1647,Cardio Product 1647,Fitness,Cardio,491.08,351.25,2022-04-12
+1648,Strength Product 1648,Fitness,Strength,618.6,324.97,2023-06-07
+1649,Desks Product 1649,Home & Office,Desks,532.68,270.75,2022-06-04
+1650,Desks Product 1650,Home & Office,Desks,842.3,422.76,2021-04-30
+1651,Kitchen Product 1651,Appliances,Kitchen,94.71,58.71,2022-05-30
+1652,Laptops Product 1652,Electronics,Laptops,1053.85,790.38,2023-02-23
+1653,Accessories Product 1653,Electronics,Accessories,1296.86,714.95,2023-08-06
+1654,Laptops Product 1654,Electronics,Laptops,47.37,30.99,2022-06-15
+1655,Accessories Product 1655,Electronics,Accessories,176.26,114.05,2021-08-05
+1656,Climate Product 1656,Appliances,Climate,616.7,476.59,2021-11-13
+1657,Phones Product 1657,Electronics,Phones,532.08,355.74,2023-06-13
+1658,Laptops Product 1658,Electronics,Laptops,783.68,500.59,2022-05-05
+1659,Cardio Product 1659,Fitness,Cardio,677.99,471.13,2022-05-03
+1660,Strength Product 1660,Fitness,Strength,945.91,638.34,2023-11-04
+1661,Cardio Product 1661,Fitness,Cardio,955.59,550.29,2021-05-21
+1662,Laptops Product 1662,Electronics,Laptops,1197.28,753.44,2022-09-06
+1663,Chairs Product 1663,Home & Office,Chairs,892.0,673.75,2023-06-02
+1664,Kitchen Product 1664,Appliances,Kitchen,783.1,463.11,2022-10-05
+1665,Kitchen Product 1665,Appliances,Kitchen,279.38,154.22,2023-07-28
+1666,Kitchen Product 1666,Appliances,Kitchen,112.86,67.26,2023-11-02
+1667,Accessories Product 1667,Fitness,Accessories,950.63,662.6,2023-01-06
+1668,Strength Product 1668,Fitness,Strength,861.5,440.05,2022-12-28
+1669,Cardio Product 1669,Fitness,Cardio,175.11,91.53,2023-09-25
+1670,Cardio Product 1670,Fitness,Cardio,756.75,558.72,2022-11-09
+1671,Accessories Product 1671,Electronics,Accessories,447.84,216.61,2021-09-11
+1672,Cleaning Product 1672,Appliances,Cleaning,879.49,520.19,2022-05-29
+1673,Storage Product 1673,Home & Office,Storage,414.13,291.75,2022-06-03
+1674,Accessories Product 1674,Fitness,Accessories,113.24,68.51,2023-10-11
+1675,Cleaning Product 1675,Appliances,Cleaning,49.74,38.42,2021-08-10
+1676,Monitors Product 1676,Electronics,Monitors,676.11,337.35,2022-05-21
+1677,Strength Product 1677,Fitness,Strength,139.53,67.08,2022-07-11
+1678,Lighting Product 1678,Home & Office,Lighting,795.68,531.1,2022-06-21
+1679,Chairs Product 1679,Home & Office,Chairs,453.6,252.86,2022-12-11
+1680,Accessories Product 1680,Electronics,Accessories,470.48,294.94,2022-08-12
+1681,Small Appliances Product 1681,Appliances,Small Appliances,231.28,155.92,2022-06-14
+1682,Strength Product 1682,Fitness,Strength,825.1,427.29,2023-11-22
+1683,Strength Product 1683,Fitness,Strength,1002.57,518.75,2022-02-26
+1684,Climate Product 1684,Appliances,Climate,810.59,616.26,2023-06-02
+1685,Strength Product 1685,Fitness,Strength,141.88,77.62,2023-12-02
+1686,Accessories Product 1686,Electronics,Accessories,557.39,364.03,2022-03-23
+1687,Recovery Product 1687,Fitness,Recovery,64.37,43.88,2023-02-02
+1688,Cleaning Product 1688,Appliances,Cleaning,129.81,99.62,2022-08-13
+1689,Laptops Product 1689,Electronics,Laptops,1082.63,812.61,2023-06-19
+1690,Strength Product 1690,Fitness,Strength,735.42,517.79,2022-08-02
+1691,Kitchen Product 1691,Appliances,Kitchen,901.4,540.96,2023-07-16
+1692,Storage Product 1692,Home & Office,Storage,673.31,510.06,2022-03-28
+1693,Accessories Product 1693,Electronics,Accessories,777.8,506.46,2022-12-20
+1694,Phones Product 1694,Electronics,Phones,1453.4,1042.01,2022-11-17
+1695,Accessories Product 1695,Electronics,Accessories,797.33,418.54,2022-02-27
+1696,Cardio Product 1696,Fitness,Cardio,320.5,166.55,2023-11-10
+1697,Kitchen Product 1697,Appliances,Kitchen,983.89,716.32,2022-12-15
+1698,Climate Product 1698,Appliances,Climate,1004.8,647.03,2021-08-01
+1699,Desks Product 1699,Home & Office,Desks,216.5,129.54,2021-08-24
+1700,Storage Product 1700,Home & Office,Storage,435.0,238.62,2022-02-24
+1701,Chairs Product 1701,Home & Office,Chairs,410.68,266.18,2021-09-13
+1702,Laptops Product 1702,Electronics,Laptops,280.19,194.43,2023-08-31
+1703,Kitchen Product 1703,Appliances,Kitchen,83.51,41.11,2023-10-10
+1704,Storage Product 1704,Home & Office,Storage,892.02,530.46,2022-11-02
+1705,Phones Product 1705,Electronics,Phones,102.58,66.2,2023-03-21
+1706,Cleaning Product 1706,Appliances,Cleaning,145.78,77.38,2023-09-12
+1707,Cardio Product 1707,Fitness,Cardio,505.37,342.54,2023-02-13
+1708,Storage Product 1708,Home & Office,Storage,310.62,165.27,2022-05-14
+1709,Climate Product 1709,Appliances,Climate,78.14,38.42,2023-06-12
+1710,Kitchen Product 1710,Appliances,Kitchen,624.09,323.46,2023-05-31
+1711,Kitchen Product 1711,Appliances,Kitchen,620.34,397.46,2022-08-24
+1712,Small Appliances Product 1712,Appliances,Small Appliances,295.93,150.21,2023-03-10
+1713,Strength Product 1713,Fitness,Strength,269.65,181.85,2022-01-26
+1714,Storage Product 1714,Home & Office,Storage,64.93,32.69,2022-08-07
+1715,Cardio Product 1715,Fitness,Cardio,172.37,132.86,2022-03-01
+1716,Small Appliances Product 1716,Appliances,Small Appliances,351.75,248.99,2023-04-30
+1717,Desks Product 1717,Home & Office,Desks,312.33,191.01,2022-11-25
+1718,Cleaning Product 1718,Appliances,Cleaning,144.24,71.25,2022-08-25
+1719,Accessories Product 1719,Electronics,Accessories,879.46,656.94,2023-09-03
+1720,Cleaning Product 1720,Appliances,Cleaning,505.75,310.96,2022-06-14
+1721,Desks Product 1721,Home & Office,Desks,867.05,463.47,2022-04-20
+1722,Climate Product 1722,Appliances,Climate,938.72,728.47,2023-01-12
+1723,Lighting Product 1723,Home & Office,Lighting,519.75,375.0,2021-12-21
+1724,Cardio Product 1724,Fitness,Cardio,711.15,443.1,2021-05-15
+1725,Climate Product 1725,Appliances,Climate,1143.53,780.66,2022-12-13
+1726,Lighting Product 1726,Home & Office,Lighting,137.69,93.04,2022-02-08
+1727,Cardio Product 1727,Fitness,Cardio,866.74,610.48,2021-11-10
+1728,Desks Product 1728,Home & Office,Desks,629.03,328.96,2021-06-19
+1729,Desks Product 1729,Home & Office,Desks,383.43,224.45,2021-12-31
+1730,Cleaning Product 1730,Appliances,Cleaning,387.89,205.28,2023-09-10
+1731,Kitchen Product 1731,Appliances,Kitchen,310.23,215.5,2023-10-05
+1732,Chairs Product 1732,Home & Office,Chairs,708.06,539.81,2023-10-20
+1733,Monitors Product 1733,Electronics,Monitors,1175.41,593.9,2023-03-06
+1734,Storage Product 1734,Home & Office,Storage,839.32,643.94,2023-03-13
+1735,Climate Product 1735,Appliances,Climate,898.59,655.06,2021-09-12
+1736,Laptops Product 1736,Electronics,Laptops,410.52,234.9,2022-01-11
+1737,Strength Product 1737,Fitness,Strength,334.45,205.31,2023-03-16
+1738,Cleaning Product 1738,Appliances,Cleaning,77.01,48.74,2023-08-27
+1739,Lighting Product 1739,Home & Office,Lighting,576.06,355.7,2022-11-28
+1740,Phones Product 1740,Electronics,Phones,976.02,488.98,2022-11-26
+1741,Lighting Product 1741,Home & Office,Lighting,805.23,590.06,2021-12-14
+1742,Storage Product 1742,Home & Office,Storage,177.54,123.61,2022-02-28
+1743,Storage Product 1743,Home & Office,Storage,254.36,169.5,2022-09-30
+1744,Cardio Product 1744,Fitness,Cardio,29.72,21.62,2021-05-23
+1745,Small Appliances Product 1745,Appliances,Small Appliances,657.88,503.12,2021-05-04
+1746,Desks Product 1746,Home & Office,Desks,670.54,423.42,2022-01-11
+1747,Cardio Product 1747,Fitness,Cardio,849.18,427.5,2022-11-02
+1748,Strength Product 1748,Fitness,Strength,966.09,718.37,2021-08-12
+1749,Accessories Product 1749,Electronics,Accessories,1303.77,1013.36,2023-07-05
+1750,Accessories Product 1750,Electronics,Accessories,51.51,37.75,2022-03-11
+1751,Laptops Product 1751,Electronics,Laptops,931.14,535.34,2021-06-09
+1752,Phones Product 1752,Electronics,Phones,972.1,580.5,2021-09-04
+1753,Strength Product 1753,Fitness,Strength,845.73,567.22,2021-05-29
+1754,Cardio Product 1754,Fitness,Cardio,384.97,272.65,2022-06-24
+1755,Recovery Product 1755,Fitness,Recovery,985.6,580.24,2023-02-17
+1756,Cleaning Product 1756,Appliances,Cleaning,1008.97,705.29,2023-02-13
+1757,Desks Product 1757,Home & Office,Desks,583.73,420.42,2021-08-19
+1758,Desks Product 1758,Home & Office,Desks,73.55,53.28,2021-07-13
+1759,Lighting Product 1759,Home & Office,Lighting,769.98,455.2,2022-05-11
+1760,Cardio Product 1760,Fitness,Cardio,452.84,313.32,2023-07-09
+1761,Cardio Product 1761,Fitness,Cardio,718.18,368.43,2021-10-19
+1762,Accessories Product 1762,Fitness,Accessories,756.74,392.98,2022-08-31
+1763,Chairs Product 1763,Home & Office,Chairs,601.22,296.01,2023-09-03
+1764,Climate Product 1764,Appliances,Climate,881.09,680.13,2023-03-11
+1765,Lighting Product 1765,Home & Office,Lighting,374.39,260.05,2021-12-10
+1766,Small Appliances Product 1766,Appliances,Small Appliances,818.53,615.63,2023-11-21
+1767,Accessories Product 1767,Electronics,Accessories,332.28,253.48,2023-04-11
+1768,Accessories Product 1768,Electronics,Accessories,797.16,399.27,2021-11-11
+1769,Recovery Product 1769,Fitness,Recovery,742.49,403.99,2021-04-07
+1770,Accessories Product 1770,Electronics,Accessories,1006.27,685.18,2022-09-08
+1771,Climate Product 1771,Appliances,Climate,136.47,72.2,2023-03-21
+1772,Accessories Product 1772,Fitness,Accessories,87.84,59.02,2022-05-27
+1773,Climate Product 1773,Appliances,Climate,612.81,346.16,2023-11-18
+1774,Strength Product 1774,Fitness,Strength,703.7,449.26,2021-11-14
+1775,Recovery Product 1775,Fitness,Recovery,303.37,235.03,2022-11-28
+1776,Strength Product 1776,Fitness,Strength,265.28,152.2,2021-08-26
+1777,Strength Product 1777,Fitness,Strength,618.0,362.72,2022-10-24
+1778,Lighting Product 1778,Home & Office,Lighting,290.85,139.8,2023-03-02
+1779,Recovery Product 1779,Fitness,Recovery,30.87,18.9,2022-01-28
+1780,Recovery Product 1780,Fitness,Recovery,628.12,378.6,2022-01-01
+1781,Accessories Product 1781,Electronics,Accessories,920.49,455.41,2022-08-24
+1782,Storage Product 1782,Home & Office,Storage,402.88,297.55,2021-11-23
+1783,Chairs Product 1783,Home & Office,Chairs,211.81,159.78,2021-12-25
+1784,Recovery Product 1784,Fitness,Recovery,754.26,413.33,2022-03-08
+1785,Accessories Product 1785,Electronics,Accessories,459.26,326.25,2022-11-27
+1786,Strength Product 1786,Fitness,Strength,366.38,228.11,2021-12-19
+1787,Kitchen Product 1787,Appliances,Kitchen,35.62,18.71,2021-04-25
+1788,Monitors Product 1788,Electronics,Monitors,431.22,327.27,2023-08-10
+1789,Strength Product 1789,Fitness,Strength,57.28,29.32,2023-10-28
+1790,Climate Product 1790,Appliances,Climate,374.75,212.99,2022-04-25
+1791,Accessories Product 1791,Electronics,Accessories,613.75,420.21,2023-05-20
+1792,Cleaning Product 1792,Appliances,Cleaning,67.83,46.53,2022-06-28
+1793,Chairs Product 1793,Home & Office,Chairs,109.73,64.36,2021-04-14
+1794,Small Appliances Product 1794,Appliances,Small Appliances,327.32,161.8,2022-09-13
+1795,Monitors Product 1795,Electronics,Monitors,1417.39,828.76,2023-08-16
+1796,Kitchen Product 1796,Appliances,Kitchen,343.07,198.92,2022-09-15
+1797,Small Appliances Product 1797,Appliances,Small Appliances,124.17,80.99,2022-05-16
+1798,Kitchen Product 1798,Appliances,Kitchen,562.7,287.9,2023-01-03
+1799,Accessories Product 1799,Electronics,Accessories,354.69,177.75,2021-04-27
+1800,Cardio Product 1800,Fitness,Cardio,115.9,84.1,2022-01-27
+1801,Accessories Product 1801,Electronics,Accessories,819.6,626.87,2022-06-01
+1802,Monitors Product 1802,Electronics,Monitors,1078.58,561.22,2022-06-03
+1803,Accessories Product 1803,Fitness,Accessories,1076.57,690.4,2021-11-13
+1804,Monitors Product 1804,Electronics,Monitors,1217.29,696.11,2023-08-15
+1805,Accessories Product 1805,Fitness,Accessories,844.9,419.44,2023-10-17
+1806,Cardio Product 1806,Fitness,Cardio,885.55,565.89,2021-12-16
+1807,Accessories Product 1807,Electronics,Accessories,200.07,112.7,2023-09-17
+1808,Cardio Product 1808,Fitness,Cardio,667.15,366.95,2022-07-22
+1809,Desks Product 1809,Home & Office,Desks,287.38,167.02,2023-04-22
+1810,Storage Product 1810,Home & Office,Storage,748.59,382.85,2021-11-11
+1811,Accessories Product 1811,Electronics,Accessories,796.24,495.45,2023-06-23
+1812,Storage Product 1812,Home & Office,Storage,437.67,239.42,2021-09-18
+1813,Storage Product 1813,Home & Office,Storage,846.88,559.15,2023-08-08
+1814,Accessories Product 1814,Electronics,Accessories,771.41,434.61,2022-06-19
+1815,Accessories Product 1815,Electronics,Accessories,288.38,158.06,2022-02-21
+1816,Laptops Product 1816,Electronics,Laptops,1250.45,781.15,2022-04-25
+1817,Lighting Product 1817,Home & Office,Lighting,662.68,497.77,2021-07-08
+1818,Monitors Product 1818,Electronics,Monitors,1173.6,773.35,2023-09-23
+1819,Kitchen Product 1819,Appliances,Kitchen,371.87,199.25,2021-10-20
+1820,Storage Product 1820,Home & Office,Storage,409.27,244.65,2023-11-13
+1821,Kitchen Product 1821,Appliances,Kitchen,257.13,169.35,2022-07-23
+1822,Monitors Product 1822,Electronics,Monitors,1299.96,646.63,2022-02-14
+1823,Accessories Product 1823,Electronics,Accessories,954.05,520.92,2021-05-10
+1824,Kitchen Product 1824,Appliances,Kitchen,949.1,736.57,2023-11-16
+1825,Kitchen Product 1825,Appliances,Kitchen,103.39,59.31,2021-07-25
+1826,Kitchen Product 1826,Appliances,Kitchen,79.77,60.91,2021-08-12
+1827,Recovery Product 1827,Fitness,Recovery,580.57,407.64,2023-07-17
+1828,Desks Product 1828,Home & Office,Desks,875.05,491.02,2023-10-31
+1829,Desks Product 1829,Home & Office,Desks,584.84,369.36,2023-08-14
+1830,Laptops Product 1830,Electronics,Laptops,764.44,380.93,2023-06-21
+1831,Cardio Product 1831,Fitness,Cardio,215.85,138.62,2022-05-18
+1832,Monitors Product 1832,Electronics,Monitors,88.4,59.92,2022-06-23
+1833,Monitors Product 1833,Electronics,Monitors,145.92,82.44,2022-05-28
+1834,Cleaning Product 1834,Appliances,Cleaning,225.81,154.27,2023-02-17
+1835,Phones Product 1835,Electronics,Phones,1034.87,632.08,2021-11-20
+1836,Chairs Product 1836,Home & Office,Chairs,372.93,206.83,2021-10-14
+1837,Recovery Product 1837,Fitness,Recovery,735.65,441.1,2022-03-21
+1838,Desks Product 1838,Home & Office,Desks,834.58,411.78,2021-07-13
+1839,Lighting Product 1839,Home & Office,Lighting,638.34,418.09,2022-12-12
+1840,Climate Product 1840,Appliances,Climate,681.17,439.04,2022-11-10
+1841,Cardio Product 1841,Fitness,Cardio,1083.32,686.2,2022-05-10
+1842,Chairs Product 1842,Home & Office,Chairs,334.95,246.67,2023-01-05
+1843,Lighting Product 1843,Home & Office,Lighting,220.05,147.87,2022-06-12
+1844,Monitors Product 1844,Electronics,Monitors,586.17,448.64,2023-10-19
+1845,Climate Product 1845,Appliances,Climate,1178.72,631.91,2023-06-29
+1846,Laptops Product 1846,Electronics,Laptops,475.65,313.04,2021-08-21
+1847,Storage Product 1847,Home & Office,Storage,534.96,388.34,2021-09-19
+1848,Chairs Product 1848,Home & Office,Chairs,793.0,485.06,2022-06-24
+1849,Recovery Product 1849,Fitness,Recovery,264.91,137.32,2022-07-08
+1850,Chairs Product 1850,Home & Office,Chairs,503.16,291.82,2023-07-13
+1851,Phones Product 1851,Electronics,Phones,681.43,488.9,2021-05-22
+1852,Recovery Product 1852,Fitness,Recovery,497.14,287.8,2023-10-25
+1853,Laptops Product 1853,Electronics,Laptops,980.06,741.49,2023-09-06
+1854,Accessories Product 1854,Electronics,Accessories,437.94,328.7,2022-04-30
+1855,Desks Product 1855,Home & Office,Desks,139.92,90.47,2022-04-20
+1856,Accessories Product 1856,Fitness,Accessories,1012.67,725.02,2022-04-12
+1857,Storage Product 1857,Home & Office,Storage,718.74,516.79,2021-10-23
+1858,Climate Product 1858,Appliances,Climate,513.47,351.92,2021-09-06
+1859,Accessories Product 1859,Fitness,Accessories,459.42,342.99,2023-03-06
+1860,Recovery Product 1860,Fitness,Recovery,101.33,55.15,2022-07-23
+1861,Recovery Product 1861,Fitness,Recovery,45.68,29.62,2022-11-03
+1862,Phones Product 1862,Electronics,Phones,1475.56,777.18,2023-07-03
+1863,Laptops Product 1863,Electronics,Laptops,214.72,159.13,2023-04-29
+1864,Desks Product 1864,Home & Office,Desks,300.82,179.1,2023-08-12
+1865,Chairs Product 1865,Home & Office,Chairs,610.05,474.73,2022-10-01
+1866,Strength Product 1866,Fitness,Strength,58.75,34.46,2023-02-25
+1867,Cardio Product 1867,Fitness,Cardio,860.41,639.95,2023-05-29
+1868,Laptops Product 1868,Electronics,Laptops,80.93,55.03,2023-10-22
+1869,Storage Product 1869,Home & Office,Storage,109.03,64.65,2022-01-17
+1870,Small Appliances Product 1870,Appliances,Small Appliances,802.7,559.69,2021-05-04
+1871,Monitors Product 1871,Electronics,Monitors,425.9,210.16,2023-10-05
+1872,Kitchen Product 1872,Appliances,Kitchen,493.88,295.28,2022-01-24
+1873,Accessories Product 1873,Electronics,Accessories,1269.36,630.13,2022-01-21
+1874,Kitchen Product 1874,Appliances,Kitchen,1158.88,560.3,2022-10-27
+1875,Accessories Product 1875,Electronics,Accessories,732.17,442.97,2021-11-06
+1876,Lighting Product 1876,Home & Office,Lighting,150.06,81.57,2022-01-05
+1877,Climate Product 1877,Appliances,Climate,545.36,344.93,2022-06-16
+1878,Recovery Product 1878,Fitness,Recovery,612.9,463.33,2023-03-17
+1879,Recovery Product 1879,Fitness,Recovery,243.38,164.13,2022-09-15
+1880,Cardio Product 1880,Fitness,Cardio,841.25,451.7,2023-03-15
+1881,Recovery Product 1881,Fitness,Recovery,311.43,163.5,2021-05-21
+1882,Cardio Product 1882,Fitness,Cardio,722.73,387.43,2021-09-19
+1883,Climate Product 1883,Appliances,Climate,529.38,356.74,2023-01-23
+1884,Phones Product 1884,Electronics,Phones,1357.04,850.57,2023-02-07
+1885,Monitors Product 1885,Electronics,Monitors,921.68,624.05,2023-07-29
+1886,Climate Product 1886,Appliances,Climate,705.8,371.45,2022-09-13
+1887,Kitchen Product 1887,Appliances,Kitchen,1091.03,794.84,2023-04-20
+1888,Accessories Product 1888,Electronics,Accessories,851.07,583.59,2023-05-25
+1889,Kitchen Product 1889,Appliances,Kitchen,544.65,421.54,2023-06-02
+1890,Recovery Product 1890,Fitness,Recovery,432.4,327.41,2021-06-30
+1891,Laptops Product 1891,Electronics,Laptops,609.08,394.19,2021-11-30
+1892,Lighting Product 1892,Home & Office,Lighting,400.04,251.94,2021-05-26
+1893,Laptops Product 1893,Electronics,Laptops,1063.67,609.5,2022-10-05
+1894,Cleaning Product 1894,Appliances,Cleaning,581.0,322.63,2022-01-28
+1895,Strength Product 1895,Fitness,Strength,212.43,117.88,2021-12-19
+1896,Monitors Product 1896,Electronics,Monitors,265.17,131.51,2022-08-16
+1897,Cardio Product 1897,Fitness,Cardio,630.0,339.18,2023-03-04
+1898,Accessories Product 1898,Fitness,Accessories,313.18,235.58,2022-07-05
+1899,Accessories Product 1899,Electronics,Accessories,276.67,170.72,2023-03-05
+1900,Recovery Product 1900,Fitness,Recovery,613.42,351.15,2022-07-28
+1901,Desks Product 1901,Home & Office,Desks,690.1,332.05,2022-10-04
+1902,Accessories Product 1902,Electronics,Accessories,1068.81,570.18,2021-11-12
+1903,Chairs Product 1903,Home & Office,Chairs,38.68,29.07,2023-03-13
+1904,Phones Product 1904,Electronics,Phones,497.56,382.79,2021-10-01
+1905,Kitchen Product 1905,Appliances,Kitchen,527.65,300.29,2021-07-31
+1906,Cleaning Product 1906,Appliances,Cleaning,109.56,75.03,2022-05-09
+1907,Lighting Product 1907,Home & Office,Lighting,733.96,466.91,2022-04-29
+1908,Monitors Product 1908,Electronics,Monitors,959.12,716.37,2023-05-17
+1909,Kitchen Product 1909,Appliances,Kitchen,817.12,544.99,2023-04-26
+1910,Cardio Product 1910,Fitness,Cardio,254.83,181.17,2021-10-05
+1911,Chairs Product 1911,Home & Office,Chairs,332.04,204.55,2021-04-28
+1912,Small Appliances Product 1912,Appliances,Small Appliances,387.62,262.72,2023-01-18
+1913,Kitchen Product 1913,Appliances,Kitchen,1044.43,583.34,2023-11-19
+1914,Strength Product 1914,Fitness,Strength,463.06,345.99,2021-11-01
+1915,Storage Product 1915,Home & Office,Storage,101.7,69.32,2022-08-04
+1916,Accessories Product 1916,Electronics,Accessories,1056.19,574.95,2023-01-20
+1917,Small Appliances Product 1917,Appliances,Small Appliances,113.44,56.34,2022-10-01
+1918,Cardio Product 1918,Fitness,Cardio,245.04,151.73,2022-11-18
+1919,Kitchen Product 1919,Appliances,Kitchen,662.54,429.26,2021-10-22
+1920,Storage Product 1920,Home & Office,Storage,174.81,122.26,2021-12-01
+1921,Cardio Product 1921,Fitness,Cardio,571.91,304.22,2022-12-03
+1922,Laptops Product 1922,Electronics,Laptops,995.39,514.83,2023-08-01
+1923,Desks Product 1923,Home & Office,Desks,413.05,249.15,2023-02-09
+1924,Desks Product 1924,Home & Office,Desks,748.21,559.31,2023-05-30
+1925,Chairs Product 1925,Home & Office,Chairs,597.82,305.35,2021-08-03
+1926,Recovery Product 1926,Fitness,Recovery,287.35,217.95,2022-04-21
+1927,Accessories Product 1927,Electronics,Accessories,1499.79,979.64,2021-08-28
+1928,Desks Product 1928,Home & Office,Desks,851.87,498.08,2023-02-11
+1929,Climate Product 1929,Appliances,Climate,503.73,312.2,2021-08-06
+1930,Recovery Product 1930,Fitness,Recovery,659.4,471.6,2022-03-29
+1931,Chairs Product 1931,Home & Office,Chairs,354.33,181.71,2023-07-04
+1932,Climate Product 1932,Appliances,Climate,996.02,768.03,2023-04-24
+1933,Phones Product 1933,Electronics,Phones,81.87,58.53,2022-04-11
+1934,Climate Product 1934,Appliances,Climate,1078.96,660.88,2023-05-26
+1935,Chairs Product 1935,Home & Office,Chairs,43.62,30.0,2022-11-24
+1936,Accessories Product 1936,Electronics,Accessories,732.92,353.63,2023-10-31
+1937,Accessories Product 1937,Fitness,Accessories,735.28,414.21,2021-07-11
+1938,Lighting Product 1938,Home & Office,Lighting,829.78,572.04,2023-09-20
+1939,Storage Product 1939,Home & Office,Storage,521.9,356.13,2021-07-03
+1940,Cleaning Product 1940,Appliances,Cleaning,300.47,223.41,2022-10-11
+1941,Laptops Product 1941,Electronics,Laptops,1300.7,907.36,2022-08-14
+1942,Chairs Product 1942,Home & Office,Chairs,399.19,199.35,2022-08-28
+1943,Lighting Product 1943,Home & Office,Lighting,145.73,104.34,2023-09-22
+1944,Chairs Product 1944,Home & Office,Chairs,251.02,170.77,2023-11-26
+1945,Kitchen Product 1945,Appliances,Kitchen,334.18,173.15,2022-06-13
+1946,Accessories Product 1946,Electronics,Accessories,741.53,511.18,2022-09-04
+1947,Strength Product 1947,Fitness,Strength,626.63,459.99,2021-10-06
+1948,Chairs Product 1948,Home & Office,Chairs,509.93,333.48,2022-09-29
+1949,Laptops Product 1949,Electronics,Laptops,894.27,557.98,2022-07-10
+1950,Cleaning Product 1950,Appliances,Cleaning,818.62,592.08,2023-08-05
+1951,Monitors Product 1951,Electronics,Monitors,597.36,343.18,2023-02-17
+1952,Strength Product 1952,Fitness,Strength,1020.88,716.53,2022-06-23
+1953,Desks Product 1953,Home & Office,Desks,891.05,443.26,2022-02-04
+1954,Cardio Product 1954,Fitness,Cardio,1023.98,492.19,2022-01-28
+1955,Lighting Product 1955,Home & Office,Lighting,861.34,560.78,2023-05-12
+1956,Monitors Product 1956,Electronics,Monitors,751.73,418.94,2021-11-20
+1957,Accessories Product 1957,Electronics,Accessories,1225.16,669.97,2021-12-19
+1958,Chairs Product 1958,Home & Office,Chairs,248.16,138.81,2022-01-23
+1959,Desks Product 1959,Home & Office,Desks,410.96,293.86,2023-06-25
+1960,Cardio Product 1960,Fitness,Cardio,362.07,230.54,2023-07-11
+1961,Cardio Product 1961,Fitness,Cardio,943.6,652.7,2021-05-13
+1962,Accessories Product 1962,Electronics,Accessories,411.87,318.9,2023-10-27
+1963,Laptops Product 1963,Electronics,Laptops,473.16,275.46,2022-06-08
+1964,Laptops Product 1964,Electronics,Laptops,116.8,61.33,2022-05-03
+1965,Accessories Product 1965,Electronics,Accessories,1230.36,911.88,2023-10-27
+1966,Accessories Product 1966,Fitness,Accessories,762.17,523.99,2023-08-17
+1967,Storage Product 1967,Home & Office,Storage,242.99,129.15,2022-12-06
+1968,Storage Product 1968,Home & Office,Storage,279.9,203.42,2023-05-16
+1969,Recovery Product 1969,Fitness,Recovery,359.95,263.79,2023-06-13
+1970,Phones Product 1970,Electronics,Phones,1161.54,900.67,2022-06-16
+1971,Cardio Product 1971,Fitness,Cardio,162.98,95.72,2022-10-29
+1972,Chairs Product 1972,Home & Office,Chairs,46.03,29.09,2023-01-19
+1973,Cardio Product 1973,Fitness,Cardio,1091.1,800.05,2022-07-05
+1974,Phones Product 1974,Electronics,Phones,475.62,340.01,2021-06-28
+1975,Desks Product 1975,Home & Office,Desks,626.7,335.49,2021-12-14
+1976,Climate Product 1976,Appliances,Climate,909.99,622.81,2022-09-16
+1977,Recovery Product 1977,Fitness,Recovery,225.46,134.11,2022-02-16
+1978,Accessories Product 1978,Fitness,Accessories,682.7,481.75,2023-07-22
+1979,Small Appliances Product 1979,Appliances,Small Appliances,806.11,424.58,2021-06-23
+1980,Phones Product 1980,Electronics,Phones,759.84,385.0,2022-09-19
+1981,Recovery Product 1981,Fitness,Recovery,517.92,350.12,2022-06-25
+1982,Phones Product 1982,Electronics,Phones,1445.35,786.26,2023-04-09
+1983,Chairs Product 1983,Home & Office,Chairs,349.63,188.2,2021-10-21
+1984,Lighting Product 1984,Home & Office,Lighting,561.7,320.38,2023-04-05
+1985,Laptops Product 1985,Electronics,Laptops,1296.98,763.66,2023-04-16
+1986,Small Appliances Product 1986,Appliances,Small Appliances,487.19,255.21,2022-05-02
+1987,Accessories Product 1987,Electronics,Accessories,232.53,141.87,2023-06-07
+1988,Accessories Product 1988,Fitness,Accessories,1076.71,537.03,2022-01-28
+1989,Monitors Product 1989,Electronics,Monitors,1123.6,730.75,2023-08-16
+1990,Phones Product 1990,Electronics,Phones,1466.89,1117.54,2022-06-19
+1991,Monitors Product 1991,Electronics,Monitors,1116.29,768.86,2022-11-09
+1992,Cardio Product 1992,Fitness,Cardio,1077.35,675.36,2021-12-25
+1993,Phones Product 1993,Electronics,Phones,393.16,301.14,2022-04-23
+1994,Chairs Product 1994,Home & Office,Chairs,219.19,138.31,2021-08-19
+1995,Laptops Product 1995,Electronics,Laptops,1430.17,851.12,2022-09-15
+1996,Lighting Product 1996,Home & Office,Lighting,655.97,505.39,2023-07-07
+1997,Cleaning Product 1997,Appliances,Cleaning,160.08,94.42,2023-01-26
+1998,Laptops Product 1998,Electronics,Laptops,524.7,407.95,2023-07-08
+1999,Cardio Product 1999,Fitness,Cardio,975.18,607.11,2022-03-29
+2000,Phones Product 2000,Electronics,Phones,869.53,600.18,2021-12-30
