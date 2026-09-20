@@ -44,62 +44,75 @@ def create_database():
 
 def create_views(con):
     # Enriched sales-level view
+    
     con.execute(
-        """
-        CREATE OR REPLACE VIEW sales_analysis AS
+    """
+    CREATE OR REPLACE VIEW sales_analysis AS
+    WITH item_counts AS (
         SELECT
-            o.order_id,
-            o.customer_id,
-            o.order_date,
-            o.sales_channel,
-            o.payment_method,
-            o.state,
-            o.region,
-            o.segment,
-
-            oi.order_item_id,
-            oi.product_id,
-            oi.quantity,
-            oi.unit_price,
-            oi.unit_cost,
-            oi.category,
-            oi.subcategory,
-            oi.discount_pct,
-            oi.gross_sales,
-            oi.discount_amount,
-            oi.net_sales,
-            oi.cogs,
-            oi.gross_profit,
-
-            s.shipping_mode,
-            s.delivery_days,
-            s.shipping_cost,
-            s.late_delivery,
-
-            CASE
-                WHEN r.return_id IS NOT NULL THEN 1
-                ELSE 0
-            END AS returned,
-
-            COALESCE(r.refund_amount, 0) AS refund_amount,
-
-            oi.gross_profit
-                - COALESCE(r.refund_amount, 0)
-                - s.shipping_cost
-                AS contribution_profit
-
-        FROM orders o
-
-        JOIN order_items oi
-            ON o.order_id = oi.order_id
-
-        LEFT JOIN shipping s
-            ON o.order_id = s.order_id
-
-        LEFT JOIN returns r
-            ON oi.order_item_id = r.order_item_id;
-        """
+            order_id,
+            COUNT(*) AS item_count
+        FROM order_items
+        GROUP BY order_id
     )
+    SELECT
+        o.order_id,
+        o.customer_id,
+        o.order_date,
+        o.sales_channel,
+        o.payment_method,
+        o.state,
+        o.region,
+        o.segment,
+
+        oi.order_item_id,
+        oi.product_id,
+        oi.quantity,
+        oi.unit_price,
+        oi.unit_cost,
+        oi.category,
+        oi.subcategory,
+        oi.discount_pct,
+        oi.gross_sales,
+        oi.discount_amount,
+        oi.net_sales,
+        oi.cogs,
+        oi.gross_profit,
+
+        s.shipping_mode,
+        s.delivery_days,
+        s.shipping_cost / ic.item_count
+            AS allocated_shipping_cost,
+        s.late_delivery,
+
+        CASE
+            WHEN r.return_id IS NOT NULL THEN 1
+            ELSE 0
+        END AS returned,
+
+        COALESCE(r.refund_amount, 0) AS refund_amount,
+
+        oi.gross_profit
+            - COALESCE(r.refund_amount, 0)
+            - COALESCE(s.shipping_cost, 0) / ic.item_count
+            AS contribution_profit
+
+    FROM orders o
+
+    JOIN order_items oi
+        ON o.order_id = oi.order_id
+
+    JOIN item_counts ic
+        ON o.order_id = ic.order_id
+
+    LEFT JOIN shipping s
+        ON o.order_id = s.order_id
+
+    LEFT JOIN returns r
+        ON oi.order_item_id = r.order_item_id;
+    """
+    )
+
 
     # Monthly performance view
     con.execute(
