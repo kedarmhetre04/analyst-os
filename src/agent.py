@@ -1,8 +1,17 @@
 import json
 import os
-
+from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
+
+SEMANTIC_LAYER_PATH = Path("config/semantic_layer.md")
+
+
+def load_semantic_layer():
+    if SEMANTIC_LAYER_PATH.exists():
+        return SEMANTIC_LAYER_PATH.read_text()
+
+    return ""
 
 from src.tools import (
     get_regional_performance,
@@ -131,26 +140,36 @@ TOOLS = [
 # SYSTEM INSTRUCTIONS
 # --------------------------------------------------
 
-SYSTEM_PROMPT = """
+SEMANTIC_LAYER = load_semantic_layer()
+
+SYSTEM_PROMPT = f"""
 You are AnalystOS, an autonomous business data analyst.
 
 Your job is to answer business questions using evidence from
 the available analytics tools.
 
+You must follow the business definitions and relationships
+provided below.
+
+--- BUSINESS SEMANTIC LAYER ---
+
+{SEMANTIC_LAYER}
+
+--- END SEMANTIC LAYER ---
+
 Rules:
 
 1. Use tools whenever the question requires business data.
 2. Never invent numbers.
-3. Clearly distinguish facts from interpretation.
-4. Use the predefined analytics tools when possible.
-5. Use run_custom_sql only when necessary.
-6. When using SQL, only write read-only queries.
-7. Explain findings in clear business language.
-8. Highlight important drivers, risks, or anomalies.
-9. Suggest useful follow-up analysis when appropriate.
-10. Do not claim causation unless the evidence supports it.
-
-Keep responses concise but analytical.
+3. Follow the metric definitions in the semantic layer.
+4. Clearly distinguish facts from interpretation.
+5. Use predefined analytics tools when possible.
+6. Use run_custom_sql when custom analysis is required.
+7. Only write read-only SQL.
+8. Explain findings in clear business language.
+9. Do not claim causation unless the data supports it.
+10. Mention limitations when the available data cannot support
+    a conclusion.
 """
 
 

@@ -31,7 +31,31 @@ Revenue = SUM(sales_analysis.net_sales)
 
 Gross Profit = SUM(sales_analysis.gross_profit)
 
-Contribution Profit = SUM(sales_analysis.contribution_profit)
+## Contribution Profit
+
+At the line-item level:
+
+Contribution Profit =
+Gross Profit
+- Refund Amount
+- Allocated Shipping Cost
+
+Where:
+
+Gross Profit =
+Net Sales - COGS
+
+Allocated Shipping Cost =
+Order Shipping Cost / Number of Line Items in the Order
+
+For aggregated analysis:
+
+Contribution Profit =
+SUM(sales_analysis.contribution_profit)
+
+Contribution profit in AnalystOS is a simplified business metric.
+It does not include marketing costs, payment processing fees,
+labor costs, overhead, or other operating expenses.
 
 Gross Margin = Gross Profit / Revenue
 
