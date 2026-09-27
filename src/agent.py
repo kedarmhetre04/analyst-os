@@ -1,3 +1,4 @@
+from ast import arguments
 import json
 import os
 from pathlib import Path
@@ -19,6 +20,14 @@ from src.tools import (
     get_top_products,
     get_high_return_products,
     run_custom_sql,
+)
+
+from src.investigation import (
+    compare_months,
+    category_breakdown,
+    shipping_breakdown,
+    discount_breakdown,
+    return_breakdown,
 )
 
 
@@ -133,6 +142,111 @@ TOOLS = [
         },
         "strict": True,
     },
+
+    {
+    "type": "function",
+    "name": "compare_months",
+    "description": (
+        "Returns monthly business performance for a region, including "
+        "revenue, gross profit, contribution profit, discount rate, "
+        "return rate, and late delivery rate. Use this to identify "
+        "period-over-period changes."
+    ),
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {
+                "type": "string",
+                "description": "Business region such as West, South, Northeast, or Midwest."
+            }
+        },
+        "required": ["region"],
+        "additionalProperties": False,
+    },
+    "strict": True,
+},
+{
+    "type": "function",
+    "name": "category_breakdown",
+    "description": (
+        "Analyzes revenue, profit, discounts, and returns by product "
+        "category for a specific region and date range."
+    ),
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {"type": "string"},
+            "start_date": {
+                "type": "string",
+                "description": "Start date in YYYY-MM-DD format."
+            },
+            "end_date": {
+                "type": "string",
+                "description": "End date in YYYY-MM-DD format."
+            },
+        },
+        "required": ["region", "start_date", "end_date"],
+        "additionalProperties": False,
+    },
+    "strict": True,
+},
+{
+    "type": "function",
+    "name": "shipping_breakdown",
+    "description": (
+        "Analyzes shipping cost, delivery speed, late delivery rate, "
+        "and contribution profit by shipping mode."
+    ),
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {"type": "string"},
+            "start_date": {"type": "string"},
+            "end_date": {"type": "string"},
+        },
+        "required": ["region", "start_date", "end_date"],
+        "additionalProperties": False,
+    },
+    "strict": True,
+},
+{
+    "type": "function",
+    "name": "discount_breakdown",
+    "description": (
+        "Analyzes average discounts, revenue, and contribution profit "
+        "by category for a region and date range."
+    ),
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {"type": "string"},
+            "start_date": {"type": "string"},
+            "end_date": {"type": "string"},
+        },
+        "required": ["region", "start_date", "end_date"],
+        "additionalProperties": False,
+    },
+    "strict": True,
+},
+{
+    "type": "function",
+    "name": "return_breakdown",
+    "description": (
+        "Analyzes return rate and refund amount by category "
+        "for a region and date range."
+    ),
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {"type": "string"},
+            "start_date": {"type": "string"},
+            "end_date": {"type": "string"},
+        },
+        "required": ["region", "start_date", "end_date"],
+        "additionalProperties": False,
+    },
+    "strict": True,
+},
 ]
 
 
@@ -170,6 +284,22 @@ Rules:
 9. Do not claim causation unless the data supports it.
 10. Mention limitations when the available data cannot support
     a conclusion.
+
+When asked "why" a business metric changed:
+
+1. First confirm that the change actually occurred.
+2. Compare the relevant periods.
+3. Investigate likely drivers such as category mix,
+   discounts, returns, and shipping.
+4. Use multiple tools when necessary.
+5. Do not stop after finding the first plausible explanation; test alternative drivers when the data allows.
+6. Quantify important drivers whenever the data allows.
+7. Distinguish evidence from hypotheses.
+8. End with:
+   - What changed
+   - Likely drivers
+   - Evidence
+   - Recommended next analysis or action
 """
 
 
@@ -206,11 +336,45 @@ def execute_tool(name, arguments):
         result = run_custom_sql(
             arguments["query"]
         )
+    elif name == "compare_months":
+        result = compare_months(
+            arguments["region"]
+        )
+
+    elif name == "category_breakdown":
+        result = category_breakdown(
+            arguments["region"],
+            arguments["start_date"],
+            arguments["end_date"],
+        )
+
+    elif name == "shipping_breakdown":
+        result = shipping_breakdown(
+            arguments["region"],
+            arguments["start_date"],
+            arguments["end_date"],
+        )
+
+    elif name == "discount_breakdown":
+        result = discount_breakdown(
+            arguments["region"],
+            arguments["start_date"],
+            arguments["end_date"],
+        )
+
+    elif name == "return_breakdown":
+        result = return_breakdown(
+            arguments["region"],
+            arguments["start_date"],
+            arguments["end_date"],
+        )
+    
 
     else:
         raise ValueError(
             f"Unknown tool: {name}"
         )
+    
 
     return dataframe_to_json(result)
 
