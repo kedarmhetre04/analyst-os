@@ -27,6 +27,38 @@ A separate Python execution layer will run every SQL query you
 provide against the sales_analysis view and attach the resulting
 evidence afterward.
 
+For order-level operational metrics:
+
+Late Delivery Rate must be calculated using one row per order.
+
+Use a CTE such as:
+
+WITH order_metrics AS (
+    SELECT DISTINCT
+        order_id,
+        delivery_days,
+        late_delivery
+    FROM sales_analysis
+    WHERE ...
+)
+
+Then:
+
+Late Delivery Rate =
+SUM(CASE WHEN late_delivery THEN 1 ELSE 0 END)
+/
+COUNT(*)
+
+Average Delivery Days =
+AVG(delivery_days)
+
+Never calculate delivery metrics directly over line-item rows.
+
+When grouping categorical dimensions such as category,
+subcategory, state, segment, or sales_channel, use COALESCE
+when appropriate so null values are represented as 'Unknown'
+rather than silently excluded from interpretation or reconciliation.
+
 Do NOT state that SQL execution is unavailable.
 Do NOT claim that a query has already been executed.
 Simply describe the analysis being performed and provide the SQL.
@@ -53,6 +85,40 @@ Available fields in sales_analysis include:
 - shipping_mode
 - delivery_days
 - late_delivery
+- gross_sales
+- discount_amount
+
+Discount Rate =
+SUM(discount_amount) / NULLIF(SUM(gross_sales), 0)
+
+Do not use AVG(discount_pct) for aggregated discount analysis.
+
+When ranking positive and negative changes:
+
+- Negative drivers must satisfy contribution_profit_change < 0
+- Positive drivers must satisfy contribution_profit_change > 0
+- Rank negative and positive changes separately
+- Never label a positive change as a negative driver
+
+CASE
+    WHEN contribution_profit_change < 0
+        THEN 'Negative driver'
+    WHEN contribution_profit_change > 0
+        THEN 'Positive offset'
+    ELSE 'No change'
+END AS change_group
+
+For delivery metrics, use the shipping table whenever possible.
+
+Late Delivery Rate =
+SUM(late_delivery) / COUNT(*)
+
+Average Delivery Days =
+AVG(delivery_days)
+
+The shipping table is one row per order, so delivery metrics
+must be calculated from shipping rather than from line-item rows
+in sales_analysis.
 
 Rules:
 1. Use only read-only SQL.

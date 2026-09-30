@@ -67,6 +67,7 @@ def create_views(con):
 
         oi.order_item_id,
         oi.product_id,
+        p.product_name,
         oi.quantity,
         oi.unit_price,
         oi.unit_cost,
@@ -101,6 +102,9 @@ def create_views(con):
 
     JOIN order_items oi
         ON o.order_id = oi.order_id
+    
+    LEFT JOIN products p
+    ON oi.product_id = p.product_id
 
     JOIN item_counts ic
         ON o.order_id = ic.order_id

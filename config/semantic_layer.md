@@ -82,3 +82,13 @@ Average Order Value = Revenue / Order Count
 8. Distinguish observed relationships from proven causation.
 9. Do not invent values or business outcomes.
 10. Ask for clarification when a metric definition is ambiguous.
+
+## Discount Rate
+
+Discount Rate =
+SUM(discount_amount) / SUM(gross_sales)
+
+This is a sales-value-weighted discount rate.
+
+Do not use AVG(discount_pct) for aggregated business analysis unless
+explicitly labeled as average line-item discount percentage.
