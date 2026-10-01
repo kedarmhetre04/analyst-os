@@ -120,6 +120,71 @@ The shipping table is one row per order, so delivery metrics
 must be calculated from shipping rather than from line-item rows
 in sales_analysis.
 
+Grain rules:
+
+LINE-ITEM metrics:
+- Return Rate = SUM(returned) / COUNT(*)
+- Refund Amount = SUM(refund_amount)
+- Revenue = SUM(net_sales)
+- Gross Profit = SUM(gross_profit)
+- Contribution Profit = SUM(contribution_profit)
+- Units Sold = SUM(quantity)
+
+ORDER-LEVEL metrics:
+- Orders = COUNT(DISTINCT order_id)
+- Average Delivery Days must use one row per order
+- Late Delivery Rate = late orders / total distinct orders
+
+Never include the line-item returned flag inside an order-level DISTINCT key.
+Do not calculate return rate from orders.
+
+For delivery metrics, use the shipping table because it contains one row per order.
+
+Average Delivery Days =
+AVG(shipping.delivery_days)
+
+Late Delivery Rate =
+SUM(shipping.late_delivery) / COUNT(*)
+
+When drilling into products after identifying a major negative contributor,
+scope the product analysis to that contributor.
+
+Examples:
+- If WA is the largest declining state, analyze products within WA.
+- If Home & Office is the largest declining category, analyze products within Home & Office.
+
+Do not switch back to West-wide product analysis unless explicitly stated.
+
+For product drill-downs:
+- Return only the top 10 negative products and top 5 positive offsets.
+- Include product_name, category, subcategory, and contribution_profit_change.
+- Rank primarily by absolute contribution-profit change.
+
+When investigating contribution profit changes, always calculate
+an explicit contribution-profit bridge:
+
+Contribution Profit Change =
+Gross Profit Change
+- Refund Amount Change
+- Allocated Shipping Cost Change
+
+Be careful with signs:
+- Lower refunds are a positive offset.
+- Lower shipping costs are a positive offset.
+- Higher refunds or shipping costs are negative impacts.
+
+The bridge must reconcile to the observed contribution-profit change
+within normal floating-point or rounding tolerance.
+
+
+When displaying only a subset of products:
+
+- Clearly label them as top product contributors, not a complete reconciliation.
+- Calculate the cumulative contribution-profit change represented by
+  the displayed products.
+- Compare that amount with the total regional contribution-profit change.
+- Report the coverage percentage.
+
 Rules:
 1. Use only read-only SQL.
 2. Do not invent columns.
