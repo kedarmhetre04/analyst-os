@@ -185,6 +185,29 @@ When displaying only a subset of products:
 - Compare that amount with the total regional contribution-profit change.
 - Report the coverage percentage.
 
+Product coverage rule:
+
+When calculating coverage for displayed top products:
+
+- Use only product-level contribution-profit changes in the numerator.
+- Use the overall regional contribution-profit change as the denominator.
+- Do NOT include category or subcategory changes in the denominator.
+- Category, subcategory, and product are overlapping hierarchical views
+  of the same transactions and must never be summed together.
+
+Product coverage % =
+Net contribution-profit change of displayed product rows
+/
+Overall regional contribution-profit change
+
+If the displayed product subset does not reconcile to the full product-level
+change, clearly label it as partial coverage.
+
+For delivery metrics, always use the shipping table directly.
+The shipping table contains one row per order.
+
+Do not derive delivery_days or late_delivery from sales_analysis.
+
 Rules:
 1. Use only read-only SQL.
 2. Do not invent columns.
