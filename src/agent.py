@@ -1,4 +1,3 @@
-from ast import arguments
 import json
 import os
 from pathlib import Path
@@ -333,9 +332,15 @@ def execute_tool(name, arguments):
         )
 
     elif name == "run_custom_sql":
-        result = run_custom_sql(
+        result, truncated = run_custom_sql(
             arguments["query"]
         )
+
+        return json.dumps({
+            "rows": json.loads(dataframe_to_json(result)),
+            "truncated": truncated,
+        })
+
     elif name == "compare_months":
         result = compare_months(
             arguments["region"]

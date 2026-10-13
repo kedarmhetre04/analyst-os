@@ -1,15 +1,4 @@
-import json
-import os
-
-from dotenv import load_dotenv
-from openai import OpenAI
-
-
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+from src.llm import LLMOutputError, generate_json
 
 
 PLANNER_PROMPT = """
@@ -58,40 +47,101 @@ Rules:
     Do not add changes across overlapping dimensions such as category,
     state, channel, segment, and product, because the same transactions
     appear in multiple dimensions.
-11. Return JSON only.
-
-Return this format:
-
-{
-  "objective": "...",
-  "steps": [
-    {
-      "step": 1,
-      "analysis": "...",
-      "reason": "..."
-    }
-  ]
-}
+11. Fill in the scope so the application can chart the change:
+    - metric: the main metric investigated, one of revenue,
+      gross_profit, contribution_profit, orders, or other.
+    - region: West, South, Northeast, or Midwest; null if the
+      question covers all regions.
+    - baseline and comparison periods as YYYY-MM-DD dates.
+      Start dates are inclusive and end dates are exclusive,
+      so August 2025 is 2025-08-01 to 2025-09-01.
+    - Use null for periods the question does not specify.
+12. Return JSON only.
 """
+
+
+PERIOD_SCHEMA = {
+    "type": ["object", "null"],
+    "properties": {
+        "start": {"type": "string"},
+        "end": {"type": "string"},
+    },
+    "required": ["start", "end"],
+    "additionalProperties": False,
+}
+
+PLAN_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "objective": {"type": "string"},
+        "scope": {
+            "type": "object",
+            "properties": {
+                "metric": {
+                    "type": "string",
+                    "enum": [
+                        "revenue",
+                        "gross_profit",
+                        "contribution_profit",
+                        "orders",
+                        "other",
+                    ],
+                },
+                "region": {
+                    "type": ["string", "null"],
+                    "enum": [
+                        "West",
+                        "South",
+                        "Northeast",
+                        "Midwest",
+                        None,
+                    ],
+                },
+                "baseline_period": PERIOD_SCHEMA,
+                "comparison_period": PERIOD_SCHEMA,
+            },
+            "required": [
+                "metric",
+                "region",
+                "baseline_period",
+                "comparison_period",
+            ],
+            "additionalProperties": False,
+        },
+        "steps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "step": {"type": "integer"},
+                    "analysis": {"type": "string"},
+                    "reason": {"type": "string"},
+                },
+                "required": ["step", "analysis", "reason"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["objective", "scope", "steps"],
+    "additionalProperties": False,
+}
 
 
 def create_investigation_plan(question):
 
-    response = client.responses.create(
-        model="gpt-5.6-luna",
-        instructions=PLANNER_PROMPT,
-        input=question,
-    )
-
-    raw_output = response.output_text
-
     try:
-        return json.loads(raw_output)
+        return generate_json(
+            PLANNER_PROMPT,
+            question,
+            "investigation_plan",
+            PLAN_SCHEMA,
+        )
 
-    except json.JSONDecodeError:
+    except LLMOutputError as error:
         return {
             "objective": question,
+            "scope": None,
             "steps": [],
-            "error": "Planner returned invalid JSON",
-            "raw_output": raw_output,
+            "error": str(error),
+            "raw_output": error.raw_output,
         }
