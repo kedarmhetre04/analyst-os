@@ -1,15 +1,6 @@
 import json
-import os
 
-from dotenv import load_dotenv
-from openai import OpenAI
-
-
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+from src.llm import generate_text
 
 
 REPORTER_PROMPT = """
@@ -86,10 +77,7 @@ CRITIC REVIEW:
 {json.dumps(critique, indent=2)}
 """
 
-    response = client.responses.create(
-        model="gpt-5.6-luna",
-        instructions=REPORTER_PROMPT,
-        input=prompt,
+    return generate_text(
+        REPORTER_PROMPT,
+        prompt,
     )
-
-    return response.output_text

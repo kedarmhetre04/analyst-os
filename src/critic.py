@@ -1,16 +1,7 @@
 import json
-import os
 from pathlib import Path
 
-from dotenv import load_dotenv
-from openai import OpenAI
-
-
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+from src.llm import LLMOutputError, generate_json
 
 
 SEMANTIC_LAYER_PATH = Path(
@@ -67,31 +58,72 @@ Important:
 - Overlapping dimensions such as category, state, channel,
   segment, and product must NOT be added together.
 
-Return JSON only using:
+Use FAIL only for problems that make the main conclusion
+unreliable, such as wrong metric definitions, wrong grain,
+double counting, failed queries for essential steps, or
+breakdowns that do not reconcile. A FAIL triggers a new
+investigation, so make each recommended_fix specific and
+actionable.
 
-{{
-    "verdict": "PASS" or "PASS_WITH_WARNINGS" or "FAIL",
+Rows marked "truncated": true were capped by the application;
+treat them as partial results.
 
-    "summary": "...",
+Each step's "sql" is the query that actually produced its evidence.
+"failed_attempts" lists earlier queries for that step that failed
+and were replaced; their errors do not apply to the final "sql".
+A step with an "error" field has no evidence.
 
-    "issues": [
-        {{
-            "severity": "high" or "medium" or "low",
-            "step": 1,
-            "issue": "...",
-            "recommended_fix": "..."
-        }}
-    ],
-
-    "validated_findings": [
-        "..."
-    ],
-
-    "limitations": [
-        "..."
-    ]
-}}
+Return JSON only.
 """
+
+
+STRING_LIST = {
+    "type": "array",
+    "items": {"type": "string"},
+}
+
+CRITIQUE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "verdict": {
+            "type": "string",
+            "enum": ["PASS", "PASS_WITH_WARNINGS", "FAIL"],
+        },
+        "summary": {"type": "string"},
+        "issues": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "severity": {
+                        "type": "string",
+                        "enum": ["high", "medium", "low"],
+                    },
+                    "step": {"type": ["integer", "null"]},
+                    "issue": {"type": "string"},
+                    "recommended_fix": {"type": "string"},
+                },
+                "required": [
+                    "severity",
+                    "step",
+                    "issue",
+                    "recommended_fix",
+                ],
+                "additionalProperties": False,
+            },
+        },
+        "validated_findings": STRING_LIST,
+        "limitations": STRING_LIST,
+    },
+    "required": [
+        "verdict",
+        "summary",
+        "issues",
+        "validated_findings",
+        "limitations",
+    ],
+    "additionalProperties": False,
+}
 
 
 def critique_investigation(
@@ -116,20 +148,15 @@ INVESTIGATION RESULTS:
 {json.dumps(investigation, indent=2)}
 """
 
-    response = client.responses.create(
-        model="gpt-5.6-luna",
-        instructions=CRITIC_PROMPT,
-        input=prompt,
-    )
-
-    raw_output = response.output_text
-
     try:
-        return json.loads(
-            raw_output
+        return generate_json(
+            CRITIC_PROMPT,
+            prompt,
+            "critique",
+            CRITIQUE_SCHEMA,
         )
 
-    except json.JSONDecodeError:
+    except LLMOutputError as error:
 
         return {
             "verdict": "FAIL",
@@ -139,5 +166,5 @@ INVESTIGATION RESULTS:
             "issues": [],
             "validated_findings": [],
             "limitations": [],
-            "raw_output": raw_output,
+            "raw_output": error.raw_output,
         }

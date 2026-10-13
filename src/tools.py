@@ -1,4 +1,8 @@
-from src.database import run_query
+from src.database import (
+    MAX_RESULT_ROWS,
+    run_query,
+    run_read_only_sql,
+)
 
 
 def get_database_schema():
@@ -106,5 +110,10 @@ def get_high_return_products(limit=10):
     return run_query(query)
 
 
-def run_custom_sql(query):
-    return run_query(query)
+def run_custom_sql(query, max_rows=MAX_RESULT_ROWS):
+    """
+    Run LLM-generated SQL through the read-only guardrails.
+
+    Returns (dataframe, truncated).
+    """
+    return run_read_only_sql(query, max_rows=max_rows)

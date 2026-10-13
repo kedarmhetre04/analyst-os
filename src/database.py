@@ -1,8 +1,23 @@
 from pathlib import Path
+import threading
+
 import duckdb
+import pandas as pd
 
 DB_PATH = "analyst_os.duckdb"
 DATA_DIR = Path("data")
+
+# Guardrails for SQL that comes from an LLM.
+MAX_RESULT_ROWS = 500
+QUERY_TIMEOUT_SECONDS = 30
+
+
+class UnsafeQueryError(ValueError):
+    pass
+
+
+class QueryTimeoutError(TimeoutError):
+    pass
 
 
 def create_database():
@@ -154,14 +169,103 @@ def create_views(con):
     print("Created view: monthly_performance")
 
 
-def run_query(query):
-    con = duckdb.connect(DB_PATH)
+def connect_read_only():
+    # read_only blocks writes to the database file.
+    # enable_external_access=False blocks reading or writing
+    # other files (read_csv, COPY ... TO, ATTACH, extensions).
+    return duckdb.connect(
+        DB_PATH,
+        read_only=True,
+        config={"enable_external_access": False},
+    )
 
-    result = con.execute(query).df()
 
-    con.close()
+def run_query(query, params=None):
+    con = connect_read_only()
+
+    try:
+        result = con.execute(query, params).df()
+    finally:
+        con.close()
 
     return result
+
+
+def validate_read_only_sql(query):
+    if not query or not query.strip():
+        raise UnsafeQueryError("Query is empty.")
+
+    con = duckdb.connect()
+
+    try:
+        statements = con.extract_statements(query)
+    except duckdb.Error as error:
+        raise UnsafeQueryError(
+            f"Query could not be parsed: {error}"
+        ) from error
+    finally:
+        con.close()
+
+    if len(statements) != 1:
+        raise UnsafeQueryError(
+            "Exactly one SQL statement is allowed, "
+            f"got {len(statements)}."
+        )
+
+    statement_type = statements[0].type
+
+    if statement_type != duckdb.StatementType.SELECT:
+        raise UnsafeQueryError(
+            "Only read-only SELECT queries are allowed, "
+            f"got {statement_type.name}."
+        )
+
+
+def run_read_only_sql(
+    query,
+    max_rows=MAX_RESULT_ROWS,
+    timeout_seconds=QUERY_TIMEOUT_SECONDS,
+):
+    """
+    Run untrusted (LLM-generated) SQL safely.
+
+    Returns (dataframe, truncated) where truncated is True when
+    the query produced more than max_rows rows.
+    """
+    validate_read_only_sql(query)
+
+    con = connect_read_only()
+    timed_out = threading.Event()
+
+    def interrupt():
+        timed_out.set()
+        con.interrupt()
+
+    timer = threading.Timer(timeout_seconds, interrupt)
+    timer.start()
+
+    try:
+        con.execute(query)
+        columns = [column[0] for column in con.description]
+        rows = con.fetchmany(max_rows + 1)
+
+    except duckdb.InterruptException as error:
+        if timed_out.is_set():
+            raise QueryTimeoutError(
+                f"Query exceeded {timeout_seconds} seconds."
+            ) from error
+        raise
+
+    finally:
+        timer.cancel()
+        con.close()
+
+    truncated = len(rows) > max_rows
+
+    return (
+        pd.DataFrame(rows[:max_rows], columns=columns),
+        truncated,
+    )
 
 
 if __name__ == "__main__":

@@ -1,16 +1,12 @@
 import json
-import os
+from functools import lru_cache
 
-from dotenv import load_dotenv
-from openai import OpenAI
+from src.llm import LLMOutputError, generate_json
+from src.tools import get_database_schema, run_custom_sql
 
-from src.tools import run_custom_sql
 
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+MAX_EVIDENCE_ROWS = 200
+MAX_SQL_REPAIRS = 2
 
 
 INVESTIGATOR_PROMPT = """
@@ -26,33 +22,6 @@ investigation step.
 A separate Python execution layer will run every SQL query you
 provide against the sales_analysis view and attach the resulting
 evidence afterward.
-
-For order-level operational metrics:
-
-Late Delivery Rate must be calculated using one row per order.
-
-Use a CTE such as:
-
-WITH order_metrics AS (
-    SELECT DISTINCT
-        order_id,
-        delivery_days,
-        late_delivery
-    FROM sales_analysis
-    WHERE ...
-)
-
-Then:
-
-Late Delivery Rate =
-SUM(CASE WHEN late_delivery THEN 1 ELSE 0 END)
-/
-COUNT(*)
-
-Average Delivery Days =
-AVG(delivery_days)
-
-Never calculate delivery metrics directly over line-item rows.
 
 When grouping categorical dimensions such as category,
 subcategory, state, segment, or sales_channel, use COALESCE
@@ -72,6 +41,7 @@ Available fields in sales_analysis include:
 - region
 - segment
 - product_id
+- product_name
 - category
 - subcategory
 - quantity
@@ -209,33 +179,106 @@ The shipping table contains one row per order.
 Do not derive delivery_days or late_delivery from sales_analysis.
 
 Rules:
-1. Use only read-only SQL.
+1. Each step must be exactly one read-only SELECT (or WITH ... SELECT)
+   statement. Other statement types are rejected.
 2. Do not invent columns.
 3. Execute only analyses needed by the plan.
 4. Prefer grouped comparisons between relevant periods.
 5. Quantify changes whenever possible.
 6. Do not make final causal conclusions.
-7. Return JSON only.
+7. Results are capped at {max_rows} rows, so aggregate rather than
+   returning raw line items.
 8. Never say that no SQL execution interface is available.
    Your responsibility is to generate executable SQL; the application
    executes it separately.
-
-Return:
-
-{
-  "executed_steps": [
-    {
-      "step": 1,
-      "analysis": "...",
-      "sql": "...",
-      "evidence": [...]
-    }
-  ]
-}
 """
 
+INVESTIGATOR_PROMPT = INVESTIGATOR_PROMPT.format(max_rows=MAX_EVIDENCE_ROWS)
 
-def execute_investigation(question, plan):
+
+SQL_REPAIR_PROMPT = """
+You are the SQL repair agent for AnalystOS.
+
+A DuckDB query written for an investigation step failed.
+Return a corrected query that performs the same analysis.
+
+Follow the same rules as the investigation agent:
+
+--- INVESTIGATION RULES ---
+
+{investigator_prompt}
+
+--- END INVESTIGATION RULES ---
+"""
+
+SQL_REPAIR_PROMPT = SQL_REPAIR_PROMPT.format(
+    investigator_prompt=INVESTIGATOR_PROMPT
+)
+
+
+@lru_cache(maxsize=1)
+def get_schema_reference():
+    """
+    Every table and view with its columns, read from the live
+    database so the model never has to guess names.
+    """
+    schema = get_database_schema()
+
+    lines = [
+        "--- DATABASE SCHEMA ---",
+        "",
+        "These are the only tables, views, and columns that exist.",
+        "",
+    ]
+
+    for table, columns in schema.groupby("table_name", sort=True):
+        column_list = ", ".join(
+            f"{row.column_name} {row.data_type}"
+            for row in columns.itertuples()
+        )
+        lines.append(f"{table}: {column_list}")
+
+    lines += ["", "--- END DATABASE SCHEMA ---"]
+
+    return "\n".join(lines)
+
+
+def with_schema(instructions):
+    return f"{instructions}\n{get_schema_reference()}\n"
+
+
+INVESTIGATION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "executed_steps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "step": {"type": "integer"},
+                    "analysis": {"type": "string"},
+                    "sql": {"type": "string"},
+                },
+                "required": ["step", "analysis", "sql"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["executed_steps"],
+    "additionalProperties": False,
+}
+
+SQL_REPAIR_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "sql": {"type": "string"},
+    },
+    "required": ["sql"],
+    "additionalProperties": False,
+}
+
+
+def build_investigation_prompt(question, plan, feedback=None):
 
     prompt = f"""
 BUSINESS QUESTION:
@@ -245,53 +288,126 @@ INVESTIGATION PLAN:
 {json.dumps(plan, indent=2)}
 """
 
-    response = client.responses.create(
-        model="gpt-5.6-luna",
-        instructions=INVESTIGATOR_PROMPT,
-        input=prompt,
+    if feedback:
+        prompt += f"""
+
+A previous attempt at this investigation was rejected by the
+Critic agent. Address every issue below in the new SQL.
+
+CRITIC REVIEW OF PREVIOUS ATTEMPT:
+{json.dumps(feedback, indent=2)}
+"""
+
+    return prompt
+
+
+def run_step_sql(sql):
+
+    df, truncated = run_custom_sql(
+        sql,
+        max_rows=MAX_EVIDENCE_ROWS,
     )
 
-    raw = response.output_text
+    return {
+        "evidence": json.loads(
+            df.to_json(
+                orient="records",
+                date_format="iso",
+            )
+        ),
+        "row_count": len(df),
+        "truncated": truncated,
+    }
 
-    try:
-        investigation = json.loads(raw)
-    except json.JSONDecodeError:
-        return {
-            "error": "Investigator returned invalid JSON",
-            "raw_output": raw,
-        }
 
-    results = []
+def repair_sql(question, step, sql, error):
 
-    for step in investigation.get("executed_steps", []):
+    prompt = f"""
+BUSINESS QUESTION:
+{question}
 
-        sql = step.get("sql")
+STEP {step.get("step")}: {step.get("analysis")}
 
-        if not sql:
-            continue
+FAILED SQL:
+{sql}
+
+ERROR:
+{error}
+"""
+
+    repaired = generate_json(
+        with_schema(SQL_REPAIR_PROMPT),
+        prompt,
+        "sql_repair",
+        SQL_REPAIR_SCHEMA,
+    )
+
+    return repaired["sql"]
+
+
+def execute_step(question, step):
+
+    sql = step.get("sql")
+    failed_attempts = []
+
+    for _ in range(MAX_SQL_REPAIRS + 1):
 
         try:
-            df = run_custom_sql(sql)
+            result = run_step_sql(sql)
 
-            results.append({
+            return {
                 "step": step.get("step"),
                 "analysis": step.get("analysis"),
                 "sql": sql,
-                "evidence": json.loads(
-                    df.to_json(
-                        orient="records",
-                        date_format="iso",
-                    )
-                ),
-            })
+                "failed_attempts": failed_attempts,
+                **result,
+            }
 
         except Exception as error:
-            results.append({
-                "step": step.get("step"),
-                "analysis": step.get("analysis"),
+            failed_attempts.append({
                 "sql": sql,
                 "error": str(error),
             })
+
+            if len(failed_attempts) > MAX_SQL_REPAIRS:
+                break
+
+            try:
+                sql = repair_sql(question, step, sql, error)
+            except LLMOutputError:
+                break
+
+    return {
+        "step": step.get("step"),
+        "analysis": step.get("analysis"),
+        "sql": sql,
+        "failed_attempts": failed_attempts[:-1],
+        "error": failed_attempts[-1]["error"],
+    }
+
+
+def execute_investigation(question, plan, feedback=None):
+
+    try:
+        investigation = generate_json(
+            with_schema(INVESTIGATOR_PROMPT),
+            build_investigation_prompt(question, plan, feedback),
+            "investigation",
+            INVESTIGATION_SCHEMA,
+        )
+
+    except LLMOutputError as error:
+        return {
+            "executed_steps": [],
+            "error": str(error),
+            "raw_output": error.raw_output,
+        }
+
+    results = [
+        execute_step(question, step)
+        for step in investigation["executed_steps"]
+        if step.get("sql")
+    ]
 
     return {
         "executed_steps": results
